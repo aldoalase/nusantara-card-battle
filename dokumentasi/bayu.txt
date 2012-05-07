@@ -1,1 +1,5 @@
 password commit: qs2qM2kC9fu5
+---------------------------------
+
+membuat rancangan alur umum berjalannya program
+revisi database setelah demo
