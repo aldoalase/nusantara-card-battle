@@ -1,0 +1,4 @@
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NusantaraCardBattle MAPPED\NusantaraCardBattle\bin\Debug\NusantaraCardBattle.exe
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NusantaraCardBattle MAPPED\NusantaraCardBattle\bin\Debug\NusantaraCardBattle.pdb
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NusantaraCardBattle MAPPED\NusantaraCardBattle\obj\x86\Debug\NusantaraCardBattle.exe
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NusantaraCardBattle MAPPED\NusantaraCardBattle\obj\x86\Debug\NusantaraCardBattle.pdb

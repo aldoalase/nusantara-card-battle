@@ -130,6 +130,7 @@
             this.Controls.Add(this.startButton);
             this.Name = "MainPage";
             this.Text = "Nusantara Card Battle";
+            this.Load += new System.EventHandler(this.MainPage_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

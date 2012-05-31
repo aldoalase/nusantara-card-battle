@@ -1,0 +1,12 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="NCB.ShopWindow"
+	x:Name="Window"
+	Title="ShopWindow"
+	Width="1024" Height="768" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}">
+
+	<Grid x:Name="LayoutRoot">
+		<Image Source="images/shop window.png" Stretch="Fill"/>
+	</Grid>
+</Window>
