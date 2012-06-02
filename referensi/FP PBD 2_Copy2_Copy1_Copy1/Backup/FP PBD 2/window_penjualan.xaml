@@ -1,0 +1,108 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:Custom="http://schemas.microsoft.com/wpf/2008/toolkit"
+	mc:Ignorable="d" xmlns:System_Windows_Forms="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+	x:Class="FP_PBD_2.window_penjualan"
+	x:Name="Window"
+	Title="window_penjualan"
+	Width="640" Height="480" Background="{x:Null}">
+	<Window.Resources>
+		<Style x:Key="back_pegawai" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="PsdLayer1" Source="button home_Images6\Image.png"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="back_menu_penjualan" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Button Style="{DynamicResource back_pegawai}"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Storyboard x:Key="button_home_enter">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="button" Storyboard.TargetProperty="(UIElement.Opacity)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.5000000" Value="0.495"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="button_home_leave">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="button" Storyboard.TargetProperty="(UIElement.Opacity)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.495"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.5000000" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="window_enter">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="PsdLayer" Storyboard.TargetProperty="(UIElement.Opacity)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.495"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.5000000" Value="0.75"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:01" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="window_open">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="{x:Null}" Storyboard.TargetProperty="(UIElement.Opacity)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.5"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.5000000" Value="0.75"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:01" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</Window.Resources>
+	<Window.Triggers>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="button">
+			<BeginStoryboard Storyboard="{StaticResource button_home_enter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="button">
+			<BeginStoryboard x:Name="button_home_leave_BeginStoryboard" Storyboard="{StaticResource button_home_leave}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="FrameworkElement.Loaded">
+			<BeginStoryboard x:Name="window_open_BeginStoryboard" Storyboard="{StaticResource window_open}"/>
+		</EventTrigger>
+	</Window.Triggers>
+
+	<Grid x:Name="LayoutRoot">
+		<Image x:Name="PsdLayer" Source="interface dasar_Images\Image.png"/>
+		<Image x:Name="Shape_4" Width="223" Height="34.527" Source="logo_Images\Shape 4.png" HorizontalAlignment="Right" Margin="0,36.599,38,0" VerticalAlignment="Top"/>
+		<ComboBox x:Name="id_barang" HorizontalAlignment="Left" Margin="43,0,0,101" VerticalAlignment="Bottom" Width="167" Height="25"/>
+		<TextBlock HorizontalAlignment="Left" Margin="43,0,0,126" VerticalAlignment="Bottom" Width="84" Height="19" RenderTransformOrigin="0.571,0.579" Text="nama barang" TextWrapping="Wrap"/>
+		<TextBox x:Name="jum" HorizontalAlignment="Left" Margin="43,0,0,46" VerticalAlignment="Bottom" Width="61" Height="24" TextWrapping="Wrap"/>
+		<TextBlock HorizontalAlignment="Left" Margin="43,0,0,70" VerticalAlignment="Bottom" Width="84" Height="19" RenderTransformOrigin="0.571,0.579" Text="jumlah" TextWrapping="Wrap"/>
+		<Button x:Name="b_tambah" Margin="276.5,0,288.5,90.98" VerticalAlignment="Bottom" Height="54.02" Content="tambah" Click="b_tambah_Click"/>
+		<Button x:Name="b_finish" Margin="246.5,0,255.5,43.98" VerticalAlignment="Bottom" Height="43" Content="finish" Click="b_finish_Click"/>
+		<Canvas x:Name="button_home" HorizontalAlignment="Left" VerticalAlignment="Top" Width="1000" Height="1000" ClipToBounds="True">
+			<Button x:Name="button" Style="{DynamicResource back_menu_penjualan}" Width="50" Height="50" Canvas.Left="31" Canvas.Top="31" Click="back_penjualan"/>
+			<Button x:Name="Lunas" Width="121.5" Height="54" Content="cetak" Canvas.Left="441.5" Canvas.Top="358" Click="Lunas_Click"/>
+		</Canvas>
+		<Label Height="28" HorizontalAlignment="Right" Margin="0,0,72,126" x:Name="label1" VerticalAlignment="Bottom" Width="120" Content="Total"/><TextBox Height="24" HorizontalAlignment="Right" Margin="0,0,64.5,107" x:Name="Total" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="121"/>
+		<WindowsFormsHost Margin="43,122,79,157">
+			<System_Windows_Forms:DataGridView x:Name="DataGridView" />
+		</WindowsFormsHost>
+		<Label Height="28" HorizontalAlignment="Left" Margin="52,90,0,0" x:Name="tanggal" VerticalAlignment="Top" Width="232" Content="Label"/><Label Height="28" HorizontalAlignment="Right" Margin="0,91,68,0" x:Name="struk" VerticalAlignment="Top" Width="120" Content="Label"/>
+<Label Margin="83,47.599,0,0" VerticalAlignment="Top" Height="34.527" Content="Total:" HorizontalAlignment="Left" Width="86" FontSize="21.333" FontFamily="Simplified Arabic Fixed"/>
+<Label x:Name="total_pembayaran" Margin="173,42.599,265,0" VerticalAlignment="Top" Height="34.527" FontSize="21.333"/>
+	</Grid>
+</Window>
