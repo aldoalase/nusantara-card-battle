@@ -342,7 +342,7 @@
 		<Button x:Name="ButtonShop" Content="Button" Margin="165,324,181,287" Style="{DynamicResource ButtonShop}" Cursor="Hand"/>
 		<Button x:Name="ButtonRecord" Content="Button" Height="50" Margin="165,0,181,233" Style="{DynamicResource ButtonRecord}" VerticalAlignment="Bottom" Cursor="Hand"/>
 		<Button x:Name="ButtonProfile" Content="Button" Height="50" Margin="165,0,181,179" Style="{DynamicResource ButtonProfile}" VerticalAlignment="Bottom" Cursor="Hand"/>
-		<Button x:Name="ButtonLogout" Content="Button" Height="50" Margin="165,0,181,125" Style="{DynamicResource ButtonLogout}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" Cursor="Hand">
+		<Button x:Name="ButtonLogout" Content="Button" Height="50" Margin="165,0,181,125" Style="{DynamicResource ButtonLogout}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" Cursor="Hand" Click="doLogout">
 			<Button.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
