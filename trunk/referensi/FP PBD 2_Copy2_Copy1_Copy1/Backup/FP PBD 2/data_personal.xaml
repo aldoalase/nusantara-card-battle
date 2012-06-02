@@ -1,0 +1,112 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	x:Class="FP_PBD_2.data_personal"
+	x:Name="Window"
+	Title="data_personal"
+	Width="640" Height="480" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" mc:Ignorable="d">
+
+	<Window.Resources>
+		<Style x:Key="back_menu_admin" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="PsdLayer" Source="button home_Images1\Image.png"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="back_menu" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Button x:Name="button" Style="{DynamicResource back_menu_admin}" />
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="back_admin" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="PsdLayer1" Source="button home_Images12\Image.png"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Storyboard x:Key="button_back_enter">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="button" Storyboard.TargetProperty="(UIElement.Opacity)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.5000000" Value="0.6"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="button_back_leave">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="button" Storyboard.TargetProperty="(UIElement.Opacity)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.6"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.5000000" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</Window.Resources>
+	<Window.Triggers>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="button">
+			<BeginStoryboard Storyboard="{StaticResource button_back_enter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="button">
+			<BeginStoryboard x:Name="button_back_leave_BeginStoryboard" Storyboard="{StaticResource button_back_leave}"/>
+		</EventTrigger>
+	</Window.Triggers>
+
+	<Grid x:Name="LayoutRoot">
+        <Canvas x:Name="interface_dasar" ClipToBounds="True" Margin="0,-38,-22,0">
+            <Image x:Name="PsdLayer" Width="669.933" Height="469.953" Source="interface dasar_Images2\Image.png" Canvas.Left="-29.933" Canvas.Top="10.047" />
+            <TextBox Width="152" Height="25" TextWrapping="Wrap" Canvas.Left="73" Canvas.Top="142" Name="b_id" IsEnabled="False" LostFocus="b_id_LostFocus" />
+            <TextBox Width="152" Height="25" TextWrapping="Wrap" Canvas.Left="73" Canvas.Top="188" Name="b_nama" LostFocus="b_nama_LostFocus" />
+            <TextBox Width="152" Height="25" TextWrapping="Wrap" Canvas.Left="73" Canvas.Top="236" Name="b_pass" LostFocus="b_pass_LostFocus" />
+            <TextBox Width="152" Height="25" TextWrapping="Wrap" Canvas.Left="73" Canvas.Top="286" Name="b_notelp" LostFocus="b_notelp_LostFocus" />
+            <TextBox Width="152" Height="71" TextWrapping="Wrap" Canvas.Left="73" Canvas.Top="337" Name="b_alamat" LostFocus="b_alamat_LostFocus" />
+            <TextBlock Width="76" Height="21" Text="ID" TextWrapping="Wrap" Canvas.Left="74" Canvas.Top="125" />
+			<TextBlock Width="76" Height="21" Text="nama" TextWrapping="Wrap" Canvas.Left="74" Canvas.Top="171" />
+			<TextBlock Width="76" Height="21" Text="password" TextWrapping="Wrap" Canvas.Left="74" Canvas.Top="217" />
+			<TextBlock Width="76" Height="21" Text="no telpon" TextWrapping="Wrap" Canvas.Left="74" Canvas.Top="265" />
+			<TextBlock Width="76" Height="21" Text="alamat" TextWrapping="Wrap" Canvas.Left="74" Canvas.Top="316" />
+			<Image x:Name="pic" Width="167.834" Height="188.593" Canvas.Left="357.166" Canvas.Top="144.016" />
+					
+			
+			<Button Width="167.834" Height="46" Content="Ganti" Canvas.Left="357.166" Canvas.Top="366.5" Name="b_edit" Click="b_edit_Click" /><Button Canvas.Left="357.166" Canvas.Top="338.669" Height="23.331" Name="pic_edit" Width="75.548" Click="pic_edit_Click">Ubah Foto</Button><Label Canvas.Left="21.109" Canvas.Top="86.57" Height="47.773" Name="Header" Width="321.079" FontSize="20">Label</Label>
+		</Canvas>
+        <Canvas x:Name="button_home" ClipToBounds="True" Margin="-18,-27.953,-364,-530.047">
+            <Button x:Name="button" Style="{DynamicResource back_admin}" Width="50" Height="50" Canvas.Left="18" Canvas.Top="27.953" Click="Back_Click" />
+            <Image x:Name="Shape_4" Width="223.311" Height="34.527" Source="logo_Images\Shape 4.png" Canvas.Left="402.182" Canvas.Top="40" />
+        </Canvas>
+    </Grid>
+</Window>

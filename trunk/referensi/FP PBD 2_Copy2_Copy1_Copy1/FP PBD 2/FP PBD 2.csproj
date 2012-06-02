@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ExpressionBlendVersion>3.0.1927.0</ExpressionBlendVersion>
+    <ProjectGuid>{12DBAAA6-52BA-4953-9DEE-24681C32DFE2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <DefaultClrNameSpace>FP_PBD_2</DefaultClrNameSpace>
+    <RootNamespace>FP_PBD_2</RootNamespace>
+    <AssemblyName>FP PBD 2</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.*</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <AlwaysCompileMarkupFilesInSeparateDomain>false</AlwaysCompileMarkupFilesInSeparateDomain>
+    <ApplicationIcon>Application.ico</ApplicationIcon>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.VSDesigner, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Oracle.DataAccess, Version=10.2.0.100, Culture=neutral, PublicKeyToken=89b483f429c47342" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="UIAutomationTypes, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WPFToolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="WPFVisifire.Charts.dll">
+      <HintPath>..\..\BAYU\WPF Binaries\WPFVisifire.Charts.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ascii85.cs" />
+    <Compile Include="database_barang.xaml.cs">
+      <DependentUpon>database_barang.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="database_customer.xaml.cs">
+      <DependentUpon>database_customer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="database_keuangan.xaml.cs">
+      <DependentUpon>database_keuangan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="data_personal.xaml.cs">
+      <DependentUpon>data_personal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="data_personal_pegawai.xaml.cs">
+      <DependentUpon>data_personal_pegawai.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Koneksi.cs" />
+    <Compile Include="menu_admin.xaml.cs">
+      <DependentUpon>menu_admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pengiriman.cs">
+      <DependentUpon>Pengiriman.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="login.xaml.cs">
+      <DependentUpon>login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="menu_pegawai.xaml.cs">
+      <DependentUpon>menu_pegawai.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="menu_customer.xaml.cs">
+      <DependentUpon>menu_customer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="database_pegawai.xaml.cs">
+      <DependentUpon>database_pegawai.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report_Kerusakan.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_Kerusakan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report_kerusakan.xaml.cs">
+      <DependentUpon>report_kerusakan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report_Keuangan.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_Keuangan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report_keuangan.xaml.cs">
+      <DependentUpon>report_keuangan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report_Pembelian.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_Pembelian.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report_pembelian.xaml.cs">
+      <DependentUpon>report_pembelian.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report_Pengiriman.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_Pengiriman.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report_pengiriman.xaml.cs">
+      <DependentUpon>report_pengiriman.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Report_Tracking.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Report_Tracking.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="report_tracking.xaml.cs">
+      <DependentUpon>report_tracking.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window_kerusakan.xaml.cs">
+      <DependentUpon>window_kerusakan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window_kerusakan_customer.xaml.cs">
+      <DependentUpon>window_kerusakan_customer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window_pengiriman.xaml.cs">
+      <DependentUpon>window_pengiriman.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window_penjualan.xaml.cs">
+      <DependentUpon>window_penjualan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window_tracking.xaml.cs">
+      <DependentUpon>window_tracking.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window_tracking_customer.xaml.cs">
+      <DependentUpon>window_tracking_customer.xaml</DependentUpon>
+    </Compile>
+    <Page Include="database_barang.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="database_customer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="database_keuangan.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="data_personal.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="data_personal_pegawai.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="menu_admin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="menu_pegawai.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="menu_customer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="database_pegawai.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="report_kerusakan.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="report_keuangan.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="report_pembelian.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="report_pengiriman.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="report_tracking.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="window_kerusakan.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="window_kerusakan_customer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="window_pengiriman.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="window_penjualan.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="window_tracking.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="window_tracking_customer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <AppDesigner Include="Properties\" />
+    <None Include="Application.ico">
+      <Visible>false</Visible>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="button home_Images10\Image.png" />
+    <Resource Include="button home_Images11\Image.png" />
+    <Resource Include="button home_Images12\Image.png" />
+    <Resource Include="button home_Images13\Image.png" />
+    <Resource Include="button home_Images14\Image.png" />
+    <Resource Include="button home_Images15\Image.png" />
+    <Resource Include="button home_Images16\Image.png" />
+    <Resource Include="button home_Images17\Image.png" />
+    <Resource Include="button home_Images18\Image.png" />
+    <Resource Include="button home_Images19\Image.png" />
+    <Resource Include="button home_Images1\Image.png" />
+    <Resource Include="button home_Images2\Image.png" />
+    <Resource Include="button home_Images3\Image.png" />
+    <Resource Include="button home_Images4\Image.png" />
+    <Resource Include="button home_Images5\Image.png" />
+    <Resource Include="button home_Images6\Image.png" />
+    <Resource Include="button home_Images7\Image.png" />
+    <Resource Include="button home_Images8\Image.png" />
+    <Resource Include="button home_Images9\Image.png" />
+    <Resource Include="button home_Images\Image.png" />
+    <Resource Include="button pos_Images\Image.png" />
+    <Resource Include="exit_Images\Image.png" />
+    <Resource Include="Image1.png" />
+    <Resource Include="interface admin dasar_Images1\Image.png" />
+    <Resource Include="interface admin dasar_Images\Image.png" />
+    <Resource Include="interface admin_Images1\Shape 2.png" />
+    <Resource Include="interface admin_Images2\Shape 2.png" />
+    <Resource Include="interface admin_Images3\Shape 2.png" />
+    <Resource Include="interface admin_Images4\Layer 1.png" />
+    <Resource Include="interface admin_Images\Image.png" />
+    <Resource Include="interface admin_Images\Layer 1.png" />
+    <Resource Include="interface customer dasar_Images\Image.png" />
+    <Resource Include="interface customer_Images1\Shape 2.png" />
+    <Resource Include="interface customer_Images2\Layer 3.png" />
+    <Resource Include="interface customer_Images\Shape 2.png" />
+    <Resource Include="interface customer_Images\Shape 4.png" />
+    <Resource Include="interface customer_Images\Shape 6.png" />
+    <Resource Include="interface dasar_Images1\Image.png" />
+    <Resource Include="interface dasar_Images2\Image.png" />
+    <Resource Include="interface dasar_Images\Image.png" />
+    <Resource Include="interface pegawai dasar_Images1\Layer 2.png" />
+    <Resource Include="interface pegawai dasar_Images2\Shape 2.png" />
+    <Resource Include="interface pegawai dasar_Images3\Shape 2.png" />
+    <Resource Include="interface pegawai dasar_Images4\Layer 3.png" />
+    <Resource Include="interface pegawai dasar_Images\Image.png" />
+    <Resource Include="logo personalisasi_Images1\Image.png" />
+    <Resource Include="logo personalisasi_Images2\Image.png" />
+    <Resource Include="interface pegawai dasar_Images4\logo personalisasi_Images\Image.png" />
+    <Resource Include="logout_Images1\Image.png" />
+    <Resource Include="logout_Images2\Image.png" />
+    <Resource Include="logout_Images3\Image.png" />
+    <Resource Include="logout_Images4\Image.png" />
+    <Resource Include="logout_Images\Image.png" />
+    <Resource Include="logo_Images\Shape 4.png" />
+    <Resource Include="template login_Images\Image.png" />
+    <Resource Include="template login_Images\Shape 4.png" />
+    <Resource Include="template login_Images\Shape 6.png" />
+    <Resource Include="Untitled-2_Images\Image.png" />
+    <Resource Include="Untitled-3_Images\Image.png" />
+    <Resource Include="Untitled-4_Images\Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Pengiriman.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Pengiriman.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_Kerusakan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_Kerusakan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_Keuangan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_Keuangan.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_Pembelian.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_Pembelian.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_Pengiriman.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_Pengiriman.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report_Tracking.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Report_Tracking.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+		 Other similar extension points exist, see Microsoft.Common.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+</Project>

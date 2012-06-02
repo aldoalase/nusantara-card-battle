@@ -1,0 +1,77 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:Custom="http://schemas.microsoft.com/wpf/2008/toolkit"
+	x:Class="FP_PBD_2.window_kerusakan"
+	x:Name="Window"
+	Title="window_kerusakan"
+	Width="640" Height="480" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}">
+	<Window.Resources>
+		<Style x:Key="back_pegawai" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="PsdLayer1" Source="button home_Images8\Image.png"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" RecognizesAccessKey="True"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Storyboard x:Key="button_home_enter">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="button" Storyboard.TargetProperty="(UIElement.Opacity)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00.5000000" Value="0.495"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="button_home_leave">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="button" Storyboard.TargetProperty="(UIElement.Opacity)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.5"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.5000000" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="window_open">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="{x:Null}" Storyboard.TargetProperty="(UIElement.Opacity)">
+				<SplineDoubleKeyFrame KeyTime="00:00:00" Value="0.5"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:00.5000000" Value="0.745"/>
+				<SplineDoubleKeyFrame KeyTime="00:00:01" Value="0.995"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</Window.Resources>
+	<Window.Triggers>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="button">
+			<BeginStoryboard Storyboard="{StaticResource button_home_enter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="button">
+			<BeginStoryboard x:Name="button_home_leave_BeginStoryboard" Storyboard="{StaticResource button_home_leave}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="FrameworkElement.Loaded">
+			<BeginStoryboard Storyboard="{StaticResource window_open}"/>
+		</EventTrigger>
+	</Window.Triggers>
+
+	<Grid x:Name="LayoutRoot">
+		<Image x:Name="PsdLayer" Source="interface dasar_Images\Image.png"/>
+		<Image x:Name="Shape_4" Width="223" Height="34.527" Source="logo_Images\Shape 4.png" HorizontalAlignment="Right" Margin="0,36.599,38,0" VerticalAlignment="Top"/>
+		<Canvas x:Name="button_home" HorizontalAlignment="Left" VerticalAlignment="Top" Width="1000" Height="1000" ClipToBounds="True">
+			<Button x:Name="button" Style="{DynamicResource back_pegawai}" Width="50" Height="50" Canvas.Left="8" Canvas.Top="29" Click="back_pegawai"/>
+		</Canvas>
+		<Button HorizontalAlignment="Right" Margin="0,0,112,132" VerticalAlignment="Bottom" Width="202" Height="58" Content="update"/>
+		<Label Height="28" HorizontalAlignment="Left" Margin="66.5,92,0,0" VerticalAlignment="Top" Width="120" Content="No Laporan"/>
+		<TextBox Height="23" HorizontalAlignment="Left" Margin="68.5,120,0,0" x:Name="no_surat" VerticalAlignment="Top" Width="120" IsEnabled="False" />
+		<Label Margin="68.5,222,0,230" x:Name="label1" Content="No Transaksi Pengiriman" RenderTransformOrigin="1.993,-0.321" HorizontalAlignment="Left" Width="145"/>
+		<Label Height="28" HorizontalAlignment="Right" Margin="0,88,194,0" x:Name="label2" VerticalAlignment="Top" Width="120" Content="Keterangan"/>
+		<Label Height="28" HorizontalAlignment="Left" Margin="66.5,157.5,0,0" x:Name="label3" VerticalAlignment="Top" Width="120" Content="Pembuat Pernyataan"/>
+		<TextBox Height="23" HorizontalAlignment="Left" Margin="66.5,185.5,0,0" x:Name="pegawai" VerticalAlignment="Top" Width="120" IsEnabled="False" />
+		<Label Height="28" HorizontalAlignment="Left" Margin="68.5,43.126,0,0" x:Name="tanggal" VerticalAlignment="Top" Width="120" Content="Tanggal"/>
+		<ComboBox Height="23" Margin="68.5,0,0,203" x:Name="no_transaksi" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="120" />
+		<TextBox Margin="0,120,112,216" x:Name="keterangan" HorizontalAlignment="Right" Width="202" />
+	</Grid>
+</Window>

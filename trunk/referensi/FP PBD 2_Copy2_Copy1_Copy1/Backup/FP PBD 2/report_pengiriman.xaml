@@ -1,0 +1,18 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:crystal="clr-namespace:CrystalDecisions.Windows.Forms;assembly=CrystalDecisions.Windows.Forms"
+	x:Class="FP_PBD_2.report_pengiriman"
+	x:Name="Window"
+	Title="report_pengiriman"
+	Width="640" Height="480" WindowStyle="None">
+
+	<Grid x:Name="LayoutRoot">
+		<Button HorizontalAlignment="Right" Margin="0,0,17,8" VerticalAlignment="Bottom" Width="82" Height="28" Content="keluar" Click="Button_Click"/>
+        <WindowsFormsHost Name="Report1" Margin="50,59,45,105">
+            <crystal:CrystalReportViewer x:Name="rptViewer"/>
+        </WindowsFormsHost>
+        <Button Height="23" Margin="258,0,285,72" Name="Lihat" VerticalAlignment="Bottom" Click="Lihat_Click">Lihat</Button>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="65,0,0,30" Name="textBox1" VerticalAlignment="Bottom" Width="120" />
+    </Grid>
+</Window>

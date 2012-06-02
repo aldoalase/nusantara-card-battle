@@ -1,0 +1,797 @@
+C:\Users\ultimate\Documents\Expression\Blend 3\Projects\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.exe
+C:\Users\ultimate\Documents\Expression\Blend 3\Projects\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.pdb
+C:\Users\ultimate\Documents\Expression\Blend 3\Projects\FP PBD 2\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ultimate\Documents\Expression\Blend 3\Projects\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.baml
+C:\Users\ultimate\Documents\Expression\Blend 3\Projects\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.g.cs
+C:\Users\ultimate\Documents\Expression\Blend 3\Projects\FP PBD 2\FP PBD 2\obj\Debug\App.g.cs
+C:\Users\ultimate\Documents\Expression\Blend 3\Projects\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+C:\Users\ultimate\Documents\Expression\Blend 3\Projects\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+C:\Users\ultimate\Documents\Expression\Blend 3\Projects\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.exe
+C:\Users\ultimate\Documents\Expression\Blend 3\Projects\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.pdb
+C:\Users\ultimate\Documents\Expression\Blend 3\Projects\FP PBD 2\FP PBD 2\obj\Debug\Page1.baml
+C:\Users\ultimate\Documents\Expression\Blend 3\Projects\FP PBD 2\FP PBD 2\obj\Debug\Page1.g.cs
+C:\Users\ultimate\Documents\Expression\Blend 3\Projects\FP PBD 2\FP PBD 2\obj\Debug\Window1.baml
+C:\Users\ultimate\Documents\Expression\Blend 3\Projects\FP PBD 2\FP PBD 2\obj\Debug\Window1.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\obj\Debug\Page1.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\obj\Debug\Window1.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\obj\Debug\Page1.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\obj\Debug\Window1.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\obj\Debug\App.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\obj\Debug\UserControl1.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\bayu\FP PBD 2\FP PBD 2\obj\Debug\UserControl1.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.exe
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.pdb
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\Window1.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\Window1.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\App.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.exe
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.pdb
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\menu_adminxaml.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\menu_adminxaml.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\UserControl1.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\UserControl1.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\Window2.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\Window2.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\Window3.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\Window3.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\Window4.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\bayu\FP PBD 2\FP PBD 2\obj\Debug\Window4.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\UserControl1.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\UserControl1.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\App.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\coba_koneksi.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\coba_koneksi.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\database_barang.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\login.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\database_barang.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\login.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman_detail.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman_detail.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.dll
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 1\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.dll
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\coba_koneksi.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\database_barang.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\UserControl1.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\login.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman_detail.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\coba_koneksi.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\database_barang.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\UserControl1.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\login.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman_detail.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\App.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update 2\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.pdb
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.pdb
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.exe
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.pdb
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.dll
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.pdb
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\database_barang.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\UserControl1.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\login.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman_detail.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\database_barang.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\UserControl1.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\login.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman_detail.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\App.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.dll
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\database_barang.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\login.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman_detail.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\database_barang.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\login.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman_detail.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\App.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\data_personal.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\data_personal.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\data_personal_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\data_personal_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\data_personal_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\dari felix\FP PBD 2\FP PBD 2\obj\Debug\data_personal_customer.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.exe
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.pdb
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.exe
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.pdb
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.dll
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.pdb
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\database_barang.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\data_personal.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\data_personal_customer.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\data_personal_pegawai.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\login.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman_detail.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.baml
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\database_barang.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\data_personal.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\data_personal_customer.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\data_personal_pegawai.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\login.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman_detail.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\App.g.cs
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+C:\Documents and Settings\My XP\My Documents\Downloads\Compressed\update6\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.exe
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.pdb
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.exe
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.pdb
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.dll
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.pdb
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\database_barang.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\data_personal.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\data_personal_customer.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\data_personal_pegawai.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\login.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman_detail.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\database_barang.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\data_personal.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\data_personal_customer.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\data_personal_pegawai.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\login.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman_detail.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\App.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\bin\Debug\System.Windows.Forms.dll
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update6\FP PBD 2\FP PBD 2\bin\Debug\WindowsFormsIntegration.dll
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.pdb
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.exe
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.pdb
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\bin\Debug\System.Windows.Forms.dll
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\bin\Debug\WindowsFormsIntegration.dll
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.dll
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.pdb
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\database_barang.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\data_personal.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\data_personal_customer.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\data_personal_pegawai.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\login.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman_detail.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.baml
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\database_barang.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\data_personal.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\data_personal_customer.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\data_personal_pegawai.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\login.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman_detail.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\App.g.cs
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+E:\Semester 3\Basis Data\2010 - 2011\Praktikum\FP\update7\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\bin\Debug\FP PBD 2.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\bin\Debug\System.Windows.Forms.dll
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\bin\Debug\WindowsFormsIntegration.dll
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.dll
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\bin\Debug\WPFToolkit.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\database_barang.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\data_personal.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\data_personal_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\data_personal_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\login.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\database_barang.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\database_keuangan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\data_personal.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\data_personal_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\data_personal_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\MainWindow.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\menu_admin.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\login.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\menu_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\menu_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\database_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\window_kerusakan_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\window_pengiriman.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\window_penjualan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\window_tracking.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\window_tracking_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\App.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\FP PBD 2.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\database_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\database_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\percobaan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update7new\update7\FP PBD 2\FP PBD 2\obj\Debug\percobaan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\database_barang.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\database_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\database_keuangan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\data_personal.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\data_personal_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\data_personal_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\MainWindow.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\menu_admin.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\login.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\menu_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\menu_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\database_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\percobaan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\window_kerusakan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\window_kerusakan_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\window_pengiriman.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\window_penjualan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\window_tracking.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\window_tracking_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\database_barang.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\database_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\database_keuangan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\data_personal.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\data_personal_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\data_personal_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\MainWindow.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\menu_admin.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\login.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\menu_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\menu_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\database_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\percobaan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\window_kerusakan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\window_kerusakan_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\window_pengiriman.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\window_penjualan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\window_tracking.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\window_tracking_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\App.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\bin\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\bin\Debug\FP PBD 2.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\bin\Debug\System.Windows.Forms.dll
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\bin\Debug\WindowsFormsIntegration.dll
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\bin\Debug\WPFToolkit.dll
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\bin\Debug\WPFToolkit.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\BAYU\bayu\update9\FP PBD 2_Copy2\FP PBD 2\obj\Debug\FP PBD 2.pdb
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\FP PBD 2.pdb
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\bin\Debug\FP PBD 2.exe
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\bin\Debug\FP PBD 2.pdb
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\bin\Debug\System.Windows.Forms.dll
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\bin\Debug\WindowsFormsIntegration.dll
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\bin\Debug\WPFToolkit.dll
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\bin\Debug\WPFToolkit.pdb
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_barang.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_customer.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_keuangan.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\data_personal.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\data_personal_pegawai.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\MainWindow.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\menu_admin.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\login.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\menu_pegawai.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\menu_customer.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_pegawai.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_kerusakan.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_kerusakan_customer.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_pengiriman.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_penjualan.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_tracking.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_tracking_customer.baml
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_barang.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_customer.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_keuangan.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\data_personal.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\data_personal_pegawai.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\MainWindow.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\menu_admin.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\login.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\menu_pegawai.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\menu_customer.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_pegawai.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_kerusakan.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_kerusakan_customer.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_pengiriman.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_penjualan.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_tracking.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_tracking_customer.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\App.g.cs
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+C:\Documents and Settings\My XP\Desktop\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\bin\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\bin\Debug\FP PBD 2.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\bin\Debug\System.Windows.Forms.dll
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\bin\Debug\WindowsFormsIntegration.dll
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\bin\Debug\WPFToolkit.dll
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\bin\Debug\WPFToolkit.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_barang.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_keuangan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\data_personal.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\data_personal_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\MainWindow.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\menu_admin.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\login.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\menu_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\menu_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\report_kerusakan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\report_keuangan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\report_pembelian.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\report_pengiriman.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\report_tracking.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_kerusakan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_kerusakan_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_pengiriman.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_penjualan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_tracking.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_tracking_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_barang.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_keuangan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\data_personal.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\data_personal_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\MainWindow.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\menu_admin.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\login.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\menu_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\menu_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\database_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\report_kerusakan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\report_keuangan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\report_pembelian.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\report_pengiriman.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\report_tracking.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_kerusakan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_kerusakan_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_pengiriman.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_penjualan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_tracking.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\window_tracking_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\App.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\update12\FP PBD 2_Copy2_Copy1\FP PBD 2\obj\Debug\FP PBD 2.pdb
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.pdb
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_barang.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_customer.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_keuangan.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal_pegawai.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\MainWindow.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_admin.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\login.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_pegawai.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_customer.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_pegawai.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_kerusakan.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_keuangan.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pembelian.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pengiriman.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_tracking.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan_customer.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_pengiriman.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_penjualan.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking_customer.baml
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_barang.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_customer.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_keuangan.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal_pegawai.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\MainWindow.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_admin.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\login.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_pegawai.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_customer.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_pegawai.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_kerusakan.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_keuangan.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pembelian.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pengiriman.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_tracking.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan_customer.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_pengiriman.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_penjualan.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking_customer.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\App.g.cs
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\FP PBD 2.exe
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\FP PBD 2.pdb
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\System.Windows.Forms.dll
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\WindowsFormsIntegration.dll
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\WPFToolkit.dll
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\WPFToolkit.pdb
+C:\Documents and Settings\My XP\Desktop\update13\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.exe
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.exe
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.pdb
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\FP PBD 2.exe
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\FP PBD 2.pdb
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\System.Windows.Forms.dll
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\WindowsFormsIntegration.dll
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\WPFToolkit.dll
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\WPFToolkit.pdb
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_barang.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_customer.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_keuangan.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal_pegawai.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\MainWindow.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_admin.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\login.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_pegawai.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_customer.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_pegawai.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_kerusakan.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_keuangan.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pembelian.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pengiriman.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_tracking.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan_customer.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_pengiriman.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_penjualan.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking_customer.baml
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_barang.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_customer.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_keuangan.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal_pegawai.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\MainWindow.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_admin.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\login.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_pegawai.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_customer.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_pegawai.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_kerusakan.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_keuangan.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pembelian.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pengiriman.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_tracking.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan_customer.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_pengiriman.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_penjualan.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking_customer.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\App.g.cs
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+C:\Documents and Settings\My XP\Desktop\fix.1\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\FP PBD 2.exe
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\FP PBD 2.pdb
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\System.Windows.Forms.dll
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\WindowsFormsIntegration.dll
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\WPFToolkit.dll
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\WPFToolkit.pdb
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_barang.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_customer.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_keuangan.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal_pegawai.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\MainWindow.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_admin.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\login.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_pegawai.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_customer.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_pegawai.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_kerusakan.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_keuangan.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pembelian.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pengiriman.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_tracking.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan_customer.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_pengiriman.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_penjualan.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking_customer.baml
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_barang.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_customer.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_keuangan.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal_pegawai.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\MainWindow.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_admin.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\login.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_pegawai.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_customer.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_pegawai.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_kerusakan.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_keuangan.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pembelian.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pengiriman.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_tracking.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan_customer.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_pengiriman.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_penjualan.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking_customer.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\App.g.cs
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.exe
+D:\BAYU\KULIAH\BASDAT\FP PBD\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\FP PBD 2.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\System.Windows.Forms.dll
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\WindowsFormsIntegration.dll
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\WPFToolkit.dll
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\WPFToolkit.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\ResolveAssemblyReference.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_barang.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_keuangan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\MainWindow.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_admin.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\login.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_pegawai.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_kerusakan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_keuangan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pembelian.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pengiriman.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_tracking.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_pengiriman.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_penjualan.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking_customer.baml
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_barang.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_keuangan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\data_personal_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\MainWindow.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_admin.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\login.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\menu_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\database_pegawai.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_kerusakan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_keuangan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pembelian.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_pengiriman.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\report_tracking.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_kerusakan_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_pengiriman.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_penjualan.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\window_tracking_customer.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\App.g.cs
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2_MarkupCompile.cache
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.g.resources
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.exe
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.pdb
+D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\WPFVisifire.Charts.dll
