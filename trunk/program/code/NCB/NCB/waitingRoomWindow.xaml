@@ -1,9 +1,9 @@
 ﻿<Window
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	x:Class="NCB.waitingRoomWindow"
+	x:Class="NCB.WaitingRoomWindow"
 	x:Name="Window"
-	Title="waitingRoomWindow"
+	Title="WaitingRoomWindow"
 	Width="1024" Height="768" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}">
 	<Window.Resources>
 		<Style x:Key="BackButton" TargetType="{x:Type Button}">
@@ -99,6 +99,6 @@
 		<Image Margin="0,0,20,40" Source="images/waiting menu v3.png" Stretch="Fill"/>
 		<TextBox HorizontalAlignment="Left" Margin="100,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="270.553" Height="36.96" FontSize="21.333"/>
 		<Button x:Name="ButtonCreate" Content="Button" HorizontalAlignment="Left" Height="50" Margin="150,259.96,0,0" Style="{DynamicResource ButtonCreateEnter}" VerticalAlignment="Top" Width="150"/>
-		<Button x:Name="BackButton" Content="Button" Height="50" Margin="431,0,463,81.5" Style="{DynamicResource BackButton}" VerticalAlignment="Bottom"/>
+		<Button x:Name="BackButton" Content="Button" Height="50" Margin="431,0,463,81.5" Style="{DynamicResource BackButton}" VerticalAlignment="Bottom" Click="doBack"/>
 	</Grid>
 </Window>

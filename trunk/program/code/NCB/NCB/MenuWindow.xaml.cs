@@ -30,5 +30,26 @@ namespace NCB
 			Window login = new LoginWindow();
 			login.Show();
 		}
+
+		private void showDeck(object sender, System.Windows.RoutedEventArgs e)
+		{
+			this.Hide();
+			Window deck = new DeckWindow();
+			deck.Show();
+		}
+
+		private void showShop(object sender, System.Windows.RoutedEventArgs e)
+		{
+			this.Hide();
+			Window shop = new ShopWindow();
+			shop.Show();
+		}
+
+		private void showProfile(object sender, System.Windows.RoutedEventArgs e)
+		{
+			this.Hide();
+			Window profile = new ProfileWindow();
+			profile.Show();
+		}
 	}
 }

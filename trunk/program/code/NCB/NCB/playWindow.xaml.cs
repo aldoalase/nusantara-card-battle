@@ -15,9 +15,9 @@ namespace NCB
 	/// <summary>
 	/// Interaction logic for playWindow.xaml
 	/// </summary>
-	public partial class playWindow : Window
+	public partial class PlayWindow : Window
 	{
-		public playWindow()
+		public PlayWindow()
 		{
 			this.InitializeComponent();
 			
