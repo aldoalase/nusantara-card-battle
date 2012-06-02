@@ -2,9 +2,9 @@
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
-	x:Class="NCB.profileWindow"
+	x:Class="NCB.ProfileWindow"
 	x:Name="Window"
-	Title="profileWindow"
+	Title="ProfileWindow"
 	Width="1024" Height="768" Background="{x:Null}" AllowsTransparency="True" WindowStyle="None">
 	<Window.Resources>
 		<Style x:Key="BackButton" TargetType="{x:Type Button}">
@@ -74,6 +74,6 @@
 		<PasswordBox Grid.Column="1" HorizontalAlignment="Left" Height="28.5" Margin="21.199,227,0,0" VerticalAlignment="Top" Width="162.141"/>
 		<Rectangle Grid.Column="1" Fill="#FF513E0F" Margin="394.84,199.5,109,259.5" Stroke="Black" Height="300"/>
 		<PasswordBox Grid.Column="1" Margin="0,224.5,129,283.5" Height="260" HorizontalAlignment="Right" Width="260"/>
-		<Button x:Name="BackButton" Content="Button" Height="50" Margin="210.84,0,0,41.5" Style="{DynamicResource BackButton}" VerticalAlignment="Bottom" Grid.Column="1" HorizontalAlignment="Left" Width="150"/>
+		<Button x:Name="BackButton" Content="Button" Height="50" Margin="210.84,0,0,41.5" Style="{DynamicResource BackButton}" VerticalAlignment="Bottom" Grid.Column="1" HorizontalAlignment="Left" Width="150" Click="doBack"/>
 	</Grid>
 </Window>

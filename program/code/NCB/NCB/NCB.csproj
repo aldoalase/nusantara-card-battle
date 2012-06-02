@@ -80,17 +80,17 @@
     <Compile Include="Mapping\PlayerMap.cs" />
     <Compile Include="Mapping\Player_Card.cs" />
     <Compile Include="Mapping\Player_CardMap.cs" />
-    <Compile Include="playWindow.xaml.cs">
-      <DependentUpon>playWindow.xaml</DependentUpon>
+    <Compile Include="PlayWindow.xaml.cs">
+      <DependentUpon>PlayWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="profileWindow.xaml.cs">
-      <DependentUpon>profileWindow.xaml</DependentUpon>
+    <Compile Include="ProfileWindow.xaml.cs">
+      <DependentUpon>ProfileWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="ShopWindow.xaml.cs">
       <DependentUpon>ShopWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="waitingRoomWindow.xaml.cs">
-      <DependentUpon>waitingRoomWindow.xaml</DependentUpon>
+    <Compile Include="WaitingRoomWindow.xaml.cs">
+      <DependentUpon>WaitingRoomWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="DeckWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -119,11 +119,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="playWindow.xaml">
+    <Page Include="PlayWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="profileWindow.xaml">
+    <Page Include="ProfileWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -131,7 +131,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="waitingRoomWindow.xaml">
+    <Page Include="WaitingRoomWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

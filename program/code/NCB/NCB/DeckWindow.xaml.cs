@@ -23,5 +23,12 @@ namespace NCB
 			
 			// Insert code required on object creation below this point.
 		}
+
+		private void doBack(object sender, System.Windows.RoutedEventArgs e)
+		{
+			this.Close();
+			Window menu = new MenuWindow();
+			menu.Show();
+		}
 	}
 }

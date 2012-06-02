@@ -390,6 +390,6 @@
 				</TransformGroup>
 			</Button.RenderTransform>
 		</Button>
-		<Button x:Name="BackButton" Content="Button" Height="50" Margin="431,0,443,41.5" Style="{DynamicResource BackButton}" VerticalAlignment="Bottom"/>
+		<Button x:Name="BackButton" Content="Button" Height="50" Margin="431,0,443,41.5" Style="{DynamicResource BackButton}" VerticalAlignment="Bottom" Click="doBack"/>
 	</Grid>
 </Window>

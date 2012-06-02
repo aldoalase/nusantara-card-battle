@@ -214,6 +214,6 @@
 		<Button x:Name="BuyButton" Content="Button" HorizontalAlignment="Left" Height="50" Margin="80.5,0,0,320" Style="{DynamicResource BuyButton}" VerticalAlignment="Bottom" Width="150"/>
 		<TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="34" Margin="76.5,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74" FontSize="24"><Run Language="id-id" Text="GOLD:"/></TextBlock>
 		<TextBlock HorizontalAlignment="Left" Height="41.5" Margin="154.5,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167.5" FontSize="24" Foreground="#FF513F0F"><Run Language="id-id" Text="99999"/></TextBlock>
-		<Button x:Name="BackButton" Content="Button" Height="50" Margin="431,0,443,41.5" Style="{DynamicResource BackButton}" VerticalAlignment="Bottom"/>
+		<Button x:Name="BackButton" Content="Button" Height="50" Margin="431,0,443,41.5" Style="{DynamicResource BackButton}" VerticalAlignment="Bottom" Click="doBack"/>
 	</Grid>
 </Window>
