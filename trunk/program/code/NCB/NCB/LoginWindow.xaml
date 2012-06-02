@@ -97,6 +97,24 @@
 				</DiscreteObjectKeyFrame>
 			</ObjectAnimationUsingKeyFrames>
 		</Storyboard>
+		<Storyboard x:Key="ButtonLoginClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButtonLogin">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="ButtonRegisterClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButtonRegister">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="ButtonExitClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButtonExit">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
 	</Window.Resources>
 	<Window.Triggers>
 		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="ButtonLogin">
@@ -117,14 +135,23 @@
 		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="ButtonExit">
 			<BeginStoryboard x:Name="ExitLeave_BeginStoryboard" Storyboard="{StaticResource ExitLeave}"/>
 		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonExit">
+			<BeginStoryboard x:Name="ButtonExitClick_BeginStoryboard" Storyboard="{StaticResource ButtonExitClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonRegister">
+			<BeginStoryboard x:Name="ButtonRegisterClick_BeginStoryboard" Storyboard="{StaticResource ButtonRegisterClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonLogin">
+			<BeginStoryboard x:Name="ButtonLoginClick_BeginStoryboard" Storyboard="{StaticResource ButtonLoginClick}"/>
+		</EventTrigger>
 	</Window.Triggers>
 
 	<Grid x:Name="LayoutRoot" Margin="13,0,-8,-38">
 		<Image Margin="-8,8,8,48.5" Source="images/login interfacev3.png" Stretch="Fill"/>
 		<TextBox x:Name="TextBoxUsername" Margin="154,226,174,0" TextWrapping="Wrap" Text="username" Height="24" VerticalAlignment="Top"/>
-		<TextBox Margin="154,257,174,0" TextWrapping="Wrap" Text="password" Height="24" VerticalAlignment="Top"/>
 		<Button x:Name="ButtonLogin" Content="" Height="40" Margin="178,302,198,0" Style="{DynamicResource ButtonLogin}" VerticalAlignment="Top" Width="120" d:LayoutOverrides="Height" Click="Button_Click" Cursor="Hand"/>
 		<Button x:Name="ButtonRegister" Content="Button" Margin="178,350,198,327.5" Style="{DynamicResource ButtonRegister}" Width="120" Cursor="Hand"/>
 		<Button x:Name="ButtonExit" Content="Button" Height="40" Margin="178,0,198,283.5" Style="{DynamicResource ButtonExit}" VerticalAlignment="Bottom" Width="120" Click="ButtonExit_Click"/>
+		<PasswordBox Margin="154,269,174,0" VerticalAlignment="Top" Password="password"/>
 	</Grid>
 </Window>

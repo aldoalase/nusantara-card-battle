@@ -241,6 +241,42 @@
 				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
 			</DoubleAnimationUsingKeyFrames>
 		</Storyboard>
+		<Storyboard x:Key="ButtonPlayClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButtonPlay">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="ButtonDeckClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButtonDeck">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="ButtonShopClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButtonShop">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="ButtonRecordClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButtonRecord">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="ButtonProfileClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButtonProfile">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="ButtonLogoutClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ButtonLogout">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
 	</Window.Resources>
 	<Window.Triggers>
 		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="ButtonPlay">
@@ -279,16 +315,34 @@
 		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="ButtonLogout">
 			<BeginStoryboard x:Name="ButtonLogoutLeave_BeginStoryboard" Storyboard="{StaticResource ButtonLogoutLeave}"/>
 		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonLogout">
+			<BeginStoryboard Storyboard="{StaticResource ButtonLogoutClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonProfile">
+			<BeginStoryboard x:Name="ButtonProfileClick_BeginStoryboard" Storyboard="{StaticResource ButtonProfileClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonRecord">
+			<BeginStoryboard x:Name="ButtonRecordClick_BeginStoryboard" Storyboard="{StaticResource ButtonRecordClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonShop">
+			<BeginStoryboard x:Name="ButtonShopClick_BeginStoryboard" Storyboard="{StaticResource ButtonShopClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonDeck">
+			<BeginStoryboard x:Name="ButtonDeckClick_BeginStoryboard" Storyboard="{StaticResource ButtonDeckClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonPlay">
+			<BeginStoryboard x:Name="ButtonPlayClick_BeginStoryboard" Storyboard="{StaticResource ButtonPlayClick}"/>
+		</EventTrigger>
 	</Window.Triggers>
 
 	<Grid x:Name="LayoutRoot" Width="496" Height="661">
 		<Image Margin="-8,0,8,0" Source="images/login interfacev3.png" Stretch="Fill"/>
-		<Button x:Name="ButtonPlay" Content="Button" Height="50" Margin="165,216,181,0" Style="{DynamicResource ButtonPlay}" VerticalAlignment="Top"/>
-		<Button x:Name="ButtonDeck" Content="Button" Height="50" Margin="165,270,181,0" Style="{DynamicResource ButtonDeck}" VerticalAlignment="Top"/>
-		<Button x:Name="ButtonShop" Content="Button" Margin="165,324,181,287" Style="{DynamicResource ButtonShop}"/>
-		<Button x:Name="ButtonRecord" Content="Button" Height="50" Margin="165,0,181,233" Style="{DynamicResource ButtonRecord}" VerticalAlignment="Bottom"/>
-		<Button x:Name="ButtonProfile" Content="Button" Height="50" Margin="165,0,181,179" Style="{DynamicResource ButtonProfile}" VerticalAlignment="Bottom"/>
-		<Button x:Name="ButtonLogout" Content="Button" Height="50" Margin="165,0,181,125" Style="{DynamicResource ButtonLogout}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5">
+		<Button x:Name="ButtonPlay" Content="Button" Height="50" Margin="165,216,181,0" Style="{DynamicResource ButtonPlay}" VerticalAlignment="Top" Cursor="Hand"/>
+		<Button x:Name="ButtonDeck" Content="Button" Height="50" Margin="165,270,181,0" Style="{DynamicResource ButtonDeck}" VerticalAlignment="Top" Cursor="Hand"/>
+		<Button x:Name="ButtonShop" Content="Button" Margin="165,324,181,287" Style="{DynamicResource ButtonShop}" Cursor="Hand"/>
+		<Button x:Name="ButtonRecord" Content="Button" Height="50" Margin="165,0,181,233" Style="{DynamicResource ButtonRecord}" VerticalAlignment="Bottom" Cursor="Hand"/>
+		<Button x:Name="ButtonProfile" Content="Button" Height="50" Margin="165,0,181,179" Style="{DynamicResource ButtonProfile}" VerticalAlignment="Bottom" Cursor="Hand"/>
+		<Button x:Name="ButtonLogout" Content="Button" Height="50" Margin="165,0,181,125" Style="{DynamicResource ButtonLogout}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" Cursor="Hand">
 			<Button.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>

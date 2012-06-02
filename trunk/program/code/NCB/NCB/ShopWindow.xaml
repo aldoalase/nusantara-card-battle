@@ -1,12 +1,219 @@
 ﻿<Window
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
 	x:Class="NCB.ShopWindow"
 	x:Name="Window"
 	Title="ShopWindow"
 	Width="1024" Height="768" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}">
+	<Window.Resources>
+		<Style x:Key="upButton" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image Source="images/arrow up.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="downButton" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image Source="images/arrow down.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Storyboard x:Key="UpButtonStockEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="UpButtonStock">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="UpButtonStockLeave">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="UpButtonStock">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="UpButtonStockClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="UpButtonStock">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="DownButtonEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="DownButtonStock">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="DownButtonLeave">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="DownButtonStock">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="DownButtonClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="DownButtonStock">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Style x:Key="BuyButton" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image Source="images/buy.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Storyboard x:Key="BuyButtonEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="BuyButton">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="BuyButtonLeave">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="BuyButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="BuyButttonClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="BuyButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Style x:Key="BackButton" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image Source="images/back button.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Storyboard x:Key="BackButtonEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="BackButton">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="BackButtonLeave">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="BackButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="BackButtonClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="BackButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</Window.Resources>
+	<Window.Triggers>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="UpButtonStock">
+			<BeginStoryboard x:Name="UpButtonStockEnter_BeginStoryboard" Storyboard="{StaticResource UpButtonStockEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="UpButtonStock">
+			<BeginStoryboard x:Name="UpButtonStockLeave_BeginStoryboard" Storyboard="{StaticResource UpButtonStockLeave}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="UpButtonStock">
+			<BeginStoryboard x:Name="UpButtonStockClick_BeginStoryboard" Storyboard="{StaticResource UpButtonStockClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="DownButtonStock">
+			<BeginStoryboard x:Name="DownButtonEnter_BeginStoryboard" Storyboard="{StaticResource DownButtonEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="DownButtonStock">
+			<BeginStoryboard x:Name="DownButtonLeave_BeginStoryboard" Storyboard="{StaticResource DownButtonLeave}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="DownButtonStock">
+			<BeginStoryboard x:Name="DownButtonClick_BeginStoryboard" Storyboard="{StaticResource DownButtonClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="FrameworkElement.Loaded">
+			<BeginStoryboard x:Name="BackButtonEnter_BeginStoryboard" Storyboard="{StaticResource BackButtonEnter}"/>
+			<BeginStoryboard x:Name="BackButtonLeave_BeginStoryboard" Storyboard="{StaticResource BackButtonLeave}"/>
+			<BeginStoryboard x:Name="BackButtonClick_BeginStoryboard" Storyboard="{StaticResource BackButtonClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="BuyButton">
+			<BeginStoryboard x:Name="BuyButtonEnter_BeginStoryboard1" Storyboard="{StaticResource BuyButtonEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="BuyButton">
+			<BeginStoryboard x:Name="BuyButtonLeave_BeginStoryboard1" Storyboard="{StaticResource BuyButtonLeave}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="BuyButton">
+			<BeginStoryboard x:Name="BuyButttonClick_BeginStoryboard1" Storyboard="{StaticResource BuyButttonClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="BackButton">
+			<BeginStoryboard x:Name="BackButtonEnter_BeginStoryboard1" Storyboard="{StaticResource BackButtonEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="BackButton">
+			<BeginStoryboard x:Name="BackButtonLeave_BeginStoryboard1" Storyboard="{StaticResource BackButtonLeave}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="BackButton">
+			<BeginStoryboard x:Name="BackButtonClick_BeginStoryboard1" Storyboard="{StaticResource BackButtonClick}"/>
+		</EventTrigger>
+	</Window.Triggers>
 
 	<Grid x:Name="LayoutRoot">
-		<Image Source="images/shop window.png" Stretch="Fill"/>
+		<Image Source="images/shop window.png" Stretch="Fill" OpacityMask="Black"/>
+		<Image x:Name="ContainerPreview" HorizontalAlignment="Left" Margin="342.5,249,0,301" Width="150" d:IsHidden="True"/>
+		<Rectangle Fill="#FF513F0F" Margin="320.5,227,511.5,277" Stroke="Black"/>
+		<Rectangle Fill="#FFB6B0A0" HorizontalAlignment="Left" Margin="342.5,249,0,301" Stroke="Black" Width="150" Height="218"/>
+		<Button x:Name="UpButtonStock" Content="Button" HorizontalAlignment="Left" Height="48" Margin="356.833,0,0,223" Style="{DynamicResource upButton}" VerticalAlignment="Bottom" Width="60" Cursor="Hand"/>
+		<Button x:Name="DownButtonStock" Content="Button" HorizontalAlignment="Left" Height="48" Margin="409.833,0,0,223" Style="{DynamicResource downButton}" VerticalAlignment="Bottom" Width="60" Cursor="Hand"/>
+		<Rectangle Fill="#FF513F0F" HorizontalAlignment="Right" Margin="0,152.5,122.5,167" Stroke="Black" Width="327"/>
+		<Image HorizontalAlignment="Right" Margin="0,175.5,148,192.5" Source="images/gajah mada small.png" Stretch="Fill" Width="276"/>
+		<Rectangle Fill="#FFB6B0A0" HorizontalAlignment="Right" Margin="0,175.5,148,192.5" Stroke="Black" Width="276"/>
+		<ComboBox x:Name="CategoryCombo" Height="40" Margin="64,249,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="195" Background="#FF513F0F" Cursor="None"/>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="64,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" FontSize="16"><Run Language="id-id" Text="CARD CATEGORY"/></TextBlock>
+		<TextBlock HorizontalAlignment="Left" Height="30" Margin="76.5,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="111"/>
+		<TextBlock HorizontalAlignment="Left" Height="36" Margin="64,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" FontSize="16"><Run Language="id-id" Text="PRICE"/></TextBlock>
+		<TextBlock x:Name="HARGA_KARTU" HorizontalAlignment="Left" Height="30" Margin="64,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" FontSize="24" Foreground="#FF513F0F"><Run Language="id-id" Text="HARGA KARTU"/><LineBreak/><Run Language="id-id"/></TextBlock>
+		<Button x:Name="BuyButton" Content="Button" HorizontalAlignment="Left" Height="50" Margin="80.5,0,0,320" Style="{DynamicResource BuyButton}" VerticalAlignment="Bottom" Width="150"/>
+		<TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="34" Margin="76.5,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74" FontSize="24"><Run Language="id-id" Text="GOLD:"/></TextBlock>
+		<TextBlock HorizontalAlignment="Left" Height="41.5" Margin="154.5,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167.5" FontSize="24" Foreground="#FF513F0F"><Run Language="id-id" Text="99999"/></TextBlock>
+		<Button x:Name="BackButton" Content="Button" Height="50" Margin="431,0,443,41.5" Style="{DynamicResource BackButton}" VerticalAlignment="Bottom"/>
 	</Grid>
 </Window>

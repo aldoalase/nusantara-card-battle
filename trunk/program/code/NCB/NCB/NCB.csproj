@@ -132,10 +132,13 @@
   <ItemGroup>
     <Resource Include="images\arrow down.png" />
     <Resource Include="images\arrow up.png" />
+    <Resource Include="images\back button.png" />
+    <Resource Include="images\buy.png" />
     <Resource Include="images\create.png" />
     <Resource Include="images\deck window.png" />
     <Resource Include="images\deck.png" />
     <Resource Include="images\exit.png" />
+    <Resource Include="images\gajah mada small.png" />
     <Resource Include="images\insert deck.png" />
     <Resource Include="images\insert stock.png" />
     <Resource Include="images\login interfacev2.png" />
@@ -147,6 +150,7 @@
     <Resource Include="images\profile.png" />
     <Resource Include="images\record.png" />
     <Resource Include="images\register.png" />
+    <Resource Include="images\sell button.png" />
     <Resource Include="images\shop window.png" />
     <Resource Include="images\shop.png" />
     <Resource Include="images\waiting menu v3.png" />
