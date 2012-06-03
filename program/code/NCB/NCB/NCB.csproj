@@ -158,9 +158,11 @@
     <Resource Include="images\deck window.png" />
     <Resource Include="images\deck.png" />
     <Resource Include="images\exit.png" />
+    <Resource Include="images\field fix.png" />
     <Resource Include="images\gajah mada small.png" />
     <Resource Include="images\insert deck.png" />
     <Resource Include="images\insert stock.png" />
+    <Resource Include="images\invisibble button.png" />
     <Resource Include="images\login interfacev2.png" />
     <Resource Include="images\login interfacev3.png" />
     <Resource Include="images\login.png" />
@@ -173,6 +175,7 @@
     <Resource Include="images\sell button.png" />
     <Resource Include="images\shop window.png" />
     <Resource Include="images\shop.png" />
+    <Resource Include="images\throw.png" />
     <Resource Include="images\waiting menu v3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath32)\Microsoft.CSharp.targets" />
