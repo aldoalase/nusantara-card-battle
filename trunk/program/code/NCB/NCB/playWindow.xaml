@@ -4,7 +4,163 @@
 	x:Class="NCB.PlayWindow"
 	x:Name="Window"
 	Title="PlayWindow"
-	Width="640" Height="480">
+	Width="1024" Height="768" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}">
+	<Window.Resources>
+		<Style x:Key="PlayButton" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="play" Source="images/play.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ThrowButton" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="_throw" Source="images/throw.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Storyboard x:Key="PlayButtonEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="PlayButton">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="PlayButtonLeave">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="PlayButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="PlayButtonClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="PlayButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="ThrowButtonEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ThrowButton">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="ThrowButtonLeave">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ThrowButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="ThrowButtonClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ThrowButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="hand1EffectSelect"/>
+		<Style x:Key="hand1button" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image x:Name="image" RenderTransformOrigin="0.5,0.5" Source="images/invisibble button.png" Stretch="Fill">
+								<Image.RenderTransform>
+									<TransformGroup>
+										<ScaleTransform/>
+										<SkewTransform/>
+										<RotateTransform/>
+										<TranslateTransform/>
+									</TransformGroup>
+								</Image.RenderTransform>
+							</Image>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Window.Resources>
+	<Window.Triggers>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="ThrowButton">
+			<BeginStoryboard x:Name="ThrowButtonEnter_BeginStoryboard" Storyboard="{StaticResource ThrowButtonEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="ThrowButton">
+			<BeginStoryboard x:Name="ThrowButtonLeave_BeginStoryboard" Storyboard="{StaticResource ThrowButtonLeave}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ThrowButton">
+			<BeginStoryboard x:Name="ThrowButtonClick_BeginStoryboard" Storyboard="{StaticResource ThrowButtonClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="PlayButton">
+			<BeginStoryboard Storyboard="{StaticResource PlayButtonEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="PlayButton">
+			<BeginStoryboard x:Name="PlayButtonLeave_BeginStoryboard" Storyboard="{StaticResource PlayButtonLeave}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="PlayButton">
+			<BeginStoryboard x:Name="PlayButtonClick_BeginStoryboard" Storyboard="{StaticResource PlayButtonClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="FocusManager.GotFocus" SourceName="hand1">
+			<BeginStoryboard x:Name="hand1EffectSelect_BeginStoryboard" Storyboard="{StaticResource hand1EffectSelect}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="FrameworkElement.Loaded"/>
+	</Window.Triggers>
 
-	<Grid x:Name="LayoutRoot"/>
+	<Grid x:Name="LayoutRoot">
+		<Image Source="images/field fix.png" Stretch="Fill"/>
+		<TextBlock x:Name="Player_1" HorizontalAlignment="Left" Height="31.5" Margin="39,196.5,0,0" TextWrapping="Wrap" Text="Player 1" VerticalAlignment="Top" Width="141" FontSize="18.667" Foreground="#FF513F0F" TextAlignment="Center"/>
+		<TextBlock x:Name="player_2" HorizontalAlignment="Right" Height="31.5" Margin="0,196.5,29.5,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" Width="141" FontSize="18.667" Foreground="#FF513F0F" TextAlignment="Center"/>
+		<TextBlock x:Name="skor_player_1" HorizontalAlignment="Left" Height="43.5" Margin="91.5,0,0,339" TextWrapping="Wrap" Text="30" VerticalAlignment="Bottom" Width="64.5" FontSize="24" Foreground="#FF513E0F"/>
+		<TextBlock x:Name="skor_player_2" Height="43.5" Margin="0,0,47.5,339" TextWrapping="Wrap" Text="30" VerticalAlignment="Bottom" FontSize="24" HorizontalAlignment="Right" Width="64.5" Foreground="#FF513F0F"/>
+		<Button x:Name="PlayButton" Content="Button" HorizontalAlignment="Right" Height="50" Margin="0,0,35.5,98.5" Style="{DynamicResource PlayButton}" VerticalAlignment="Bottom" Width="150"/>
+		<Button x:Name="ThrowButton" Content="Button" HorizontalAlignment="Right" Height="50" Margin="0,0,35.5,48.5" Style="{DynamicResource ThrowButton}" VerticalAlignment="Bottom" Width="150"/>
+		<Image x:Name="hand1" HorizontalAlignment="Left" Height="105" Margin="216,0,0,42.5" VerticalAlignment="Bottom" Width="70" Source="images/gajah mada small.png">
+			<Image.Effect>
+				<DropShadowEffect/>
+			</Image.Effect>
+		</Image>
+		<Image x:Name="hand2" HorizontalAlignment="Left" Height="105" Margin="304.5,0,0,42.5" VerticalAlignment="Bottom" Width="70"/>
+		<Image x:Name="hand3" HorizontalAlignment="Left" Height="105" Margin="393,0,0,42.5" VerticalAlignment="Bottom" Width="70"/>
+		<Image x:Name="hand4" Height="105" Margin="483,0,471,42.5" VerticalAlignment="Bottom"/>
+		<Image x:Name="hand5" Height="105" Margin="0,0,382.5,42.5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="70"/>
+		<Image x:Name="hand6" Height="105" Margin="0,0,294,42.5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="70"/>
+		<Image x:Name="hand7" Height="105" Margin="0,0,205.5,42.5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="70"/>
+		<Button x:Name="hand1Button" Content="" HorizontalAlignment="Left" Height="105" Margin="216,0,0,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" Width="70" RenderTransformOrigin="0.5,0.5">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+	</Grid>
 </Window>
