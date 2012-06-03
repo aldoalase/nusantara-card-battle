@@ -157,6 +157,7 @@
     <Resource Include="images\create.png" />
     <Resource Include="images\deck window.png" />
     <Resource Include="images\deck.png" />
+    <Resource Include="images\default_card.png" />
     <Resource Include="images\exit.png" />
     <Resource Include="images\field fix.png" />
     <Resource Include="images\gajah mada small.png" />
