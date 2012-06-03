@@ -1,5 +1,12 @@
 password commit: qs2qM2kC9fu5
----------------------------------
+--------------my job-------------------
 
-membuat rancangan alur umum berjalannya program
-revisi database setelah demo
+membuat rancangan alur umum berjalannya program v
+revisi database setelah demo v
+buat supaya window bisa di drag
+
+
+---------------request------------------
+rizki:
+-sediakan satu gambar default
+-bikin window untuk error message
