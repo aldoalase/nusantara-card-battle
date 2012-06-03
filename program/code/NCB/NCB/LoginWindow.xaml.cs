@@ -36,15 +36,6 @@ namespace NCB
             // Insert code required on object creation below this point.
         }
 
-        private ISessionFactory CreateSessionFactory()
-        {
-            DbConnection conn = new DbConnection();
-            return Fluently.Configure()
-                .Database(conn.config())
-                .Mappings(m => m.FluentMappings.AddFromAssemblyOf<PlayerMap>())
-                .BuildConfiguration().BuildSessionFactory();
-        }
-
         private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             // TODO: Add event handler implementation here.
@@ -59,7 +50,8 @@ namespace NCB
 
         private void doLogin(object sender, System.Windows.RoutedEventArgs e)
         {
-            var factory = CreateSessionFactory();
+            DbConnection conn = new DbConnection();
+            var factory = conn.CreateSessionFactory("PlayerMap");
             using (var session = factory.OpenSession())
             {
                 players = session.Query<Player>()
