@@ -1,12 +1,18 @@
 password commit: qs2qM2kC9fu5
 --------------my job-------------------
 
-membuat rancangan alur umum berjalannya program v
-revisi database setelah demo v
+membuat rancangan alur umum berjalannya program (v)
+revisi database setelah demo (v)
 buat supaya window bisa di drag
+
+playWindow
+image container di semua card place
+animasi kartu ketika diklik
+bikin window commit battle
+
 
 
 ---------------request------------------
 rizki:
--sediakan satu gambar default
+-sediakan satu gambar default (v)
 -bikin window untuk error message
