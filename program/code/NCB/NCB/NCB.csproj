@@ -150,11 +150,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="default_card.png" />
     <Resource Include="gajah mada small.png" />
     <Resource Include="images\arrow down.png" />
     <Resource Include="images\arrow up.png" />
     <Resource Include="images\back button.png" />
     <Resource Include="images\buy.png" />
+    <Resource Include="images\cancel.png" />
     <Resource Include="images\create.png" />
     <Resource Include="images\deck window.png" />
     <Resource Include="images\deck.png" />
@@ -177,6 +179,7 @@
     <Resource Include="images\sell button.png" />
     <Resource Include="images\shop window.png" />
     <Resource Include="images\shop.png" />
+    <Resource Include="images\skip.png" />
     <Resource Include="images\throw.png" />
     <Resource Include="images\waiting menu v3.png" />
   </ItemGroup>

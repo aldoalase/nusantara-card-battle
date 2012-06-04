@@ -9,6 +9,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Media.Animation;
 
 namespace NCB
 {
@@ -22,6 +23,25 @@ namespace NCB
 			this.InitializeComponent();
 			
 			// Insert code required on object creation below this point.
+				deckPlayerAnimated.IsEnabled = false;
+				
+		
+		}
+
+		private void PlayButton_Click(object sender, System.Windows.RoutedEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+			deckPlayerAnimated.IsEnabled= true;
+			Storyboard sb = this.FindResource("deckPlayerLoaded") as Storyboard;
+        	sb.Begin();
+			
+		}
+
+		private void ThrowButton_Click(object sender, System.Windows.RoutedEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+			Storyboard sb = this.FindResource("kuburanPlayerLoaded") as Storyboard;
+        	sb.Begin();
 		}
 	}
 }
