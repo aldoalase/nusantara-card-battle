@@ -19,5 +19,6 @@ namespace NCB
         public virtual int ENCHANT_STRENGTH { get; set; }
         public virtual int ENCHANT_DEFENSE { get; set; }
         public virtual int ENCHANT_HP { get; set; }
+        public virtual double CARD_PRICE { get; set; }
     }
 }

@@ -17,38 +17,39 @@ namespace NCB
 	/// </summary>
 	public partial class MenuWindow : Window
 	{
-		public MenuWindow()
+        public LoginWindow parent;
+        public Player player;
+        public MenuWindow(LoginWindow _parent, Player _player)
 		{
 			this.InitializeComponent();
-			
-			// Insert code required on object creation below this point.
+            this.parent = _parent;
+            this.player = _player;
 		}
 
 		private void doLogout(object sender, System.Windows.RoutedEventArgs e)
 		{
+            this.parent.Show();
 			this.Close();
-			Window login = new LoginWindow();
-			login.Show();
 		}
 
 		private void showDeck(object sender, System.Windows.RoutedEventArgs e)
 		{
 			this.Hide();
-			Window deck = new DeckWindow();
+            Window deck = new DeckWindow(this, this.player);
 			deck.Show();
 		}
 
 		private void showShop(object sender, System.Windows.RoutedEventArgs e)
 		{
 			this.Hide();
-			Window shop = new ShopWindow();
+            Window shop = new ShopWindow(this, this.player);
 			shop.Show();
 		}
 
 		private void showProfile(object sender, System.Windows.RoutedEventArgs e)
 		{
 			this.Hide();
-			Window profile = new ProfileWindow();
+            Window profile = new ProfileWindow(this, this.player);
 			profile.Show();
 		}
 	}

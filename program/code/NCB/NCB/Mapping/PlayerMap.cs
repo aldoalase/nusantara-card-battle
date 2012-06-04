@@ -15,9 +15,9 @@ namespace NCB
             Id(x => x.PLAYER_ID);
             Map(x => x.PLAYER_NAME);
             Map(x => x.PLAYER_PASSWORD);
-            Map(x => x.PLAYER_SCORE);
             Map(x => x.PLAYER_WIN);
             Map(x => x.PLAYER_LOSE);
+            Map(x => x.PLAYER_MONEY);
         }
     }
 }

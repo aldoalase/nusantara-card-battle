@@ -39,6 +39,11 @@ namespace NCB
                         .Database(config())
                         .Mappings(m => m.FluentMappings.AddFromAssemblyOf<Player_CardMap>())
                         .BuildConfiguration().BuildSessionFactory();
+                case "BattleMap":
+                    return Fluently.Configure()
+                        .Database(config())
+                        .Mappings(m => m.FluentMappings.AddFromAssemblyOf<BattleMap>())
+                        .BuildConfiguration().BuildSessionFactory();
                 default:
                     return null;
 
