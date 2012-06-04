@@ -1,6 +1,7 @@
 ﻿<Window
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
 	x:Class="NCB.PlayWindow"
 	x:Name="Window"
 	Title="PlayWindow"
@@ -78,29 +79,6 @@
 				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
 			</DoubleAnimationUsingKeyFrames>
 		</Storyboard>
-		<Storyboard x:Key="hand1EffectSelect">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hand1">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.4"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="hand2">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="100"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="hand3">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="100"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hand4">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hand5">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hand6">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hand7">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
 		<Style x:Key="hand1button" TargetType="{x:Type Button}">
 			<Setter Property="Template">
 				<Setter.Value>
@@ -130,26 +108,45 @@
 			</Setter>
 		</Style>
 		<Storyboard x:Key="hand2EffectSelect">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="hand1">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="100"/>
-			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hand2">
 				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
 			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="hand3EffectSelect">
 			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hand3">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
 			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="hand1EffectSelect">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hand1">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="hand4EffectSelect">
 			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hand4">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
 			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="hand5EffectSelect">
 			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hand5">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
 			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="hand6EffectSelect">
 			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hand6">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
 			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="hand7EffectSelect">
 			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="hand7">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
 			</DoubleAnimationUsingKeyFrames>
 		</Storyboard>
 	</Window.Resources>
@@ -172,11 +169,26 @@
 		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="PlayButton">
 			<BeginStoryboard x:Name="PlayButtonClick_BeginStoryboard" Storyboard="{StaticResource PlayButtonClick}"/>
 		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="hand2button">
+			<BeginStoryboard x:Name="hand2EffectSelect_BeginStoryboard" Storyboard="{StaticResource hand2EffectSelect}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="hand3Button">
+			<BeginStoryboard x:Name="hand3EffectSelect_BeginStoryboard" Storyboard="{StaticResource hand3EffectSelect}"/>
+		</EventTrigger>
 		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="hand1Button">
 			<BeginStoryboard x:Name="hand1EffectSelect_BeginStoryboard" Storyboard="{StaticResource hand1EffectSelect}"/>
 		</EventTrigger>
-		<EventTrigger RoutedEvent="FrameworkElement.Loaded">
-			<BeginStoryboard x:Name="hand2EffectSelect_BeginStoryboard" Storyboard="{StaticResource hand2EffectSelect}"/>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="hand4Button">
+			<BeginStoryboard x:Name="hand4EffectSelect_BeginStoryboard" Storyboard="{StaticResource hand4EffectSelect}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="hand5Button">
+			<BeginStoryboard x:Name="hand5EffectSelect_BeginStoryboard" Storyboard="{StaticResource hand5EffectSelect}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="hand6Button">
+			<BeginStoryboard Storyboard="{StaticResource hand6EffectSelect}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="hand7Button">
+			<BeginStoryboard Storyboard="{StaticResource hand7EffectSelect}"/>
 		</EventTrigger>
 	</Window.Triggers>
 
@@ -188,18 +200,75 @@
 		<TextBlock x:Name="skor_player_2" Height="43.5" Margin="0,0,47.5,339" TextWrapping="Wrap" Text="30" VerticalAlignment="Bottom" FontSize="24" HorizontalAlignment="Right" Width="64.5" Foreground="#FF513F0F"/>
 		<Button x:Name="PlayButton" Content="Button" HorizontalAlignment="Right" Height="50" Margin="0,0,35.5,98.5" Style="{DynamicResource PlayButton}" VerticalAlignment="Bottom" Width="150"/>
 		<Button x:Name="ThrowButton" Content="Button" HorizontalAlignment="Right" Height="50" Margin="0,0,35.5,48.5" Style="{DynamicResource ThrowButton}" VerticalAlignment="Bottom" Width="150"/>
-		<Image x:Name="hand1" HorizontalAlignment="Left" Height="105" Margin="216,0,0,42.5" VerticalAlignment="Bottom" Width="70" Source="images/gajah mada small.png">
-			<Image.Effect>
-				<DropShadowEffect/>
-			</Image.Effect>
-		</Image>
-		<Image x:Name="hand2" HorizontalAlignment="Left" Height="105" Margin="304.5,0,0,42.5" VerticalAlignment="Bottom" Width="70"/>
-		<Image x:Name="hand3" HorizontalAlignment="Left" Height="105" Margin="393,0,0,42.5" VerticalAlignment="Bottom" Width="70"/>
-		<Image x:Name="hand4" Height="105" Margin="483,0,471,42.5" VerticalAlignment="Bottom"/>
-		<Image x:Name="hand5" Height="105" Margin="0,0,382.5,42.5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="70"/>
-		<Image x:Name="hand6" Height="105" Margin="0,0,294,42.5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="70"/>
-		<Image x:Name="hand7" Height="105" Margin="0,0,205.5,42.5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="70"/>
+		<Image x:Name="hand1" HorizontalAlignment="Left" Height="105" Margin="216,0,0,42.5" VerticalAlignment="Bottom" Width="70" Source="images/gajah mada small.png"/>
+		<Image x:Name="hand2" HorizontalAlignment="Left" Height="105" Margin="304.5,0,0,42.5" VerticalAlignment="Bottom" Width="70" Source="gajah mada small.png"/>
+		<Image x:Name="hand3" HorizontalAlignment="Left" Height="105" Margin="393,0,0,42.5" VerticalAlignment="Bottom" Width="70" Source="gajah mada small.png"/>
+		<Image x:Name="hand4" Height="105" Margin="483,0,471,42.5" VerticalAlignment="Bottom" Source="gajah mada small.png"/>
+		<Image x:Name="hand5" Height="105" Margin="0,0,382.5,42.5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="70" Source="gajah mada small.png"/>
+		<Image x:Name="hand6" Height="105" Margin="0,0,294,42.5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="70" Source="gajah mada small.png"/>
+		<Image x:Name="hand7" Height="105" Margin="0,0,205.5,42.5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="70" Source="gajah mada small.png"/>
+		<Image x:Name="ImageLarge" HorizontalAlignment="Left" Height="218" Margin="39,0,0,36.5" VerticalAlignment="Bottom" Width="150" Source="gajah mada small.png"/>
 		<Button x:Name="hand1Button" Content="" HorizontalAlignment="Left" Height="105" Margin="216,0,0,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" Width="70" RenderTransformOrigin="0.5,0.5">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="hand2button" Content="" HorizontalAlignment="Left" Height="105" Margin="304.5,0,0,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" Width="70" RenderTransformOrigin="0.5,0.5">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="hand3Button" Content="" HorizontalAlignment="Left" Height="105" Margin="394.5,0,0,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" Width="70" RenderTransformOrigin="0.5,0.5">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="hand4Button" Content="" Height="105" Margin="483,0,471,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="hand5Button" Content="" Height="105" Margin="0,0,381,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="hand6Button" Content="" Height="105" Margin="0,0,295.5,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="hand7Button" Content="" Height="105" Margin="0,0,205.5,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70">
 			<Button.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>

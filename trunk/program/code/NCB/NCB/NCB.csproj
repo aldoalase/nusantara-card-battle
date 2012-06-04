@@ -150,6 +150,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="gajah mada small.png" />
     <Resource Include="images\arrow down.png" />
     <Resource Include="images\arrow up.png" />
     <Resource Include="images\back button.png" />
