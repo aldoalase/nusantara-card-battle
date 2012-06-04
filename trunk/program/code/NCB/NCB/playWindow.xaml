@@ -328,6 +328,113 @@
 				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
 			</DoubleAnimationUsingKeyFrames>
 		</Storyboard>
+		<Storyboard x:Key="char1enemyEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="char1enemy">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="char2enemyEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="char2enemy">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="char3enemyEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="char3enemy">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="char4enemyEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="char4enemy">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="char5enemyEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="char5enemy">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="bentengenemyEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="bentengenemy">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="mistikenemyEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="mistikenemy">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="kuburanEnemyEffect">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="kuburanenemy">
+				<EasingDoubleKeyFrame KeyTime="0" Value="4.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="4.96"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="2.293"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="kuburanenemy">
+				<EasingDoubleKeyFrame KeyTime="0" Value="-13.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-14.61"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-9.277"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="kuburanenemy">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.35"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.715"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+			<PointAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)" Storyboard.TargetName="kuburanenemy">
+				<EasingPointKeyFrame KeyTime="0" Value="0.5,0.5"/>
+				<EasingPointKeyFrame KeyTime="0:0:0.2" Value="0.486,0.541"/>
+			</PointAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="deckenemyEffect">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="deckenemy_animated">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-1.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-13.5"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="deckenemy_animated">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-9"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-37.5"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="deckenemy_animated">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.7"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="magic1enemyEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="magic1enemy">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="magic2enemyEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="magic2enemy">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="magic3enemyEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="magic3enemy">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="magic4enemyEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="magic4enemy">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="magic5enemyEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="magic5enemy">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
 	</Window.Resources>
 	<Window.Triggers>
 		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="ThrowButton">
@@ -371,18 +478,6 @@
 		</EventTrigger>
 		<EventTrigger RoutedEvent="FrameworkElement.Loaded" SourceName="deckPlayerAnimated">
 			<BeginStoryboard x:Name="deckPlayerLoaded_BeginStoryboard" Storyboard="{StaticResource deckPlayerLoaded}"/>
-			<BeginStoryboard x:Name="magic1PlayerEnter_BeginStoryboard" Storyboard="{StaticResource magic1PlayerEnter}"/>
-			<BeginStoryboard x:Name="magic2PlayerEnter_BeginStoryboard" Storyboard="{StaticResource magic2PlayerEnter}"/>
-			<BeginStoryboard x:Name="magic3PlayerEnter_BeginStoryboard" Storyboard="{StaticResource magic3PlayerEnter}"/>
-			<BeginStoryboard x:Name="magic4PlayerEnter_BeginStoryboard" Storyboard="{StaticResource magic4PlayerEnter}"/>
-			<BeginStoryboard x:Name="magic5PlayerEnter_BeginStoryboard" Storyboard="{StaticResource magic5PlayerEnter}"/>
-			<BeginStoryboard x:Name="char1PlayerEnter_BeginStoryboard" Storyboard="{StaticResource char1PlayerEnter}"/>
-			<BeginStoryboard x:Name="char2playerEnter_BeginStoryboard" Storyboard="{StaticResource char2playerEnter}"/>
-			<BeginStoryboard x:Name="char3playerEnter_BeginStoryboard" Storyboard="{StaticResource char3playerEnter}"/>
-			<BeginStoryboard x:Name="char4PlayerEnter_BeginStoryboard" Storyboard="{StaticResource char4PlayerEnter}"/>
-			<BeginStoryboard x:Name="char5PlayerEnter_BeginStoryboard" Storyboard="{StaticResource char5PlayerEnter}"/>
-			<BeginStoryboard x:Name="bentengplayerEnter_BeginStoryboard" Storyboard="{StaticResource bentengplayerEnter}"/>
-			<BeginStoryboard x:Name="mistikplayerEnter_BeginStoryboard" Storyboard="{StaticResource mistikplayerEnter}"/>
 		</EventTrigger>
 		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="magic1Button">
 			<BeginStoryboard x:Name="hand1EffectSelect_BeginStoryboard1" Storyboard="{StaticResource magic1PlayerEnter}"/>
@@ -402,7 +497,6 @@
 		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="char1Button">
 			<BeginStoryboard x:Name="char1PlayerEnter_BeginStoryboard1" Storyboard="{StaticResource char1PlayerEnter}"/>
 		</EventTrigger>
-		<EventTrigger RoutedEvent="FrameworkElement.Loaded"/>
 		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="char2Button">
 			<BeginStoryboard x:Name="char2playerEnter_BeginStoryboard1" Storyboard="{StaticResource char2playerEnter}"/>
 		</EventTrigger>
@@ -420,6 +514,42 @@
 		</EventTrigger>
 		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="bentengPlayer">
 			<BeginStoryboard x:Name="bentengplayerEnter_BeginStoryboard2" Storyboard="{StaticResource bentengplayerEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="char1enemyButton">
+			<BeginStoryboard x:Name="char1enemyEnter_BeginStoryboard" Storyboard="{StaticResource char1enemyEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="char2enemyButton">
+			<BeginStoryboard x:Name="char2enemyEnter_BeginStoryboard" Storyboard="{StaticResource char2enemyEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="char3enemyButton">
+			<BeginStoryboard x:Name="char3enemyEnter_BeginStoryboard" Storyboard="{StaticResource char3enemyEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="char4enemyButton">
+			<BeginStoryboard x:Name="char4enemyEnter_BeginStoryboard" Storyboard="{StaticResource char4enemyEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="char5enemyButton">
+			<BeginStoryboard x:Name="char5enemyEnter_BeginStoryboard" Storyboard="{StaticResource char5enemyEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="bentengEnemy">
+			<BeginStoryboard x:Name="bentengenemyEnter_BeginStoryboard" Storyboard="{StaticResource bentengenemyEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="mistikEnemy">
+			<BeginStoryboard x:Name="mistikenemyEnter_BeginStoryboard" Storyboard="{StaticResource mistikenemyEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="magic1enemyButton">
+			<BeginStoryboard x:Name="magic1enemyEnter_BeginStoryboard1" Storyboard="{StaticResource magic1enemyEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="magic2enemyButton">
+			<BeginStoryboard x:Name="magic2enemyEnter_BeginStoryboard1" Storyboard="{StaticResource magic2enemyEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="magic3enemyButton">
+			<BeginStoryboard x:Name="magic3enemyEnter_BeginStoryboard1" Storyboard="{StaticResource magic3enemyEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="magic4enemyButton">
+			<BeginStoryboard x:Name="magic4enemyEnter_BeginStoryboard1" Storyboard="{StaticResource magic4enemyEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="magic5enemyButton">
+			<BeginStoryboard x:Name="magic5enemyEnter_BeginStoryboard1" Storyboard="{StaticResource magic5enemyEnter}"/>
 		</EventTrigger>
 	</Window.Triggers>
 
@@ -511,7 +641,7 @@
 				</TransformGroup>
 			</Button.RenderTransform>
 		</Button>
-		<Image x:Name="kuburanPlayer_Copy" HorizontalAlignment="Left" Height="105" Margin="216,0,0,186" VerticalAlignment="Bottom" Width="70" Source="default_card.png" RenderTransformOrigin="0.5,0.5">
+		<Image x:Name="kuburanPlayer_Copy" HorizontalAlignment="Left" Height="105" Margin="216,0,0,186" VerticalAlignment="Bottom" Width="70" Source="default_card.png" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
 			<Image.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
@@ -861,5 +991,207 @@
 				</TransformGroup>
 			</Image.RenderTransform>
 		</Image>
+		<Button x:Name="char1enemyButton" Content="" HorizontalAlignment="Left" Margin="304,183.102,0,0" Style="{DynamicResource hand1button}" Width="70" RenderTransformOrigin="0.5,0.5" Height="105" VerticalAlignment="Top">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="char2enemyButton" Content="" HorizontalAlignment="Left" Margin="396.046,183.102,0,0" Style="{DynamicResource hand1button}" Width="70" RenderTransformOrigin="0.5,0.5" Height="105" VerticalAlignment="Top">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="char3enemyButton" Content="" Margin="485.424,183.102,468.576,0" Style="{DynamicResource hand1button}" RenderTransformOrigin="0.5,0.5" Height="105" VerticalAlignment="Top">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="char4enemyButton" Content="" Margin="0,183.102,380.532,0" Style="{DynamicResource hand1button}" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70" Height="105" VerticalAlignment="Top">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="char5enemyButton" Content="" Margin="0,183.102,293.155,0" Style="{DynamicResource hand1button}" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70" Height="105" VerticalAlignment="Top">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="bentengEnemy" Content="" Margin="0,183.102,203.777,0" Style="{DynamicResource hand1button}" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70" Height="105" VerticalAlignment="Top">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="mistikEnemy" Content="" HorizontalAlignment="Left" Margin="217.957,183.769,0,0" Style="{DynamicResource hand1button}" Width="70" RenderTransformOrigin="0.5,0.5" Height="105" VerticalAlignment="Top">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Image x:Name="kuburanenemy" HorizontalAlignment="Left" Margin="216,53.5,0,0" Width="70" Source="default_card.png" RenderTransformOrigin="0.5,0.5" Height="105" VerticalAlignment="Top">
+			<Image.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="180"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Image.RenderTransform>
+		</Image>
+		<Image x:Name="deckenemy" Margin="0,52.666,206.166,0" Source="default_card.png" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70" Height="105" VerticalAlignment="Top">
+			<Image.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="180"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Image.RenderTransform>
+		</Image>
+		<Image x:Name="deckenemy_animated" Margin="0,52.666,206.166,0" Source="default_card.png" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70" Height="105" VerticalAlignment="Top">
+			<Image.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="180"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Image.RenderTransform>
+		</Image>
+		<Image x:Name="magic1enemy" Margin="303,53.5,0,0" Source="gajah mada small.png" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="70" Height="105" VerticalAlignment="Top">
+			<Image.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="180"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Image.RenderTransform>
+		</Image>
+		<Image x:Name="magic2enemy" Margin="396,53.5,0,0" Source="gajah mada small.png" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" Width="70" Height="105" VerticalAlignment="Top">
+			<Image.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="180"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Image.RenderTransform>
+		</Image>
+		<Image x:Name="magic3enemy" Margin="484.5,53.5,469.5,0" Source="gajah mada small.png" RenderTransformOrigin="0.5,0.5" Height="105" VerticalAlignment="Top">
+			<Image.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="180"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Image.RenderTransform>
+		</Image>
+		<Image x:Name="magic4enemy" Margin="0,53.5,379.5,0" Source="gajah mada small.png" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70" Height="105" VerticalAlignment="Top">
+			<Image.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="180"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Image.RenderTransform>
+		</Image>
+		<Image x:Name="magic5enemy" Margin="0,53.5,292.5,0" Source="gajah mada small.png" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70" Height="105" VerticalAlignment="Top">
+			<Image.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform Angle="180"/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Image.RenderTransform>
+		</Image>
+		<Button x:Name="magic1enemyButton" Content="" HorizontalAlignment="Left" Margin="304,51.002,0,0" Style="{DynamicResource hand1button}" Width="70" RenderTransformOrigin="0.5,0.5" Height="105" VerticalAlignment="Top">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="magic2enemyButton" Content="" HorizontalAlignment="Left" Margin="396.046,51.002,0,0" Style="{DynamicResource hand1button}" Width="70" RenderTransformOrigin="0.5,0.5" Height="105" VerticalAlignment="Top">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="magic3enemyButton" Content="" Margin="485.424,51.002,468.576,0" Style="{DynamicResource hand1button}" RenderTransformOrigin="0.5,0.5" Height="105" VerticalAlignment="Top">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="magic4enemyButton" Content="" Margin="0,51.002,380.532,0" Style="{DynamicResource hand1button}" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70" Height="105" VerticalAlignment="Top">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button x:Name="magic5enemyButton" Content="" Margin="0,51.002,293.155,0" Style="{DynamicResource hand1button}" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70" Height="105" VerticalAlignment="Top">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform/>
+					<RotateTransform/>
+					<TranslateTransform/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Image x:Name="imagePlayer" HorizontalAlignment="Left" Height="126" Margin="49.5,244.5,0,0" VerticalAlignment="Top" Width="117"/>
+		<Image x:Name="imageEnemy" Height="126" Margin="0,244.5,43.5,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="117"/>
 	</Grid>
 </Window>
