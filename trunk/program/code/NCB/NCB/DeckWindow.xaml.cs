@@ -17,18 +17,19 @@ namespace NCB
 	/// </summary>
 	public partial class DeckWindow : Window
 	{
-		public DeckWindow()
+        public MenuWindow parent;
+        public Player player;
+        public DeckWindow(MenuWindow _parent, Player _player)
 		{
 			this.InitializeComponent();
-			
-			// Insert code required on object creation below this point.
+            this.parent = _parent;
+            this.player = _player;
 		}
 
 		private void doBack(object sender, System.Windows.RoutedEventArgs e)
 		{
+            this.parent.Show();
 			this.Close();
-			Window menu = new MenuWindow();
-			menu.Show();
 		}
 	}
 }

@@ -19,6 +19,7 @@ using NHibernate.Tool.hbm2ddl;
 using NHibernate.Linq;
 
 using MySql.Data.MySqlClient;
+using System.Collections;
 
 namespace NCB
 {
@@ -27,8 +28,6 @@ namespace NCB
 	/// </summary>
     public partial class LoginWindow : Window
     {
-        private List<Player> players = new List<Player>();
-
         public LoginWindow()
         {
             this.InitializeComponent();
@@ -52,31 +51,32 @@ namespace NCB
         {
             DbConnection conn = new DbConnection();
             var factory = conn.CreateSessionFactory("PlayerMap");
+            Player player = new Player();
+            List<Player> players;
             using (var session = factory.OpenSession())
             {
                 players = session.Query<Player>()
-                       //.OrderBy(c => c.PLAYER_NAME)
-                       .ToList();
+                    .Where(u => u.PLAYER_NAME.Equals(TextBoxUsername.Text))
+                    .Where(p => p.PLAYER_PASSWORD.Equals(TextBoxPassword.Password))
+                    .ToList();
+                /*
+                #simpe query
+                players = session.Query<Player>().ToList();
+                
+                #using HQl
+                IQuery query = session.CreateQuery("FROM Player p WHERE p.PLAYER_NAME = :Name");
+                query.SetParameter("Name", TextBoxUsername.Text);
+                players = query.List<Player>();
+                */
             }
-
-			bool authenticate = false;
-            for (int i = 0; i < players.Count; i++)
+            if (players.Count == 1)
             {
-                if (TextBoxUsername.Text.Equals(players[i].PLAYER_NAME) && TextBoxPassword.Password.Equals(players[i].PLAYER_PASSWORD))
-                {
-                    authenticate = true;
-                    break;
-                }
-            }
-			if (authenticate)
-            {
-                Window menu = new MenuWindow();
+                Window menu = new MenuWindow(this, players[0]);
                 menu.Show();
                 this.Hide();
             }
-            else
-            {
-                TextBoxUsername.Text = "salah";
+            else {
+                MessageBox.Show("invalid username password");
             }
         }
 

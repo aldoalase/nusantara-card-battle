@@ -352,5 +352,5 @@
 				</TransformGroup>
 			</Button.RenderTransform>
 		</Button>
-	</Grid>
+    </Grid>
 </Window>
