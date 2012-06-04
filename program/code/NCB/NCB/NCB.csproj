@@ -80,6 +80,9 @@
     <Compile Include="Mapping\PlayerMap.cs" />
     <Compile Include="Mapping\Player_Card.cs" />
     <Compile Include="Mapping\Player_CardMap.cs" />
+    <Compile Include="notification.xaml.cs">
+      <DependentUpon>notification.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PlayWindow.xaml.cs">
       <DependentUpon>PlayWindow.xaml</DependentUpon>
     </Compile>
@@ -116,6 +119,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="MenuWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="notification.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -171,6 +178,8 @@
     <Resource Include="images\login interfacev3.png" />
     <Resource Include="images\login.png" />
     <Resource Include="images\logout.png" />
+    <Resource Include="images\notification.png" />
+    <Resource Include="images\ok.png" />
     <Resource Include="images\play.png" />
     <Resource Include="images\profile background.png" />
     <Resource Include="images\profile.png" />
