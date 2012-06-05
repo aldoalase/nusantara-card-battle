@@ -2,3 +2,7 @@ C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NusantaraCardBatt
 C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NusantaraCardBattle MAPPED\NusantaraCardBattle\bin\Debug\NusantaraCardBattle.pdb
 C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NusantaraCardBattle MAPPED\NusantaraCardBattle\obj\x86\Debug\NusantaraCardBattle.exe
 C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NusantaraCardBattle MAPPED\NusantaraCardBattle\obj\x86\Debug\NusantaraCardBattle.pdb
+C:\Users\spondbob\Documents\Visual Studio 2010\Projects\nusantara-card-battle\program\code\NusantaraCardBattle MAPPED\NusantaraCardBattle\bin\Debug\NusantaraCardBattle.exe
+C:\Users\spondbob\Documents\Visual Studio 2010\Projects\nusantara-card-battle\program\code\NusantaraCardBattle MAPPED\NusantaraCardBattle\bin\Debug\NusantaraCardBattle.pdb
+C:\Users\spondbob\Documents\Visual Studio 2010\Projects\nusantara-card-battle\program\code\NusantaraCardBattle MAPPED\NusantaraCardBattle\obj\x86\Debug\NusantaraCardBattle.exe
+C:\Users\spondbob\Documents\Visual Studio 2010\Projects\nusantara-card-battle\program\code\NusantaraCardBattle MAPPED\NusantaraCardBattle\obj\x86\Debug\NusantaraCardBattle.pdb

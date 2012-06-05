@@ -82,6 +82,7 @@
             this.Controls.Add(this.button1);
             this.Name = "menuPage";
             this.Text = "Menu";
+            this.Load += new System.EventHandler(this.menuPage_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

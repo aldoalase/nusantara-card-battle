@@ -795,3 +795,6 @@ D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 
 D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.exe
 D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.pdb
 D:\KULIAH\SEMESTER 3\Basis Data\final project\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\WPFVisifire.Charts.dll
+C:\Users\spondbob\Documents\Visual Studio 2010\Projects\nusantara-card-battle\referensi\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\bin\Debug\FP PBD 2.exe.config
+C:\Users\spondbob\Documents\Visual Studio 2010\Projects\nusantara-card-battle\referensi\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.exe
+C:\Users\spondbob\Documents\Visual Studio 2010\Projects\nusantara-card-battle\referensi\FP PBD 2_Copy2_Copy1_Copy1\FP PBD 2\obj\Debug\FP PBD 2.pdb
