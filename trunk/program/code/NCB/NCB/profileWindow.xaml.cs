@@ -10,6 +10,15 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+using FluentNHibernate.Cfg;
+using FluentNHibernate.Cfg.Db;
+using NHibernate;
+using NHibernate.Cfg;
+using NHibernate.Tool.hbm2ddl;
+using NHibernate.Linq;
+
+using NCB.Library;
+
 namespace NCB
 {
 	/// <summary>
@@ -31,5 +40,22 @@ namespace NCB
             this.parent.Show();
 			this.Close();
 		}
+
+        public void updatepass ()
+        {
+            DbConnection conn = new DbConnection();
+            var factory = conn.CreateSessionFactory("Player_CardMap");
+
+            using (var session = factory.OpenSession())
+            {
+                using (var tx = session.BeginTransaction())
+                {
+                    player = session.Get<Player>(player.PLAYER_ID);
+                    player.PLAYER_PASSWORD = passbox.Password;
+                    tx.Commit();
+                }
+            }
+        }
+
 	}
 }

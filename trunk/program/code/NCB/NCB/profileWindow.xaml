@@ -71,7 +71,7 @@
 		<TextBlock Margin="21.199,337.36,0,0" TextWrapping="Wrap" FontSize="18.667" Foreground="#FF513E0F" HorizontalAlignment="Left" Width="62.298" Grid.Column="1" d:LayoutOverrides="HorizontalAlignment" Height="28.5" VerticalAlignment="Top"><Run Language="id-id" Text="10000"/></TextBlock>
 		<TextBlock Margin="21.199,281.86,0,0" TextWrapping="Wrap" FontSize="18.667" Foreground="#FF513E0F" HorizontalAlignment="Left" Width="62.298" Grid.Column="1" Height="28.5" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment"><Run Language="id-id" Text="10000"/></TextBlock>
 		<TextBlock Margin="21.199,173.86,0,0" TextWrapping="Wrap" FontSize="18.667" Foreground="#FF513E0F" HorizontalAlignment="Left" Width="300.798" Grid.Column="1" Height="28.5" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment"><Run Language="id-id" Text="nama saya"/></TextBlock>
-		<PasswordBox Grid.Column="1" HorizontalAlignment="Left" Height="28.5" Margin="21.199,227,0,0" VerticalAlignment="Top" Width="162.141"/>
+		<PasswordBox Grid.Column="1" HorizontalAlignment="Left" Height="28.5" Margin="21.199,227,0,0" VerticalAlignment="Top" Width="162.141" Name="passbox" />
 		<Rectangle Grid.Column="1" Fill="#FF513E0F" Margin="394.84,199.5,109,259.5" Stroke="Black" Height="300"/>
 		<PasswordBox Grid.Column="1" Margin="0,224.5,129,283.5" Height="260" HorizontalAlignment="Right" Width="260"/>
 		<Button x:Name="BackButton" Content="Button" Height="50" Margin="210.84,0,0,41.5" Style="{DynamicResource BackButton}" VerticalAlignment="Bottom" Grid.Column="1" HorizontalAlignment="Left" Width="150" Click="doBack"/>
