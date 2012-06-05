@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Media.Imaging;
 using System.Reflection;
+using System.IO;
 
 namespace NCB.Library
 {
@@ -20,7 +21,16 @@ namespace NCB.Library
             {
                 pathInApplication = pathInApplication.Substring(1);
             }
-            return new BitmapImage(new Uri(@"pack://application:,,,/" + assembly.GetName().Name + ";component/" + pathInApplication, UriKind.Absolute));
+            
+            String path = @"pack://application:,,,/" + assembly.GetName().Name + ";component/" + pathInApplication;
+            if(!File.Exists(path)){
+                path = @"pack://application:,,,/" + assembly.GetName().Name + ";component/images/default_card.png";
+            }
+            return new BitmapImage(new Uri(path, UriKind.Absolute));
+        }
+
+        public void Save()
+        {
         }
     }
 }

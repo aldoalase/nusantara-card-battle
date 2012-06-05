@@ -17,7 +17,7 @@ using NHibernate.Cfg;
 using NHibernate.Tool.hbm2ddl;
 using NHibernate.Linq;
 
-using NCB.Library;
+using NCB.Model;
 
 namespace NCB
 {
@@ -37,12 +37,19 @@ namespace NCB
 
 		private void doBack(object sender, System.Windows.RoutedEventArgs e)
 		{
+            this.updatepass();
+            Window notify = new Notification("password updated");
+            notify.Show();
             this.parent.Show();
 			this.Close();
 		}
 
-        public void updatepass ()
+        public void updatepass()
         {
+            ModelPlayer mp = new ModelPlayer();
+            mp.UpdatePass(player, passbox.Password);
+            /*
+             * mu operasi yg ada hubungannya sama db tak pindah ke model ya
             DbConnection conn = new DbConnection();
             var factory = conn.CreateSessionFactory("Player_CardMap");
 
@@ -55,6 +62,7 @@ namespace NCB
                     tx.Commit();
                 }
             }
+            */
         }
 
 	}

@@ -13,6 +13,7 @@ namespace NCB
             References(x => x.Card).Cascade.All();
             References(x => x.Player).Cascade.All();
             Id(x => x.PLAYER_CARD_ID);
+            Map(x => x.PLAYER_CARD_ACTIVE);
         }
     }
 }

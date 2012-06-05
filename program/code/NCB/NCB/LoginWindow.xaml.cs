@@ -21,7 +21,7 @@ using NHibernate.Linq;
 using MySql.Data.MySqlClient;
 using System.Collections;
 
-using NCB.Library;
+using NCB.Model;
 
 namespace NCB
 {
@@ -51,8 +51,8 @@ namespace NCB
 
         private void doLogin(object sender, System.Windows.RoutedEventArgs e)
         {
-            DbConnection conn = new DbConnection();
-            List<Player> players = conn.login(TextBoxUsername.Text, TextBoxPassword.Password);
+            ModelPlayer mp = new ModelPlayer();
+            List<Player> players = mp.login(TextBoxUsername.Text, TextBoxPassword.Password);
             if (players.Count == 1)
             {
                 Window menu = new MenuWindow(this, players[0]);
