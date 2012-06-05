@@ -81,6 +81,11 @@ namespace NusantaraCardBattle
             init();
         }
 
+        private void menuPage_Load(object sender, EventArgs e)
+        {
+
+        }
+
 
     }
 }

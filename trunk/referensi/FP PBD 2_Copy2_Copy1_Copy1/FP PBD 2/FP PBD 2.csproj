@@ -10,7 +10,7 @@
     <DefaultClrNameSpace>FP_PBD_2</DefaultClrNameSpace>
     <RootNamespace>FP_PBD_2</RootNamespace>
     <AssemblyName>FP PBD 2</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <ApplicationVersion>1.0.0.*</ApplicationVersion>
     <ApplicationRevision>0</ApplicationRevision>
     <AlwaysCompileMarkupFilesInSeparateDomain>false</AlwaysCompileMarkupFilesInSeparateDomain>
@@ -23,6 +23,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -62,6 +63,7 @@
     <Reference Include="System.Windows.Forms">
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -332,6 +334,7 @@
       <SubType>Designer</SubType>
     </Page>
     <AppDesigner Include="Properties\" />
+    <None Include="app.config" />
     <None Include="Application.ico">
       <Visible>false</Visible>
     </None>
