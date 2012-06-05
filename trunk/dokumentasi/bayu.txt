@@ -16,3 +16,12 @@ bikin window commit battle
 rizki:
 -sediakan satu gambar default (v)
 -bikin window untuk error message
+
+
+---------------request------------------
+muhammad :
+ - form untuk register
+ - tombol save di form profile.
+ - di profile, utk username, loss, win, itu dikasih textbox aja
+   tapi ntr textboxnya diset biar gak bisa diinput.
+   jadi valuenya bisa langsung ditampilkan.
