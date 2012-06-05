@@ -85,10 +85,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="DbConnection.cs" />
+    <Compile Include="Library\DbConnection.cs" />
     <Compile Include="DeckWindow.xaml.cs">
       <DependentUpon>DeckWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Library\ImageLibrary.cs" />
     <Compile Include="Mapping\Card.cs" />
     <Compile Include="Mapping\CardMap.cs" />
     <Compile Include="Mapping\Battle.cs" />
@@ -97,8 +98,8 @@
     <Compile Include="Mapping\PlayerMap.cs" />
     <Compile Include="Mapping\Player_Card.cs" />
     <Compile Include="Mapping\Player_CardMap.cs" />
-    <Compile Include="notification.xaml.cs">
-      <DependentUpon>notification.xaml</DependentUpon>
+    <Compile Include="Notification.xaml.cs">
+      <DependentUpon>Notification.xaml</DependentUpon>
     </Compile>
     <Compile Include="PlayWindow.xaml.cs">
       <DependentUpon>PlayWindow.xaml</DependentUpon>
@@ -139,7 +140,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="notification.xaml">
+    <Page Include="Notification.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -174,8 +175,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="default_card.png" />
-    <Resource Include="gajah mada small.png" />
     <Resource Include="images\arrow down.png" />
     <Resource Include="images\arrow up.png" />
     <Resource Include="images\back button.png" />

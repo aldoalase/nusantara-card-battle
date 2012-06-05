@@ -9,6 +9,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Reflection;
+using NCB.Library;
 
 namespace NCB
 {
@@ -19,6 +21,7 @@ namespace NCB
 	{
         public MenuWindow parent;
         public Player player;
+
         public DeckWindow(MenuWindow _parent, Player _player)
 		{
 			this.InitializeComponent();
@@ -30,6 +33,27 @@ namespace NCB
 		{
             this.parent.Show();
 			this.Close();
+		}
+
+		private void stockDown(object sender, System.Windows.RoutedEventArgs e)
+		{
+            ImageLibrary img = new ImageLibrary();
+            ImageContainerStock.Source = img.Load("images/default_card.png");
+		}
+
+		private void stockUp(object sender, System.Windows.RoutedEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+		}
+
+		private void activeUp(object sender, System.Windows.RoutedEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+		}
+
+		private void activeDown(object sender, System.Windows.RoutedEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
 		}
 	}
 }

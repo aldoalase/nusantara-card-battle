@@ -1,9 +1,9 @@
 ﻿<Window
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	x:Class="NCB.notification"
+	x:Class="NCB.Notification"
 	x:Name="Window"
-	Title="notification"
+	Title="Notification"
 	Width="340" Height="170" Background="{x:Null}" AllowsTransparency="True" WindowStyle="None">
 	<Window.Resources>
 		<Style x:Key="okButton" TargetType="{x:Type Button}">
@@ -39,8 +39,8 @@
 	</Window.Triggers>
 
 	<Grid x:Name="LayoutRoot">
-		<Image Source="images/notification.png" Stretch="Fill"/>
+		<Image Source="images/Notification.png" Stretch="Fill"/>
 		<TextBlock x:Name="pesan" Height="32" Margin="53,34,55,0" TextWrapping="Wrap" Text="pesan yang ingin ditulis" VerticalAlignment="Top"/>
-		<Button x:Name="okButton" Content="Button" Height="30" Margin="122,0,118,19" Style="{DynamicResource okButton}" VerticalAlignment="Bottom" Width="100" Cursor="Hand"/>
+		<Button x:Name="okButton" Content="Button" Height="30" Margin="122,0,118,19" Style="{DynamicResource okButton}" VerticalAlignment="Bottom" Width="100" Cursor="Hand" Click="okButton_Click" />
 	</Grid>
 </Window>
