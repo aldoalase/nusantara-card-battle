@@ -59,7 +59,7 @@ CREATE TABLE `player` (
   `PLAYER_LOSE` int(11) DEFAULT '0',
   `PLAYER_MONEY` decimal(10,0) DEFAULT '0',
   PRIMARY KEY (`PLAYER_ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 /*Table structure for table `player_card` */
 
