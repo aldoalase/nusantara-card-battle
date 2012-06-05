@@ -21,6 +21,9 @@ namespace NCB
 	{
         public MenuWindow parent;
         public Player player;
+        public List<Card> cards = new List<Card>();
+        public List<Card> cardStock = new List<Card>();
+        public List<Card> activeDeck = new List<Card>();
 
         public DeckWindow(MenuWindow _parent, Player _player)
 		{
@@ -28,6 +31,12 @@ namespace NCB
             this.parent = _parent;
             this.player = _player;
 		}
+
+        private void loadCard()
+        {
+            DbConnection conn = new DbConnection();
+            conn.loadPlayerCard(this.player.PLAYER_ID);
+        }
 
 		private void doBack(object sender, System.Windows.RoutedEventArgs e)
 		{

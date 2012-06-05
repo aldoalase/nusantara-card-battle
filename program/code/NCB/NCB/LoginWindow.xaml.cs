@@ -52,32 +52,13 @@ namespace NCB
         private void doLogin(object sender, System.Windows.RoutedEventArgs e)
         {
             DbConnection conn = new DbConnection();
-            var factory = conn.CreateSessionFactory("PlayerMap");
-            Player player = new Player();
-            List<Player> players;
-            using (var session = factory.OpenSession())
-            {
-                players = session.Query<Player>()
-                    .Where(u => u.PLAYER_NAME.Equals(TextBoxUsername.Text))
-                    .Where(p => p.PLAYER_PASSWORD.Equals(TextBoxPassword.Password))
-                    .ToList();
-                /*
-                #simpe query
-                players = session.Query<Player>().ToList();
-                
-                #using HQl
-                IQuery query = session.CreateQuery("FROM Player p WHERE p.PLAYER_NAME = :Name");
-                query.SetParameter("Name", TextBoxUsername.Text);
-                players = query.List<Player>();
-                */
-            }
+            List<Player> players = conn.login(TextBoxUsername.Text, TextBoxPassword.Password);
             if (players.Count == 1)
             {
                 Window menu = new MenuWindow(this, players[0]);
                 menu.Show();
                 this.Hide();
             } else {
-                //MessageBox.Show("invalid username password");
                 Window notify = new Notification("invalid username password");
                 notify.Show();
             }
