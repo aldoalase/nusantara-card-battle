@@ -360,7 +360,7 @@
 		<Button x:Name="UpButtonStock" Content="Button" HorizontalAlignment="Left" Height="48" Margin="262.333,0,0,220" Style="{DynamicResource upButton}" VerticalAlignment="Bottom" Width="60" Cursor="Hand" Click="stockUp"/>
 		<Button x:Name="DownButtonStock" Content="Button" HorizontalAlignment="Left" Height="48" Margin="315.333,0,0,220" Style="{DynamicResource downButton}" VerticalAlignment="Bottom" Width="60" Cursor="Hand" Click="stockDown"/>
 		<Image x:Name="ImageContainerStock" HorizontalAlignment="Left" Margin="242,252,0,298" Width="150"/>
-		<Button x:Name="InsertDeckButton" Content="Button" Height="50" Margin="478,298,446,0" Style="{DynamicResource InsertDeckButton}" VerticalAlignment="Top" Cursor="Hand" RenderTransformOrigin="0.5,0.5">
+		<Button x:Name="InsertDeckButton" Content="Button" Height="50" Margin="478,298,446,0" Style="{DynamicResource InsertDeckButton}" VerticalAlignment="Top" Cursor="Hand" RenderTransformOrigin="0.5,0.5" Click="InsertDeckButton_Click">
 			<Button.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
@@ -370,7 +370,7 @@
 				</TransformGroup>
 			</Button.RenderTransform>
 		</Button>
-		<Button x:Name="InsertStockButton" Content="Button" Margin="478,376,446,342" Style="{DynamicResource InsertStockButton}" RenderTransformOrigin="0.5,0.5" Cursor="Hand">
+		<Button x:Name="InsertStockButton" Content="Button" Margin="478,376,446,342" Style="{DynamicResource InsertStockButton}" RenderTransformOrigin="0.5,0.5" Cursor="Hand" Click="InsertStockButton_Click">
 			<Button.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>

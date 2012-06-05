@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Reflection;
+using NCB.Model;
 using NCB.Library;
 
 namespace NCB
@@ -21,24 +22,37 @@ namespace NCB
 	{
         public MenuWindow parent;
         public Player player;
-        public List<Card> cards = new List<Card>();
-        public List<Card> cardStock = new List<Card>();
-        public List<Card> activeDeck = new List<Card>();
+        public List<Player_Card> cards = new List<Player_Card>();
+        public List<Player_Card> cardStock = new List<Player_Card>();
+        public List<Player_Card> activeDeck = new List<Player_Card>();
+        public int selectedCardStock = 0;
+        public int selectedActiveDeck = 0;
 
         public DeckWindow(MenuWindow _parent, Player _player)
 		{
 			this.InitializeComponent();
             this.parent = _parent;
             this.player = _player;
+
+            this.loadCard(this.player.PLAYER_ID);
 		}
 
-        private void loadCard()
+        private void loadCard(int _playerId)
         {
-            DbConnection conn = new DbConnection();
-            conn.loadPlayerCard(this.player.PLAYER_ID);
+            ModelPlayer_Card mpc = new ModelPlayer_Card();
+            cards = mpc.loadPlayerCard(_playerId);
+            for(int i = 0, j = 0, k = 0; i< cards.Count; i++){
+                if (cards[i].PLAYER_CARD_ACTIVE){
+                    activeDeck[j] = cards[i];
+                    j++;
+                }else{
+                    cardStock[k] = cards[i];
+                    k++;
+                }
+            }
         }
 
-		private void doBack(object sender, System.Windows.RoutedEventArgs e)
+        private void doBack(object sender, System.Windows.RoutedEventArgs e)
 		{
             this.parent.Show();
 			this.Close();
@@ -46,23 +60,52 @@ namespace NCB
 
 		private void stockDown(object sender, System.Windows.RoutedEventArgs e)
 		{
-            ImageLibrary img = new ImageLibrary();
-            ImageContainerStock.Source = img.Load("images/default_card.png");
+            if (selectedCardStock + 1 < cardStock.Count)
+            {
+                selectedCardStock++;
+                ImageLibrary img = new ImageLibrary();
+                ImageContainerStock.Source = img.Load("kartu/" + cardStock[selectedCardStock] + ".png");
+            }
 		}
 
 		private void stockUp(object sender, System.Windows.RoutedEventArgs e)
 		{
-			// TODO: Add event handler implementation here.
+            if (selectedCardStock - 1 > 0)
+            {
+                selectedCardStock--;
+                ImageLibrary img = new ImageLibrary();
+                ImageContainerStock.Source = img.Load("kartu/" + cardStock[selectedCardStock] + ".png");
+            }
 		}
 
 		private void activeUp(object sender, System.Windows.RoutedEventArgs e)
 		{
-			// TODO: Add event handler implementation here.
+            if (selectedActiveDeck - 1 > 0)
+            {
+                selectedActiveDeck--;
+                ImageLibrary img = new ImageLibrary();
+                ImageContainerStock.Source = img.Load("kartu/" + activeDeck[selectedActiveDeck] + ".png");
+            }
 		}
 
 		private void activeDown(object sender, System.Windows.RoutedEventArgs e)
 		{
-			// TODO: Add event handler implementation here.
+            if (selectedActiveDeck + 1 < activeDeck.Count)
+            {
+                selectedActiveDeck++;
+                ImageLibrary img = new ImageLibrary();
+                ImageContainerStock.Source = img.Load("kartu/" + activeDeck[selectedActiveDeck] + ".png");
+            }
 		}
+
+        private void InsertDeckButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void InsertStockButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
 	}
 }
