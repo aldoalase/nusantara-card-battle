@@ -21,6 +21,8 @@ using NHibernate.Linq;
 using MySql.Data.MySqlClient;
 using System.Collections;
 
+using NCB.Library;
+
 namespace NCB
 {
 	/// <summary>
@@ -74,9 +76,10 @@ namespace NCB
                 Window menu = new MenuWindow(this, players[0]);
                 menu.Show();
                 this.Hide();
-            }
-            else {
-                MessageBox.Show("invalid username password");
+            } else {
+                //MessageBox.Show("invalid username password");
+                Window notify = new Notification("invalid username password");
+                notify.Show();
             }
         }
 

@@ -8,7 +8,7 @@ using FluentNHibernate.Cfg.Db;
 using NHibernate;
 using NCB;
 
-namespace NCB
+namespace NCB.Library
 {
     class DbConnection
     {

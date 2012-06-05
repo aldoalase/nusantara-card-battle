@@ -15,13 +15,17 @@ namespace NCB
 	/// <summary>
 	/// Interaction logic for notification.xaml
 	/// </summary>
-	public partial class notification : Window
+	public partial class Notification : Window
 	{
-		public notification()
+        public Notification(String _msg)
 		{
 			this.InitializeComponent();
-			
-			// Insert code required on object creation below this point.
+            pesan.Text = _msg;
 		}
+
+        private void okButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
 	}
 }
