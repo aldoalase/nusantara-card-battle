@@ -41,13 +41,11 @@ namespace NCB
         {
             ModelPlayer_Card mpc = new ModelPlayer_Card();
             cards = mpc.loadPlayerCard(_playerId);
-            for(int i = 0, j = 0, k = 0; i< cards.Count; i++){
+            for(int i = 0; i< cards.Count; i++){
                 if (cards[i].PLAYER_CARD_ACTIVE){
-                    activeDeck[j] = cards[i];
-                    j++;
+                    activeDeck[activeDeck.Count + 1] = cards[i];
                 }else{
-                    cardStock[k] = cards[i];
-                    k++;
+                    cardStock[cardStock.Count + 1] = cards[i];
                 }
             }
         }
