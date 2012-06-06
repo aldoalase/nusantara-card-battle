@@ -33,7 +33,7 @@ namespace NCB
 		public RegisterWindow()
 		{
 			this.InitializeComponent();
-			
+            MouseDown += delegate { DragMove(); };
 			// Insert code required on object creation below this point.
 		}
 

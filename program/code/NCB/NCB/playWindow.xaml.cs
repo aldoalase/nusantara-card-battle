@@ -21,11 +21,10 @@ namespace NCB
 		public PlayWindow()
 		{
 			this.InitializeComponent();
-			
+            
 			// Insert code required on object creation below this point.
-				deckPlayerAnimated.IsEnabled = false;
-				
-		
+            deckPlayerAnimated.IsEnabled = false;
+            MouseDown += delegate { DragMove(); };
 		}
 
 		private void PlayButton_Click(object sender, System.Windows.RoutedEventArgs e)

@@ -184,7 +184,9 @@
     <None Include="Application.ico">
       <Visible>false</Visible>
     </None>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="images\arrow down.png" />
