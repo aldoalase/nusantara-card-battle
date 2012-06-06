@@ -44,7 +44,7 @@ namespace NCB
         public void updatepass()
         {
             ModelPlayer mp = new ModelPlayer();
-            mp.UpdatePass(player, passbox.Password);
+            mp.UpdatePass(player, passbox.Password);    
             /*
              * mu operasi yg ada hubungannya sama db tak pindah ke model ya
             DbConnection conn = new DbConnection();
@@ -61,6 +61,7 @@ namespace NCB
             }
             */
         }
+
 
 	}
 }
