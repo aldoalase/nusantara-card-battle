@@ -51,3 +51,5 @@ C:\Users\spondbob\Documents\Visual Studio 2010\Projects\nusantara-card-battle\pr
 C:\Users\spondbob\Documents\Visual Studio 2010\Projects\nusantara-card-battle\program\code\NusantaraCardBattle\NusantaraCardBattle\obj\x86\Debug\NusantaraCardBattle.Properties.Resources.resources
 C:\Users\spondbob\Documents\Visual Studio 2010\Projects\nusantara-card-battle\program\code\NusantaraCardBattle\NusantaraCardBattle\obj\x86\Debug\NusantaraCardBattle.csproj.GenerateResource.Cache
 C:\Users\spondbob\Documents\Visual Studio 2010\Projects\nusantara-card-battle\program\code\NusantaraCardBattle\NusantaraCardBattle\bin\Debug\mysql.data.dll
+C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NusantaraCardBattle\NusantaraCardBattle\obj\x86\Debug\NusantaraCardBattle.exe
+C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NusantaraCardBattle\NusantaraCardBattle\obj\x86\Debug\NusantaraCardBattle.pdb

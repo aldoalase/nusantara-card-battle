@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using NCB.Library;
 using NHibernate.Linq;
+
 namespace NCB.Model
 {
     class ModelPlayer : DbConnection
@@ -44,6 +45,24 @@ namespace NCB.Model
                 {
                     p = session.Get<Player>(p.PLAYER_ID);
                     p.PLAYER_PASSWORD = _password;
+                    tx.Commit();
+                }
+            }
+        }
+
+        public void RegisterPlayer(string _newuser, string _newPassword)
+        {
+            var factory = this.CreateSessionFactory("PlayerMap");
+            using (var session = factory.OpenSession())
+            {
+                using (var tx = session.BeginTransaction())
+                {
+                    var player = new Player { 
+                        PLAYER_NAME = _newuser, 
+                        PLAYER_PASSWORD = _newPassword 
+                    };
+
+                    session.Save(player);
                     tx.Commit();
                 }
             }

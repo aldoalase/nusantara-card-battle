@@ -51,7 +51,7 @@
 		<TextBox x:Name="InputUsername" Height="22" Margin="155,240,168,0" TextWrapping="Wrap" Text="username" VerticalAlignment="Top"/>
 		<TextBox x:Name="InputPassword" Height="24" Margin="155,280,168,0" TextWrapping="Wrap" Text="password" VerticalAlignment="Top"/>
 		<TextBox Margin="155,324,168,331.5" TextWrapping="Wrap" Text="re-input password"/>
-		<Button x:Name="CreateButton" Content="" Height="50" Margin="173,0,178,260.5" Style="{DynamicResource createButon}" VerticalAlignment="Bottom"/>
+		<Button x:Name="CreateButton" Content="" Height="50" Margin="173,0,178,260.5" Style="{DynamicResource createButon}" VerticalAlignment="Bottom" Click="create_button"/>
 		<TextBlock Height="29" Margin="178,194,205,0" TextWrapping="Wrap" Text="CREATE USER" VerticalAlignment="Top" FontSize="18.667" Foreground="#FF513E0F"/>
 		<Button x:Name="CancelButton" Content="Button" Height="50" Margin="170,0,171,213.5" Style="{DynamicResource CancelButton}" VerticalAlignment="Bottom"/>
 	</Grid>
