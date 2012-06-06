@@ -37,9 +37,6 @@ namespace NCB
 
 		private void doBack(object sender, System.Windows.RoutedEventArgs e)
 		{
-            this.updatepass();
-            Window notify = new Notification("password updated");
-            notify.Show();
             this.parent.Show();
 			this.Close();
 		}
