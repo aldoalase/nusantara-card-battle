@@ -215,5 +215,7 @@
 		<TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="34" Margin="76.5,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="74" FontSize="24"><Run Language="id-id" Text="GOLD:"/></TextBlock>
 		<TextBlock HorizontalAlignment="Left" Height="41.5" Margin="154.5,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167.5" FontSize="24" Foreground="#FF513F0F"><Run Language="id-id" Text="99999"/></TextBlock>
 		<Button x:Name="BackButton" Content="Button" Height="50" Margin="431,0,443,41.5" Style="{DynamicResource BackButton}" VerticalAlignment="Bottom" Click="doBack"/>
+		<Image x:Name="cardPreviewSmall" HorizontalAlignment="Left" Margin="342.5,249,0,301" Width="150"/>
+		<Image x:Name="cardPreviewBig" HorizontalAlignment="Right" Margin="0,175.5,148,192.5" Width="276"/>
 	</Grid>
 </Window>

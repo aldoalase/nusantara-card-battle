@@ -35,6 +35,7 @@ namespace NCB
             this.player = _player;
 
             this.loadCard(this.player.PLAYER_ID);
+            MouseDown += delegate { DragMove(); };
 		}
 
         private void loadCard(int _playerId)
@@ -82,7 +83,7 @@ namespace NCB
             {
                 selectedActiveDeck--;
                 ImageLibrary img = new ImageLibrary();
-                ImageContainerStock.Source = img.Load("kartu/" + activeDeck[selectedActiveDeck] + ".png");
+                ImageContainerDeck.Source = img.Load("kartu/" + activeDeck[selectedActiveDeck] + ".png");
             }
 		}
 
@@ -92,7 +93,7 @@ namespace NCB
             {
                 selectedActiveDeck++;
                 ImageLibrary img = new ImageLibrary();
-                ImageContainerStock.Source = img.Load("kartu/" + activeDeck[selectedActiveDeck] + ".png");
+                ImageContainerDeck.Source = img.Load("kartu/" + activeDeck[selectedActiveDeck] + ".png");
             }
 		}
 
