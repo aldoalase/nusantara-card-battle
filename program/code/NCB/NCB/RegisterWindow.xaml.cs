@@ -21,6 +21,8 @@ using NHibernate.Linq;
 using MySql.Data.MySqlClient;
 using System.Collections;
 
+using RandomPassword;
+
 using NCB.Model;
 
 namespace NCB
@@ -30,19 +32,39 @@ namespace NCB
 	/// </summary>
 	public partial class RegisterWindow : Window
 	{
+        
 		public RegisterWindow()
 		{
 			this.InitializeComponent();
-            MouseDown += delegate { DragMove(); };
+            
 			// Insert code required on object creation below this point.
 		}
 
 		private void create_button(object sender, System.Windows.RoutedEventArgs e)
 		{
             ModelPlayer mp = new ModelPlayer();
-            mp.RegisterPlayer(InputUsername.Text, InputPassword.Text);
+            GeneratePassword dummy = new GeneratePassword();
+            string simpan = dummy.generatorPassword();
+            MessageBox.Show("pass anda adalah"+simpan);
+            mp.RegisterPlayer(InputUsername.Text,simpan);
             Window notify = new Notification("berhasil");
             notify.Show();
+			// TODO: Add event handler implementation here.
+		}
+
+        //private void cancel_button(object sender, System.Windows.RoutedEventArgs e)
+        //{
+        //    LoginWindow login = new LoginWindow();
+        //    this.Hide();
+        //    login.Show();
+        //    // TODO: Add event handler implementation here.
+        //}
+
+		private void cancel_button(object sender, System.Windows.RoutedEventArgs e)
+		{
+            LoginWindow login = new LoginWindow();
+            this.Hide();
+            login.Show();
 			// TODO: Add event handler implementation here.
 		}
 	}

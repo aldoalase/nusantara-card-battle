@@ -564,14 +564,14 @@
 		<Button x:Name="skipButton" Content="Button" HorizontalAlignment="Right" Height="50" Margin="0,0,35.5,90.5" Style="{DynamicResource skipButton}" VerticalAlignment="Bottom" Width="150" Cursor="Hand"/>
 		<Button x:Name="cancelButton" Content="Button" HorizontalAlignment="Right" Height="50" Margin="0,0,35.5,42.5" Style="{DynamicResource cancelButton}" VerticalAlignment="Bottom" Width="150" Cursor="Hand"/>
 		<Image x:Name="hand1" HorizontalAlignment="Left" Height="105" Margin="216,0,0,42.5" VerticalAlignment="Bottom" Width="70" Source="images/gajah mada small.png"/>
-		<Image x:Name="hand2" HorizontalAlignment="Left" Height="105" Margin="304.5,0,0,42.5" VerticalAlignment="Bottom" Width="70" Source="images/gajah mada small.png"/>
+		<Image x:Name="hand2" HorizontalAlignment="Left" Height="105" Margin="304.5,0,0,42.5" VerticalAlignment="Bottom" Width="70" Source="gajah mada small.png"/>
 		<Image x:Name="hand3" HorizontalAlignment="Left" Height="105" Margin="393,0,0,42.5" VerticalAlignment="Bottom" Width="70" Source="gajah mada small.png"/>
 		<Image x:Name="hand4" Height="105" Margin="483,0,471,42.5" VerticalAlignment="Bottom" Source="gajah mada small.png"/>
 		<Image x:Name="hand5" Height="105" Margin="0,0,382.5,42.5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="70" Source="gajah mada small.png"/>
 		<Image x:Name="hand6" Height="105" Margin="0,0,294,42.5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="70" Source="gajah mada small.png"/>
 		<Image x:Name="hand7" Height="105" Margin="0,0,205.5,42.5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="70" Source="gajah mada small.png"/>
 		<Image x:Name="ImageLarge" HorizontalAlignment="Left" Height="218" Margin="39,0,0,36.5" VerticalAlignment="Bottom" Width="150" Source="gajah mada small.png"/>
-		<Button x:Name="hand1Button" Content="" HorizontalAlignment="Left" Height="105" Margin="216,0,0,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" Width="70" RenderTransformOrigin="0.5,0.5" Cursor="Hand" Click="Hand1_click">
+		<Button x:Name="hand1Button" Content="" HorizontalAlignment="Left" Height="105" Margin="216,0,0,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" Width="70" RenderTransformOrigin="0.5,0.5" Cursor="Hand">
 			<Button.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
@@ -661,7 +661,7 @@
 				</TransformGroup>
 			</Image.RenderTransform>
 		</Image>
-		<Image x:Name="deckPlayer" Height="105" Margin="0,0,205.5,186" VerticalAlignment="Bottom" Source="images/default_card.png" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70">
+		<Image x:Name="deckPlayer" Height="105" Margin="0,0,205.5,186" VerticalAlignment="Bottom" Source="default_card.png" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70">
 			<Image.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
@@ -671,7 +671,7 @@
 				</TransformGroup>
 			</Image.RenderTransform>
 		</Image>
-		<Image x:Name="deckPlayerAnimated" Height="105" Margin="0,0,206.166,186.834" VerticalAlignment="Bottom" Source="images/default_card.png" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70">
+		<Image x:Name="deckPlayerAnimated" Height="105" Margin="0,0,206.166,186.834" VerticalAlignment="Bottom" Source="default_card.png" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70">
 			<Image.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>

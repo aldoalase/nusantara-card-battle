@@ -38,7 +38,7 @@ namespace NCB.Model
 
         public void UpdatePass(Player p, string _password)
         {
-            var factory = this.CreateSessionFactory("PlayerMap");
+            var factory = this.CreateSessionFactory("Player_CardMap");
             using (var session = factory.OpenSession())
             {
                 using (var tx = session.BeginTransaction())

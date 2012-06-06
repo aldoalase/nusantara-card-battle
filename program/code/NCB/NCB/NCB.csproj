@@ -184,9 +184,7 @@
     <None Include="Application.ico">
       <Visible>false</Visible>
     </None>
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="images\arrow down.png" />
@@ -246,6 +244,12 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RandomPassword\RandomPassword.csproj">
+      <Project>{27496FAF-9A3F-4E74-A964-0FC8842D8468}</Project>
+      <Name>RandomPassword</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath32)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -24,7 +24,6 @@ namespace NCB
 			this.InitializeComponent();
             this.parent = _parent;
             this.player = _player;
-            MouseDown += delegate { DragMove(); };
 		}
 
 		private void doLogout(object sender, System.Windows.RoutedEventArgs e)
