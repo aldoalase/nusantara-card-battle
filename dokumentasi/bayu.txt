@@ -22,6 +22,4 @@ rizki:
 muhammad :
  - form untuk register
  - tombol save di form profile.
- - di profile, utk username, loss, win, itu dikasih textbox aja
-   tapi ntr textboxnya diset biar gak bisa diinput.
-   jadi valuenya bisa langsung ditampilkan.
+ - form register tombolnya tolong dikasih efek
