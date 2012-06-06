@@ -33,7 +33,7 @@ namespace NCB
         public LoginWindow()
         {
             this.InitializeComponent();
-            MouseDown += delegate { DragMove(); };
+
             // Insert code required on object creation below this point.
         }
 
@@ -66,7 +66,10 @@ namespace NCB
 
         private void do_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-            
+            RegisterWindow register = new RegisterWindow();
+
+            this.Hide();
+            register.Show();
         	// TODO: Add event handler implementation here.
         }
 
