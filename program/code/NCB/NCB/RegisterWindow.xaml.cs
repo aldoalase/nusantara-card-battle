@@ -43,12 +43,12 @@ namespace NCB
 		private void create_button(object sender, System.Windows.RoutedEventArgs e)
 		{
             ModelPlayer mp = new ModelPlayer();
-            GeneratePassword dummy = new GeneratePassword();
-            string simpan = dummy.generatorPassword();
-            MessageBox.Show("pass anda adalah"+simpan);
-            mp.RegisterPlayer(InputUsername.Text,simpan);
-            Window notify = new Notification("berhasil");
+            GeneratePassword gp = new GeneratePassword();
+            string simpan = gp.generatorPassword();
+            Window notify = new Notification("password anda adalah : " + simpan);
             notify.Show();
+            mp.RegisterPlayer(InputUsername.Text,simpan);
+            
 			// TODO: Add event handler implementation here.
 		}
 
