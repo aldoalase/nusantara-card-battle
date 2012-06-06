@@ -24,9 +24,9 @@ namespace NCB
         public Player player;
         public List<Player_Card> cards = new List<Player_Card>();
         public List<Player_Card> cardStock = new List<Player_Card>();
-        public List<Player_Card> cardDeck = new List<Player_Card>();
-        public int activeCardStock = 0;
-        public int activeCardDeck = 0;
+        public List<Player_Card> activeDeck = new List<Player_Card>();
+        public int selectedCardStock = 0;
+        public int selectedActiveDeck = 0;
 
         public DeckWindow(MenuWindow _parent, Player _player)
 		{
@@ -41,9 +41,9 @@ namespace NCB
         {
             ModelPlayer_Card mpc = new ModelPlayer_Card();
             cards = mpc.loadPlayerCard(_playerId);
-            for(int i = 0; i < cards.Count; i++){
+            for(int i = 0; i< cards.Count; i++){
                 if (cards[i].PLAYER_CARD_ACTIVE){
-                    cardDeck[cardDeck.Count + 1] = cards[i];
+                    activeDeck[activeDeck.Count + 1] = cards[i];
                 }else{
                     cardStock[cardStock.Count + 1] = cards[i];
                 }
@@ -58,41 +58,41 @@ namespace NCB
 
 		private void stockDown(object sender, System.Windows.RoutedEventArgs e)
 		{
-            if (activeCardStock + 1 < cardStock.Count)
+            if (selectedCardStock + 1 < cardStock.Count)
             {
-                activeCardStock++;
+                selectedCardStock++;
                 ImageLibrary img = new ImageLibrary();
-                ImageContainerStock.Source = img.Load("kartu/" + cardStock[activeCardStock] + ".png");
+                ImageContainerStock.Source = img.Load("kartu/" + cardStock[selectedCardStock] + ".png");
             }
 		}
 
 		private void stockUp(object sender, System.Windows.RoutedEventArgs e)
 		{
-            if (activeCardStock - 1 > 0)
+            if (selectedCardStock - 1 > 0)
             {
-                activeCardStock--;
+                selectedCardStock--;
                 ImageLibrary img = new ImageLibrary();
-                ImageContainerStock.Source = img.Load("kartu/" + cardStock[activeCardStock] + ".png");
+                ImageContainerStock.Source = img.Load("kartu/" + cardStock[selectedCardStock] + ".png");
             }
 		}
 
 		private void activeUp(object sender, System.Windows.RoutedEventArgs e)
 		{
-            if (activeCardDeck - 1 > 0)
+            if (selectedActiveDeck - 1 > 0)
             {
-                activeCardDeck--;
+                selectedActiveDeck--;
                 ImageLibrary img = new ImageLibrary();
-                ImageContainerStock.Source = img.Load("kartu/" + cardDeck[activeCardDeck] + ".png");
+                ImageContainerStock.Source = img.Load("kartu/" + activeDeck[selectedActiveDeck] + ".png");
             }
 		}
 
 		private void activeDown(object sender, System.Windows.RoutedEventArgs e)
 		{
-            if (activeCardDeck + 1 < cardDeck.Count)
+            if (selectedActiveDeck + 1 < activeDeck.Count)
             {
-                activeCardDeck++;
+                selectedActiveDeck++;
                 ImageLibrary img = new ImageLibrary();
-                ImageContainerStock.Source = img.Load("kartu/" + cardDeck[activeCardDeck] + ".png");
+                ImageContainerStock.Source = img.Load("kartu/" + activeDeck[selectedActiveDeck] + ".png");
             }
 		}
 
