@@ -33,6 +33,8 @@ namespace NCB
 			this.InitializeComponent();
             this.parent = _parent;
             this.player = _player;
+
+            showDetail();
 		}
 
 		private void doBack(object sender, System.Windows.RoutedEventArgs e)
@@ -44,7 +46,7 @@ namespace NCB
         public void updatepass()
         {
             ModelPlayer mp = new ModelPlayer();
-            mp.UpdatePass(player, passbox.Password);    
+            mp.UpdatePass(player, passbox.Password);
             /*
              * mu operasi yg ada hubungannya sama db tak pindah ke model ya
             DbConnection conn = new DbConnection();
@@ -60,6 +62,14 @@ namespace NCB
                 }
             }
             */
+        }
+
+        public void showDetail()
+        {
+            userPlayer.Text = player.PLAYER_NAME.ToString();
+            winPlayer.Text = player.PLAYER_WIN.ToString();
+            losePlayer.Text = player.PLAYER_LOSE.ToString();
+            moneyPlayer.Text = player.PLAYER_MONEY.ToString();
         }
 
 
