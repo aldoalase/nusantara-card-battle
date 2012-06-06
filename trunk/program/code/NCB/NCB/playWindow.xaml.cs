@@ -42,5 +42,10 @@ namespace NCB
 			Storyboard sb = this.FindResource("kuburanPlayerLoaded") as Storyboard;
         	sb.Begin();
 		}
+
+		private void Hand1_click(object sender, System.Windows.RoutedEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+		}
 	}
 }
