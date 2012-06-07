@@ -17,6 +17,9 @@ rizki:
 -sediakan satu gambar default (v)
 -bikin window untuk error message
 
+07/06/2012 18:14
+- window shop bikin satu display big aja
+- tambah button oke buat pilih kategori
 
 ---------------request------------------
 muhammad :
