@@ -26,8 +26,8 @@ namespace NCB
         public List<Player_Card> cards = new List<Player_Card>();
         public List<Player_Card> cardStock = new List<Player_Card>();
         public List<Player_Card> activeDeck = new List<Player_Card>();
-        public int selectedCardStock = 0;
-        public int selectedActiveDeck = 0;
+        private int selectedCardStock = 0;
+        private int selectedActiveDeck = 0;
 
         public DeckWindow(MenuWindow _parent, Player _player)
 		{
