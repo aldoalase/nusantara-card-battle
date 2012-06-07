@@ -4,23 +4,50 @@ using System.Linq;
 using System.Text;
 using NCB.Library;
 using NHibernate.Linq;
+using NHibernate;
 
 namespace NCB.Model
 {
     class ModelPlayer_Card : DbConnection
     {
+        public ISessionFactory factory;
+        public ModelPlayer_Card()
+        {
+            this.factory = this.CreateSessionFactory("Player_CardMap");
+        }
+
         /* load player's card */
-        public List<Player_Card> loadPlayerCard(int playerId)
+        public List<Player_Card> LoadPlayerCard(int playerId)
         {
             List<Player_Card> listCard = new List<Player_Card>();
-            var factory = this.CreateSessionFactory("Player_CardMap");
-            using (var session = factory.OpenSession())
+            using (var session = this.factory.OpenSession())
             {
                 listCard = session.Query<Player_Card>()
                     .Where(u => u.Player.PLAYER_ID == playerId)
                     .ToList();
             }
             return listCard;
+        }
+
+        public bool Process(String process, Player_Card current)
+        {
+            using (var session = this.factory.OpenSession())
+            {
+                using (var transaction = session.BeginTransaction())
+                {
+                    switch (process)
+                    {
+                        case "save" :
+                            session.Save(current);
+                            break;
+                        case "update" :
+                            session.Update(current);
+                            break;
+                    }
+                    transaction.Commit();
+                }
+            }
+            return true;
         }
     }
 }
