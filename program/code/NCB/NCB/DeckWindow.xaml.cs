@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Reflection;
+using System.Linq;
 using NCB.Model;
 using NCB.Library;
 
@@ -42,6 +43,9 @@ namespace NCB
         {
             ModelPlayer_Card mpc = new ModelPlayer_Card();
             cards = mpc.loadPlayerCard(_playerId);
+            activeDeck = cards.Where(item => item.PLAYER_CARD_ACTIVE).ToList();
+            cardStock = cards.Where(item => !item.PLAYER_CARD_ACTIVE).ToList();
+            /*
             for(int i = 0; i< cards.Count; i++){
                 if (cards[i].PLAYER_CARD_ACTIVE){
                     activeDeck[activeDeck.Count + 1] = cards[i];
@@ -49,6 +53,7 @@ namespace NCB
                     cardStock[cardStock.Count + 1] = cards[i];
                 }
             }
+            */
         }
 
         private void doBack(object sender, System.Windows.RoutedEventArgs e)
@@ -62,28 +67,31 @@ namespace NCB
             if (selectedCardStock + 1 < cardStock.Count)
             {
                 selectedCardStock++;
+                String cardId = cardStock[selectedCardStock].PLAYER_CARD_ID.ToString();
                 ImageLibrary img = new ImageLibrary();
-                ImageContainerStock.Source = img.Load("kartu/" + cardStock[selectedCardStock] + ".png");
+                ImageContainerStock.Source = img.Load("kartu/" + cardId + ".png");
             }
 		}
 
 		private void stockUp(object sender, System.Windows.RoutedEventArgs e)
 		{
-            if (selectedCardStock - 1 > 0)
+            if (selectedCardStock - 1 >= 0)
             {
                 selectedCardStock--;
+                String cardId = cardStock[selectedCardStock].PLAYER_CARD_ID.ToString();
                 ImageLibrary img = new ImageLibrary();
-                ImageContainerStock.Source = img.Load("kartu/" + cardStock[selectedCardStock] + ".png");
+                ImageContainerStock.Source = img.Load("kartu/" + cardId + ".png");
             }
 		}
 
 		private void activeUp(object sender, System.Windows.RoutedEventArgs e)
 		{
-            if (selectedActiveDeck - 1 > 0)
+            if (selectedActiveDeck - 1 >= 0)
             {
                 selectedActiveDeck--;
+                String cardId = activeDeck[selectedActiveDeck].PLAYER_CARD_ID.ToString();
                 ImageLibrary img = new ImageLibrary();
-                ImageContainerDeck.Source = img.Load("kartu/" + activeDeck[selectedActiveDeck] + ".png");
+                ImageContainerDeck.Source = img.Load("kartu/" + cardId + ".png");
             }
 		}
 
@@ -92,8 +100,9 @@ namespace NCB
             if (selectedActiveDeck + 1 < activeDeck.Count)
             {
                 selectedActiveDeck++;
+                String cardId = activeDeck[selectedActiveDeck].PLAYER_CARD_ID.ToString();
                 ImageLibrary img = new ImageLibrary();
-                ImageContainerDeck.Source = img.Load("kartu/" + activeDeck[selectedActiveDeck] + ".png");
+                ImageContainerDeck.Source = img.Load("kartu/" + cardId + ".png");
             }
 		}
 
