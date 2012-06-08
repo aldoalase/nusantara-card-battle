@@ -44,7 +44,61 @@
 				</Setter.Value>
 			</Setter>
 		</Style>
+		<Storyboard x:Key="CreateButtonEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="CreateButton">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="CreateButtonLeave">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="CreateButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="CreateButtonClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="CreateButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="CancelButtonEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="CancelButton">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="CancelButtonLeave">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="CancelButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="CancelButtonClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="CancelButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
 	</Window.Resources>
+	<Window.Triggers>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="CreateButton">
+			<BeginStoryboard Storyboard="{StaticResource CreateButtonEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="CreateButton">
+			<BeginStoryboard x:Name="CreateButtonLeave_BeginStoryboard" Storyboard="{StaticResource CreateButtonLeave}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="CreateButton">
+			<BeginStoryboard x:Name="CreateButtonClick_BeginStoryboard" Storyboard="{StaticResource CreateButtonClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="CancelButton">
+			<BeginStoryboard x:Name="CancelButtonEnter_BeginStoryboard" Storyboard="{StaticResource CancelButtonEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="CancelButton">
+			<BeginStoryboard x:Name="CreateButtonLeave_BeginStoryboard1" Storyboard="{StaticResource CreateButtonLeave}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="CancelButton">
+			<BeginStoryboard x:Name="CancelButtonClick_BeginStoryboard" Storyboard="{StaticResource CancelButtonClick}"/>
+		</EventTrigger>
+	</Window.Triggers>
 
 	<Grid x:Name="LayoutRoot">
 		<Image Margin="-3,0,8,18.5" Source="images/login interfacev3.png" Stretch="Fill"/>
