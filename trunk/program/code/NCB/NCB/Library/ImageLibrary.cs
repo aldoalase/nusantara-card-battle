@@ -21,12 +21,13 @@ namespace NCB.Library
             {
                 pathInApplication = pathInApplication.Substring(1);
             }
-            
-            String path = @"pack://application:,,,/" + assembly.GetName().Name + ";component/" + pathInApplication;
-            if(!File.Exists(path)){
-                path = @"pack://application:,,,/" + assembly.GetName().Name + ";component/images/default_card.png";
+            //string path = Directory.GetCurrentDirectory();
+            //MessageBox.Show(path);
+            //String path = @"pack://application:,,,/" + assembly.GetName().Name + ";component/" + pathInApplication;
+            if(!File.Exists(pathInApplication)){
+                pathInApplication = "images/default_card.png";
             }
-            return new BitmapImage(new Uri(path, UriKind.Absolute));
+            return new BitmapImage(new Uri(@"pack://application:,,,/" + assembly.GetName().Name + ";component/" + pathInApplication, UriKind.Absolute));
         }
 
         public void Save()
