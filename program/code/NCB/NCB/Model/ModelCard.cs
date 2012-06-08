@@ -7,7 +7,7 @@ using NHibernate.Linq;
 namespace NCB.Model
 {
     class ModelCard : DbConnection
-    {
+    { 
         public List<Card> loadCards()
         {
             List<Card> listCard = new List<Card>();
