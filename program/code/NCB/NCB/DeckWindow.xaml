@@ -350,14 +350,12 @@
 		<Image Source="images/deck window.png" Stretch="Fill" OpacityMask="Black"/>
 		<Rectangle Fill="#FF513F0F" HorizontalAlignment="Right" Margin="0,230,196,274" Stroke="Black" Width="192"/>
 		<Rectangle Fill="#FFB6B0A0" HorizontalAlignment="Right" Margin="0,252,216,298" Stroke="Black" Width="150" Height="218"/>
-		<Label Content="ACTIVE DECK" HorizontalAlignment="Right" Height="34" Margin="0,193,203,0" VerticalAlignment="Top" Width="150" FontSize="18.667" OpacityMask="Black" Foreground="#FF513E0F"/>
-		<Button x:Name="UpButtonDeck" Content="Button" HorizontalAlignment="Right" Height="48" Margin="0,0,285.667,220" Style="{DynamicResource upButton}" VerticalAlignment="Bottom" Width="60" Cursor="Hand" Click="activeUp"/>
+        <Button x:Name="UpButtonDeck" Content="Button" HorizontalAlignment="Right" Height="48" Margin="0,0,285.667,220" Style="{DynamicResource upButton}" VerticalAlignment="Bottom" Width="60" Cursor="Hand" Click="activeUp"/>
 		<Button x:Name="DownButtonDeck" Content="Button" HorizontalAlignment="Right" Height="48" Margin="0,0,232.667,220" Style="{DynamicResource downButton}" VerticalAlignment="Bottom" Width="60" Cursor="Hand" Click="activeDown"/>
 		<Image x:Name="ImageContainerDeck" HorizontalAlignment="Right" Margin="0,252,216,298" Width="150"/>
 		<Rectangle Fill="#FF513F0F" HorizontalAlignment="Left" Margin="220,230,0,274" Stroke="Black" Width="192"/>
 		<Rectangle Fill="#FFB6B0A0" HorizontalAlignment="Left" Margin="242,252,0,298" Stroke="Black" Width="150" Height="218"/>
-		<Label Content="CARD STOCK" HorizontalAlignment="Left" Height="34" Margin="249,193,0,0" VerticalAlignment="Top" Width="150" FontSize="18.667" OpacityMask="Black" Foreground="#FF513E0F"/>
-		<Button x:Name="UpButtonStock" Content="Button" HorizontalAlignment="Left" Height="48" Margin="262.333,0,0,220" Style="{DynamicResource upButton}" VerticalAlignment="Bottom" Width="60" Cursor="Hand" Click="stockUp"/>
+        <Button x:Name="UpButtonStock" Content="Button" HorizontalAlignment="Left" Height="48" Margin="262.333,0,0,220" Style="{DynamicResource upButton}" VerticalAlignment="Bottom" Width="60" Cursor="Hand" Click="stockUp"/>
 		<Button x:Name="DownButtonStock" Content="Button" HorizontalAlignment="Left" Height="48" Margin="315.333,0,0,220" Style="{DynamicResource downButton}" VerticalAlignment="Bottom" Width="60" Cursor="Hand" Click="stockDown"/>
 		<Image x:Name="ImageContainerStock" HorizontalAlignment="Left" Margin="242,252,0,298" Width="150"/>
 		<Button x:Name="InsertDeckButton" Content="Button" Height="50" Margin="478,298,446,0" Style="{DynamicResource InsertDeckButton}" VerticalAlignment="Top" Cursor="Hand" RenderTransformOrigin="0.5,0.5" Click="InsertDeckButton_Click">
@@ -391,5 +389,7 @@
 			</Button.RenderTransform>
 		</Button>
 		<Button x:Name="BackButton" Content="Button" Height="50" Margin="431,0,443,41.5" Style="{DynamicResource BackButton}" VerticalAlignment="Bottom" Click="doBack"/>
-	</Grid>
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="266,188,0,0" Name="cardStockText" Text="CARD STOCK" VerticalAlignment="Top" FontSize="20" />
+        <TextBlock Height="23" HorizontalAlignment="Right" Margin="0,188,233,0" Name="activeDeckText" Text="ACTIVE DECK" VerticalAlignment="Top" FontSize="20" />
+    </Grid>
 </Window>
