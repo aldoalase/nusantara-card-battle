@@ -5,24 +5,24 @@ membuat rancangan alur umum berjalannya program (v)
 revisi database setelah demo (v)
 buat supaya window bisa di drag
 
-playWindow
-image container di semua card place
-animasi kartu ketika diklik
-bikin window commit battle
+playWindow (v)
+image container di semua card place (v)
+animasi kartu ketika diklik (v)
+bikin window commit battle 
 
 
 
 ---------------request------------------
 rizki:
 -sediakan satu gambar default (v)
--bikin window untuk error message
+-bikin window untuk error message (v)
 
 07/06/2012 18:14
-- window shop bikin satu display big aja
-- tambah button oke buat pilih kategori
+- window shop bikin satu display big aja (v)
+- tambah button oke buat pilih kategori (v)
 
 ---------------request------------------
 muhammad :
- - form untuk register
- - tombol save di form profile.
- - form register tombolnya tolong dikasih efek
+ - form untuk register (v)
+ - tombol save di form profile. (v)
+ - form register tombolnya tolong dikasih efek (v)
