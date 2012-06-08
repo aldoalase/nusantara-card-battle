@@ -213,15 +213,14 @@
     <Resource Include="images\profile.png" />
     <Resource Include="images\record.png" />
     <Resource Include="images\register.png" />
+    <Resource Include="images\select.png" />
     <Resource Include="images\sell button.png" />
     <Resource Include="images\shop window.png" />
     <Resource Include="images\shop.png" />
     <Resource Include="images\skip.png" />
     <Resource Include="images\throw.png" />
     <Resource Include="images\waiting menu v3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="kartu\" />
+    <Resource Include="kartu\anusapati.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">

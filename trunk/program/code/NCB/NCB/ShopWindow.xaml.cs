@@ -35,7 +35,7 @@ namespace NCB
             ModelCard mc = new ModelCard();
             cards = mc.loadCards();
             ImageLibrary img = new ImageLibrary();
-            cardPreviewSmall.Source = img.Load("kartu/" + cards[selectedCard] + ".png");
+           // cardPreviewSmall.Source = img.Load("kartu/" + cards[selectedCard] + ".png");
             cardPreviewBig.Source = img.Load("kartu/" + cards[selectedCard] + ".png");
         }
 
