@@ -43,6 +43,42 @@
 				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
 			</DoubleAnimationUsingKeyFrames>
 		</Storyboard>
+		<Style x:Key="save" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image Source="images/save.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Storyboard x:Key="SaveButtonEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="SaveButton">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="SaveButtonLeave">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="SaveButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="SaveButtonClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="SaveButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
 	</Window.Resources>
 	<Window.Triggers>
 		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="BackButton">
@@ -53,6 +89,15 @@
 		</EventTrigger>
 		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="BackButton">
 			<BeginStoryboard x:Name="BackButtonClick_BeginStoryboard" Storyboard="{StaticResource BackButtonClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="SaveButton">
+			<BeginStoryboard x:Name="SaveButtonEnter_BeginStoryboard" Storyboard="{StaticResource SaveButtonEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="SaveButton">
+			<BeginStoryboard x:Name="SaveButtonLeave_BeginStoryboard" Storyboard="{StaticResource SaveButtonLeave}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="SaveButton">
+			<BeginStoryboard x:Name="SaveButtonClick_BeginStoryboard" Storyboard="{StaticResource SaveButtonClick}"/>
 		</EventTrigger>
 	</Window.Triggers>
 
@@ -75,5 +120,6 @@
 		<Rectangle Grid.Column="1" Fill="#FF513E0F" Margin="394.84,199.5,109,259.5" Stroke="Black" Height="300"/>
 		<PasswordBox Grid.Column="1" Margin="0,224.5,129,283.5" Height="260" HorizontalAlignment="Right" Width="260"/>
 		<Button x:Name="BackButton" Content="Button" Height="50" Margin="210.84,0,0,41.5" Style="{DynamicResource BackButton}" VerticalAlignment="Bottom" Grid.Column="1" HorizontalAlignment="Left" Width="150" Click="doBack"/>
+		<Button x:Name="SaveButton" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Height="50" Margin="210.84,0,0,95.5" Style="{DynamicResource save}" VerticalAlignment="Bottom" Width="150" Cursor="Hand"/>
 	</Grid>
 </Window>
