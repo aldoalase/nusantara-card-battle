@@ -57,7 +57,7 @@ namespace NCB
             cardStock = cards.Where(item => !item.PLAYER_CARD_ACTIVE).ToList();
             cardStockCount = cardStock.Count;
             activeDeckCount = activeDeck.Count;
-
+            MessageBox.Show(cardStock[selectedCardStock].Card.CARD_NAME.ToString());
             ImageLibrary img = new ImageLibrary();
             if (activeDeckCount == 0) {
                 ImageContainerDeck.Source = img.Load("images/default_card.png");
@@ -154,28 +154,48 @@ namespace NCB
         {
             //set current stock to active -> send to deck
             if (cardStock.Count > 0 && activeDeck.Count < maxDeck)
-                this.Process(cardStock[selectedCardStock], true);
+            {
+                cardStock[selectedCardStock].PLAYER_CARD_ACTIVE = true;
+                this.Process("update", cardStock[selectedCardStock]);
+            }
         }
 
         private void InsertStockButton_Click(object sender, RoutedEventArgs e)
         {
             //set current deck to inactive -> send to stock
-            if(activeDeck.Count > 0)
-                this.Process(activeDeck[selectedActiveDeck], false);
+            if (activeDeck.Count > 0)
+            {
+                activeDeck[selectedActiveDeck].PLAYER_CARD_ACTIVE = false;
+                this.Process("update", activeDeck[selectedActiveDeck]);
+            }
         }
 
-        private void Process(Player_Card current, bool val)
+        private void Process(String action, Player_Card current)
         {
-            current.PLAYER_CARD_ACTIVE = val;
-
             ModelPlayer_Card mpc = new ModelPlayer_Card();
-            mpc.Process("update", current);
+            mpc.Process(action, current);
 
             //int _selectedActiveDeck = selectedActiveDeck;
             //int _selectedCardStock = selectedCardStock;
             this.loadCard(this.player.PLAYER_ID);
             //this.selectedActiveDeck = (_selectedActiveDeck > activeDeckCount ? activeDeckCount : _selectedActiveDeck);
             //this.selectedCardStock = (_selectedCardStock > cardStockCount ? cardStockCount : _selectedCardStock);
+        }
+
+        private void SellButton_Click(object sender, RoutedEventArgs e)
+        {
+            double cardPrice = cardStock[selectedCardStock].Card.CARD_PRICE;
+            ModelPlayer_Card mpc = new ModelPlayer_Card();
+            mpc.Process("delete", cardStock[selectedCardStock]);
+
+            ModelPlayer mp = new ModelPlayer();
+            this.player.PLAYER_MONEY = this.player.PLAYER_MONEY + cardPrice;
+            mp.Process("update", this.player);
+
+            this.loadCard(this.player.PLAYER_ID);
+
+            Notification n = new Notification("Your money : " + this.player.PLAYER_MONEY.ToString());
+            n.Show();
         }
 	}
 }
