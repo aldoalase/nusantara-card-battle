@@ -53,5 +53,12 @@ namespace NCB
             Window profile = new ProfileWindow(this, this.player);
 			profile.Show();
 		}
+
+		private void doPlay(object sender, System.Windows.RoutedEventArgs e)
+		{
+			this.Hide();
+            Window waiting = new WaitingRoomWindow(this, this.player);
+            waiting.Show();
+		}
 	}
 }

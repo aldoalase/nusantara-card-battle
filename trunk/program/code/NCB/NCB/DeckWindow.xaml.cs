@@ -57,7 +57,7 @@ namespace NCB
             cardStock = cards.Where(item => !item.PLAYER_CARD_ACTIVE).ToList();
             cardStockCount = cardStock.Count;
             activeDeckCount = activeDeck.Count;
-            MessageBox.Show(cardStock[selectedCardStock].Card.CARD_NAME.ToString());
+            //MessageBox.Show(cardStock[selectedCardStock].Card.CARD_NAME.ToString());
             ImageLibrary img = new ImageLibrary();
             if (activeDeckCount == 0) {
                 ImageContainerDeck.Source = img.Load("images/default_card.png");
