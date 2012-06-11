@@ -28,6 +28,7 @@ namespace NCB
             this.player = _player;
 
             showDetail();
+            MouseDown += delegate { DragMove(); };
 		}
 
 		private void doBack(object sender, System.Windows.RoutedEventArgs e)
