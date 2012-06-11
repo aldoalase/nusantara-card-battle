@@ -21,6 +21,7 @@ namespace NCB
 		{
 			this.InitializeComponent();
             pesan.Text = _msg;
+            MouseDown += delegate { DragMove(); };
 		}
 
         private void okButton_Click(object sender, RoutedEventArgs e)

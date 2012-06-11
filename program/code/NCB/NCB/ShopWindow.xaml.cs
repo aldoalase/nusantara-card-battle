@@ -28,6 +28,7 @@ namespace NCB
 			this.InitializeComponent();
             this.parent = _parent;
             this.player = _player;
+            MouseDown += delegate { DragMove(); };
 		}
 
         private void prepareCards()
