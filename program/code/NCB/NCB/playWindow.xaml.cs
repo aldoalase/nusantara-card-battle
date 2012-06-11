@@ -56,13 +56,34 @@ namespace NCB
         public void reload()
         {
             ImageLibrary img = new ImageLibrary();
-            hand1.Source = img.Load("kartu/" + player1hand[0].CARD_ID.ToString() + ".png");
-            hand2.Source = img.Load("kartu/" + player1hand[1].CARD_ID.ToString() + ".png");
-            hand3.Source = img.Load("kartu/" + player1hand[2].CARD_ID.ToString() + ".png");
-            hand4.Source = img.Load("kartu/" + player1hand[3].CARD_ID.ToString() + ".png");
-            hand5.Source = img.Load("kartu/" + player1hand[4].CARD_ID.ToString() + ".png");
-            hand6.Source = img.Load("kartu/" + player1hand[5].CARD_ID.ToString() + ".png");
-            hand7.Source = img.Load("kartu/" + player1hand[6].CARD_ID.ToString() + ".png");
+            if (player1hand[0].CARD_ID != null)
+            {
+                hand1.Source = img.Load("kartu/" + player1hand[0].CARD_ID.ToString() + ".png");
+            }
+            if (player1hand[1].CARD_ID != null)
+            {
+                hand2.Source = img.Load("kartu/" + player1hand[1].CARD_ID.ToString() + ".png");
+            }
+            if (player1hand[2].CARD_ID != null)
+            {
+                hand3.Source = img.Load("kartu/" + player1hand[2].CARD_ID.ToString() + ".png");
+            }
+            if (player1hand[3].CARD_ID != null)
+            {
+                hand4.Source = img.Load("kartu/" + player1hand[3].CARD_ID.ToString() + ".png");
+            }
+            if (player1hand[4].CARD_ID != null)
+            {
+                hand5.Source = img.Load("kartu/" + player1hand[4].CARD_ID.ToString() + ".png");
+            }
+            if (player1hand[5].CARD_ID != null)
+            {
+                hand6.Source = img.Load("kartu/" + player1hand[5].CARD_ID.ToString() + ".png");
+            }
+            if (player1hand[6].CARD_ID != null)
+            {
+                hand7.Source = img.Load("kartu/" + player1hand[6].CARD_ID.ToString() + ".png");
+            }
         }
 
         public void GetCards()
