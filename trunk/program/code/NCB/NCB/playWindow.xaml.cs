@@ -11,6 +11,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Windows.Media.Animation;
 
+using NCB.Model;
+
 namespace NCB
 {
 	/// <summary>
@@ -18,15 +20,28 @@ namespace NCB
 	/// </summary>
 	public partial class PlayWindow : Window
 	{
-		public PlayWindow()
+	    private Player player1;
+	    private Player player2;
+
+	    private List<Player_Card> player1cards;
+        private List<Player_Card> player2cards;
+		public PlayWindow(Player _player1, Player _player2)
 		{
 			this.InitializeComponent();
-			
+		    player1 = _player1;
+		    player2 = _player2;
 			// Insert code required on object creation below this point.
             deckPlayerAnimated.IsEnabled = false;
             MouseDown += delegate { DragMove(); };
-		
+            GetCards();
 		}
+
+        public void GetCards()
+        {
+            ModelPlayer_Card playerCard = new ModelPlayer_Card();
+            player1cards = playerCard.LoadPlayerCard(player1.PLAYER_ID);
+            player2cards = playerCard.LoadPlayerCard(player2.PLAYER_ID);
+        }
 
 		private void PlayButton_Click(object sender, System.Windows.RoutedEventArgs e)
 		{
