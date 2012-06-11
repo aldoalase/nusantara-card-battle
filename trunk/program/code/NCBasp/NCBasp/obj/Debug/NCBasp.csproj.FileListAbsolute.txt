@@ -1,0 +1,14 @@
+c:\users\muhammad.tigerton-pc\documents\visual studio 2010\Projects\NCBasp\NCBasp\bin\NCBasp.dll
+c:\users\muhammad.tigerton-pc\documents\visual studio 2010\Projects\NCBasp\NCBasp\bin\NCBasp.pdb
+c:\users\muhammad.tigerton-pc\documents\visual studio 2010\Projects\NCBasp\NCBasp\bin\FluentNHibernate.dll
+c:\users\muhammad.tigerton-pc\documents\visual studio 2010\Projects\NCBasp\NCBasp\bin\Iesi.Collections.dll
+c:\users\muhammad.tigerton-pc\documents\visual studio 2010\Projects\NCBasp\NCBasp\bin\mysql.data.dll
+c:\users\muhammad.tigerton-pc\documents\visual studio 2010\Projects\NCBasp\NCBasp\bin\NHibernate.dll
+c:\users\muhammad.tigerton-pc\documents\visual studio 2010\Projects\NCBasp\NCBasp\bin\FluentNHibernate.xml
+c:\users\muhammad.tigerton-pc\documents\visual studio 2010\Projects\NCBasp\NCBasp\bin\Iesi.Collections.xml
+c:\users\muhammad.tigerton-pc\documents\visual studio 2010\Projects\NCBasp\NCBasp\bin\NHibernate.xml
+c:\users\muhammad.tigerton-pc\documents\visual studio 2010\Projects\NCBasp\NCBasp\obj\Debug\ResolveAssemblyReference.cache
+c:\users\muhammad.tigerton-pc\documents\visual studio 2010\Projects\NCBasp\NCBasp\obj\Debug\NCBasp.dll
+c:\users\muhammad.tigerton-pc\documents\visual studio 2010\Projects\NCBasp\NCBasp\obj\Debug\NCBasp.pdb
+C:\Users\Muhammad.TIGERTON-PC\Documents\Visual Studio 2010\Projects\NCBasp\NCBasp\bin\NCBdatabase.dll
+C:\Users\Muhammad.TIGERTON-PC\Documents\Visual Studio 2010\Projects\NCBasp\NCBasp\bin\NCBdatabase.pdb
