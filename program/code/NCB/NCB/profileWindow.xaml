@@ -120,6 +120,6 @@
 		<Rectangle Grid.Column="1" Fill="#FF513E0F" Margin="394.84,199.5,109,259.5" Stroke="Black" Height="300"/>
 		<PasswordBox Grid.Column="1" Margin="0,224.5,129,283.5" Height="260" HorizontalAlignment="Right" Width="260"/>
 		<Button x:Name="BackButton" Content="Button" Height="50" Margin="210.84,0,0,41.5" Style="{DynamicResource BackButton}" VerticalAlignment="Bottom" Grid.Column="1" HorizontalAlignment="Left" Width="150" Click="doBack"/>
-		<Button x:Name="SaveButton" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Height="50" Margin="210.84,0,0,95.5" Style="{DynamicResource save}" VerticalAlignment="Bottom" Width="150" Cursor="Hand"/>
+		<Button x:Name="SaveButton" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Height="50" Margin="210.84,0,0,95.5" Style="{DynamicResource save}" VerticalAlignment="Bottom" Width="150" Cursor="Hand" Click="doSave"/>
 	</Grid>
 </Window>

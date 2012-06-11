@@ -37,25 +37,19 @@ namespace NCB
 			this.Close();
 		}
 
+        private void doSave(object sender, System.Windows.RoutedEventArgs e)
+        {
+            ModelPlayer mp = new ModelPlayer();
+            mp.UpdatePass(player, passbox.Password);
+            Window notify = new Notification("password changed");
+            notify.Show();
+            // TODO: Add event handler implementation here.
+        }
+
         public void updatepass()
         {
             ModelPlayer mp = new ModelPlayer();
             mp.UpdatePass(player, passbox.Password);
-            /*
-             * mu operasi yg ada hubungannya sama db tak pindah ke model ya
-            DbConnection conn = new DbConnection();
-            var factory = conn.CreateSessionFactory("Player_CardMap");
-
-            using (var session = factory.OpenSession())
-            {
-                using (var tx = session.BeginTransaction())
-                {
-                    player = session.Get<Player>(player.PLAYER_ID);
-                    player.PLAYER_PASSWORD = passbox.Password;
-                    tx.Commit();
-                }
-            }
-            */
         }
 
         public void showDetail()
@@ -65,7 +59,5 @@ namespace NCB
             losePlayer.Text = player.PLAYER_LOSE.ToString();
             moneyPlayer.Text = player.PLAYER_MONEY.ToString();
         }
-
-
 	}
 }
