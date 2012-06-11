@@ -121,6 +121,7 @@
     <Compile Include="WaitingRoomWindow.xaml.cs">
       <DependentUpon>WaitingRoomWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="watermark.cs" />
     <Page Include="DeckWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

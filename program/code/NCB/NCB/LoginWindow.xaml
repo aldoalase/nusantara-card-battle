@@ -1,12 +1,14 @@
 ﻿<Window
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:local="clr-namespace:NCB" mc:Ignorable="d"
 	x:Class="NCB.LoginWindow"
 	x:Name="Window"
 	Title="LoginWindow"
 	Width="501" Height="679.5" Background="{x:Null}" Visibility="Visible" AllowsTransparency="True" WindowStyle="None">
 	<Window.Resources>
+        <local:watermark x:Key="watermark" />
         <Style x:Key="ButtonRegister" TargetType="{x:Type Button}">
 			<Setter Property="Template">
 				<Setter.Value>
@@ -148,8 +150,25 @@
 
 	<Grid x:Name="LayoutRoot" Margin="13,0,-8,-38">
 		<Image Margin="-8,8,8,48.5" Source="images/login interfacev3.png" Stretch="Fill"/>
-		<TextBox x:Name="TextBoxUsername" Margin="154,226,174,0" TextWrapping="Wrap" Text="username" Height="24" VerticalAlignment="Top"/>
-        <PasswordBox x:Name="TextBoxPassword" Margin="154,269,174,0" VerticalAlignment="Top" Password="password"/>
+        <TextBlock Margin="160,226,174,0" Text="username" Foreground="Black" Height="24" VerticalAlignment="Top" >
+                <TextBlock.Visibility>
+                    <MultiBinding Converter="{StaticResource watermark}">
+                        <Binding ElementName="TextBoxUsername" Path="Text.IsEmpty" />
+                        <Binding ElementName="TextBoxUsername" Path="IsFocused" />
+                    </MultiBinding>
+                    </TextBlock.Visibility>
+        </TextBlock>
+        <TextBox x:Name="TextBoxUsername" Background="Transparent" Margin="154,226,174,0" TextWrapping="Wrap"  Height="24" VerticalAlignment="Top"/>
+        <TextBlock Margin="160,269,174,0" Text="password" Foreground="Black" Height="19.8" VerticalAlignment="Top" >
+                <TextBlock.Visibility>
+                    <MultiBinding Converter="{StaticResource watermark}">
+                        <Binding ElementName="TextBoxPassword" Path="Text.IsEmpty" />
+                        <Binding ElementName="TextBoxPassword" Path="IsFocused" />
+                    </MultiBinding>
+                    </TextBlock.Visibility>
+        </TextBlock>
+        
+        <PasswordBox Name="TextBoxPassword" Background="Transparent" Margin="154,269,174,0" VerticalAlignment="Top" />
 
         <Button x:Name="ButtonLogin" Content="" Height="40" Margin="178,302,198,0" Style="{DynamicResource ButtonLogin}" VerticalAlignment="Top" Width="120" d:LayoutOverrides="Height" Click="doLogin" Cursor="Hand"/>
 		<Button x:Name="ButtonRegister" Content="Button" Margin="178,350,198,327.5" Style="{DynamicResource ButtonRegister}" Width="120" Cursor="Hand" Click="do_Click"/>
