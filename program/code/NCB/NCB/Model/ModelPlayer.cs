@@ -34,7 +34,7 @@ namespace NCB.Model
                 #simpe query
                 players = session.Query<Player>().ToList();
                 
-                #using HQl
+                #using HQl  
                 IQuery query = session.CreateQuery("FROM Player p WHERE p.PLAYER_NAME = :Name");
                 query.SetParameter("Name", TextBoxUsername.Text);
                 players = query.List<Player>();

@@ -8,22 +8,23 @@ using System.Web.UI.WebControls;
 using NCBdatabase;
 using NCBdatabase.model;
 
-
 namespace NCBasp
 {
-    public partial class About : System.Web.UI.Page
+    public partial class Register : System.Web.UI.Page
     {
-        private LoginPlayer a;
+        private RegisterPlayer a;
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            a = new LoginPlayer();
-           // LoginButton.Click += new EventHandler(this.loginClick);
+            a = new RegisterPlayer();
         }
 
-        protected void loginClick(Object sender, EventArgs e)
-        {            
-            a.RegisterPlayer(UserNameBox.Text, PasswordBox.Text);
+        protected void registerClick(Object sender, EventArgs e)
+        {
+            if (PasswordRegisterBox.Text == PasswordRegisterBox2.Text)
+            {
+                a.RegisPlayer(UserNameRegisterBox.Text, PasswordRegisterBox.Text);
+            }
         }
     }
 }

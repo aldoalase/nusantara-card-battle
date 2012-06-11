@@ -21,6 +21,7 @@
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="~/Login.aspx" Text="Log In" />
                         <asp:MenuItem NavigateUrl="~/Register.aspx" Text="Register"/>
                     </Items>
                 </asp:Menu>
