@@ -10,7 +10,7 @@ namespace NCB.Model
 {
     class ModelPlayer_Card : DbConnection
     {
-        public ISessionFactory factory;
+        private ISessionFactory factory;
         public ModelPlayer_Card()
         {
             this.factory = this.CreateSessionFactory("Player_CardMap");
@@ -42,6 +42,9 @@ namespace NCB.Model
                             break;
                         case "update" :
                             session.Update(current);
+                            break;
+                        case "delete" :
+                            session.Delete(current);
                             break;
                     }
                     transaction.Commit();

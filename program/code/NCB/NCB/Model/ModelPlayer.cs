@@ -4,16 +4,23 @@ using System.Linq;
 using System.Text;
 using NCB.Library;
 using NHibernate.Linq;
+using NHibernate;
 
 namespace NCB.Model
 {
     class ModelPlayer : DbConnection
     {
+        private ISessionFactory factory;
+        public ModelPlayer()
+        {
+            this.factory = this.CreateSessionFactory("Player_CardMap");
+        }
+
         public List<Player> login(string _playerName, string _playerPassword)
         {
             List<Player> listPlayer = new List<Player>();
-            var factory = this.CreateSessionFactory("Player_CardMap");
-            using (var session = factory.OpenSession())
+            //var factory = this.CreateSessionFactory("Player_CardMap");
+            using (var session = this.factory.OpenSession())
             {
                 using (var tx = session.BeginTransaction())
                 {
@@ -38,8 +45,8 @@ namespace NCB.Model
 
         public void UpdatePass(Player p, string _password)
         {
-            var factory = this.CreateSessionFactory("Player_CardMap");
-            using (var session = factory.OpenSession())
+            //var factory = this.CreateSessionFactory("Player_CardMap");
+            using (var session = this.factory.OpenSession())
             {
                 using (var tx = session.BeginTransaction())
                 {
@@ -52,7 +59,7 @@ namespace NCB.Model
 
         public void RegisterPlayer(string _newuser, string _newPassword)
         {
-            var factory = this.CreateSessionFactory("PlayerMap");
+            var factory = this.CreateSessionFactory("Player_CardMap");
             using (var session = factory.OpenSession())
             {
                 using (var tx = session.BeginTransaction())
@@ -66,6 +73,30 @@ namespace NCB.Model
                     tx.Commit();
                 }
             }
+        }
+
+        public bool Process(String process, Player current)
+        {
+            using (var session = this.factory.OpenSession())
+            {
+                using (var transaction = session.BeginTransaction())
+                {
+                    switch (process)
+                    {
+                        case "save" :
+                            session.Save(current);
+                            break;
+                        case "update" :
+                            session.Update(current);
+                            break;
+                        case "delete" :
+                            session.Delete(current);
+                            break;
+                    }
+                    transaction.Commit();
+                }
+            }
+            return true;
         }
     }
 }
