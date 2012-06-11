@@ -10,3 +10,15 @@ C:\Users\Muhammad.TIGERTON-PC\Documents\Visual Studio 2010\Projects\NCBasp\NCBda
 C:\Users\Muhammad.TIGERTON-PC\Documents\Visual Studio 2010\Projects\NCBasp\NCBdatabase\bin\Debug\NHibernate.xml
 C:\Users\Muhammad.TIGERTON-PC\Documents\Visual Studio 2010\Projects\NCBasp\NCBdatabase\obj\Debug\NCBdatabase.dll
 C:\Users\Muhammad.TIGERTON-PC\Documents\Visual Studio 2010\Projects\NCBasp\NCBdatabase\obj\Debug\NCBdatabase.pdb
+C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\obj\Debug\NCBdatabase.dll
+C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\obj\Debug\NCBdatabase.pdb
+C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\bin\Debug\NCBdatabase.dll
+C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\bin\Debug\NCBdatabase.pdb
+C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\bin\Debug\FluentNHibernate.dll
+C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\bin\Debug\Iesi.Collections.dll
+C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\bin\Debug\mysql.data.dll
+C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\bin\Debug\NHibernate.dll
+C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\bin\Debug\FluentNHibernate.xml
+C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\bin\Debug\Iesi.Collections.xml
+C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\bin\Debug\NHibernate.xml
