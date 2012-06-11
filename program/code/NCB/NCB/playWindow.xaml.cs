@@ -50,37 +50,37 @@ namespace NCB
                 player1hand.Add(player1cards.Last.Value.Card);
                 player1cards.RemoveLast();
             }
-            //reload();
+            reload();
         }
 
         public void reload()
         {
             ImageLibrary img = new ImageLibrary();
-            if (player1hand[0].CARD_ID != null)
+            if (player1hand.Count >= 1)
             {
                 hand1.Source = img.Load("kartu/" + player1hand[0].CARD_ID.ToString() + ".png");
             }
-            if (player1hand[1].CARD_ID != null)
+            if (player1hand.Count >= 2)
             {
                 hand2.Source = img.Load("kartu/" + player1hand[1].CARD_ID.ToString() + ".png");
             }
-            if (player1hand[2].CARD_ID != null)
+            if (player1hand.Count >= 3)
             {
                 hand3.Source = img.Load("kartu/" + player1hand[2].CARD_ID.ToString() + ".png");
             }
-            if (player1hand[3].CARD_ID != null)
+            if (player1hand.Count >= 4)
             {
                 hand4.Source = img.Load("kartu/" + player1hand[3].CARD_ID.ToString() + ".png");
             }
-            if (player1hand[4].CARD_ID != null)
+            if (player1hand.Count >= 5)
             {
                 hand5.Source = img.Load("kartu/" + player1hand[4].CARD_ID.ToString() + ".png");
             }
-            if (player1hand[5].CARD_ID != null)
+            if (player1hand.Count >= 6)
             {
                 hand6.Source = img.Load("kartu/" + player1hand[5].CARD_ID.ToString() + ".png");
             }
-            if (player1hand[6].CARD_ID != null)
+            if (player1hand.Count >= 7)
             {
                 hand7.Source = img.Load("kartu/" + player1hand[6].CARD_ID.ToString() + ".png");
             }
