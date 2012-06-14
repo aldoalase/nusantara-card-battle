@@ -9,5 +9,9 @@ namespace NCB.Mapping
     {
         public virtual int TIPE_ID { get; set; }
         public virtual string TIPE_NAME { get; set; }
+        public override string ToString()
+        {
+            return TIPE_NAME;
+        }
     }
 }

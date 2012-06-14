@@ -11,6 +11,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using NCB.Model;
 using NCB.Library;
+using NCB.Mapping;
 
 namespace NCB
 {
@@ -19,25 +20,59 @@ namespace NCB
 	/// </summary>
 	public partial class ShopWindow : Window
 	{
-        public MenuWindow parent;
-        public Player player;
-        public List<Card> cards = new List<Card>();
+        private MenuWindow parent;
+        private Player player;
+        private ModelCard model = new ModelCard();
+        private List<Card> cards = new List<Card>();
+        private List<Tipe> tipes = new List<Tipe>();
         private int selectedCard = 0;
         public ShopWindow(MenuWindow _parent, Player _player)
 		{
 			this.InitializeComponent();
             this.parent = _parent;
             this.player = _player;
+            this.init();
             MouseDown += delegate { DragMove(); };
 		}
 
-        private void prepareCards()
+        private void init()
         {
-            ModelCard mc = new ModelCard();
-            cards = mc.loadCards();
+            this.cards = model.loadCards();
+            this.loadCards();
+            this.loadTipe();
+            playerMoneyText.Text = player.PLAYER_MONEY.ToString();
+        }
+
+        private void loadTipe()
+        {
+            ModelTipe mt = new ModelTipe();
+            tipes = mt.loadTipe();
+            for (int i = 0; i < tipes.Count; i++)
+            {
+                CategoryCombo.Items.Add(tipes[i]);
+            }
+        }
+
+        private void loadCards()
+        {
+            String image, name, price = null;
+            if (cards.Count == 0)
+            {
+                selectedCard = 0;
+                image = "0";
+                name = "(0/0)";
+                price = "0";
+            }
+            else
+            {
+                image = cards[selectedCard].CARD_ID.ToString();
+                name = cards[selectedCard].CARD_NAME + " (" + (selectedCard + 1).ToString() + "/" + cards.Count + ")";
+                price = cards[selectedCard].CARD_PRICE.ToString();
+            }
             ImageLibrary img = new ImageLibrary();
-           // cardPreviewSmall.Source = img.Load("kartu/" + cards[selectedCard] + ".png");
-            cardPreviewBig.Source = img.Load("kartu/" + cards[selectedCard] + ".png");
+            cardPreviewBig.Source = img.Load("kartu/" + image + ".png");
+            cardName.Text = name;
+            HARGA_KARTU.Text = price;
         }
 
 		private void doBack(object sender, System.Windows.RoutedEventArgs e)
@@ -45,5 +80,30 @@ namespace NCB
             this.parent.Show();
 			this.Close();
 		}
+
+        private void UpButtonStock_Click(object sender, RoutedEventArgs e)
+        {
+            if(selectedCard -1 >= 0){
+                selectedCard--;
+                loadCards();
+            }
+
+        }
+
+        private void DownButtonStock_Click(object sender, RoutedEventArgs e)
+        {
+            if (selectedCard + 1 < cards.Count)
+            {
+                selectedCard++;
+                loadCards();
+            }
+        }
+
+        private void SelectButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.cards.Clear();
+            this.cards = model.getTipeCard(tipes[CategoryCombo.SelectedIndex].TIPE_ID);
+            loadCards();
+        }
 	}
 }

@@ -66,13 +66,15 @@ namespace NCB
 
         private void do_Click(object sender, System.Windows.RoutedEventArgs e)
         {
+            //*/
             RegisterWindow register = new RegisterWindow();
-
             this.Hide();
             register.Show();
+            /*/
+            Notification n = new Notification("Visit our site to register.");
+            n.Show();
+            //*/
         	// TODO: Add event handler implementation here.
         }
-
-        
     }
 }

@@ -91,6 +91,8 @@
       <DependentUpon>DeckWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Library\ImageLibrary.cs" />
+    <Compile Include="Mapping\Tipe.cs" />
+    <Compile Include="Mapping\TipeMap.cs" />
     <Compile Include="Model\ModelBattle.cs" />
     <Compile Include="Model\ModelCard.cs" />
     <Compile Include="Model\ModelPlayer.cs" />
@@ -103,6 +105,7 @@
     <Compile Include="Mapping\Player_Card.cs" />
     <Compile Include="Mapping\Player_CardMap.cs" />
     <Compile Include="Model\ModelPlayer_Card.cs" />
+    <Compile Include="Model\ModelTipe.cs" />
     <Compile Include="Notification.xaml.cs">
       <DependentUpon>Notification.xaml</DependentUpon>
     </Compile>
