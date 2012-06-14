@@ -10,10 +10,11 @@ namespace NCB.Model
 {
     class ModelPlayer_Card : DbConnection
     {
-        private ISessionFactory factory;
+        private ISessionFactory factory = null;
         public ModelPlayer_Card()
         {
-            this.factory = this.CreateSessionFactory("Player_CardMap");
+            if(this.factory == null)
+                this.factory = this.CreateSessionFactory("Player_CardMap");
         }
 
         /* load player's card */
@@ -45,8 +46,24 @@ namespace NCB.Model
                             break;
                         case "delete" :
                             session.Delete(current);
+                            session.Flush();
                             break;
                     }
+                    transaction.Commit();
+                }
+            }
+            return true;
+        }
+
+        public bool Delete(Player_Card current)
+        {
+            var f = this.CreateSessionFactory("Player_CardMap");
+            using (var s = f.OpenSession())
+            {
+                using (var transaction = s.BeginTransaction())
+                {
+                    s.Delete(current);
+                    s.Flush();
                     transaction.Commit();
                 }
             }

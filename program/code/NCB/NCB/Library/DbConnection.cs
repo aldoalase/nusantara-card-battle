@@ -25,6 +25,12 @@ namespace NCB.Library
 
         public ISessionFactory CreateSessionFactory(String map)
         {
+            /*/
+            return Fluently.Configure()
+                        .Database(config())
+                        .Mappings(m => m.FluentMappings.AddFromAssemblyOf<Player_CardMap>())
+                        .BuildConfiguration().BuildSessionFactory();
+            //*/
             switch (map)
             {
                 case "CardMap":
@@ -51,6 +57,7 @@ namespace NCB.Library
                     return null;
 
             }
+            //*/
         }
     }
 }

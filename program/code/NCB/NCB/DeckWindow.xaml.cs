@@ -31,6 +31,7 @@ namespace NCB
         private int selectedCardStock = 0;
         private int selectedActiveDeck = 0;
         private int maxDeck = 40;
+        private ModelPlayer_Card model = new ModelPlayer_Card();
 
         public DeckWindow(MenuWindow _parent, Player _player)
 		{
@@ -51,8 +52,7 @@ namespace NCB
             selectedActiveDeck = 0; //this will reset activedesk back to first card
             selectedCardStock = 0; //this will reset cardstock back to first card
 
-            ModelPlayer_Card mpc = new ModelPlayer_Card();
-            cards = mpc.LoadPlayerCard(_playerId);
+            cards = this.model.LoadPlayerCard(_playerId);
             activeDeck = cards.Where(item => item.PLAYER_CARD_ACTIVE).ToList();
             cardStock = cards.Where(item => !item.PLAYER_CARD_ACTIVE).ToList();
             cardStockCount = cardStock.Count;
@@ -172,8 +172,7 @@ namespace NCB
 
         private void Process(String action, Player_Card current)
         {
-            ModelPlayer_Card mpc = new ModelPlayer_Card();
-            mpc.Process(action, current);
+            this.model.Process(action, current);
 
             //int _selectedActiveDeck = selectedActiveDeck;
             //int _selectedCardStock = selectedCardStock;
@@ -185,8 +184,7 @@ namespace NCB
         private void SellButton_Click(object sender, RoutedEventArgs e)
         {
             double cardPrice = cardStock[selectedCardStock].Card.CARD_PRICE;
-            ModelPlayer_Card mpc = new ModelPlayer_Card();
-            mpc.Process("delete", cardStock[selectedCardStock]);
+            this.model.Delete(cardStock[selectedCardStock]);
 
             ModelPlayer mp = new ModelPlayer();
             this.player.PLAYER_MONEY = this.player.PLAYER_MONEY + cardPrice;
