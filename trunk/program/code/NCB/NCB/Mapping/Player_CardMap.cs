@@ -11,9 +11,9 @@ namespace NCB
         public Player_CardMap()
         {
             Table("`player_card`");
-            References<Card>(x => x.Card, "`CARD_ID`").Not.LazyLoad().Cascade.All();
-            References<Player>(x => x.Player, "`PLAYER_ID`").Cascade.All();
             Id(x => x.PLAYER_CARD_ID);
+            References<Card>(x => x.Card, "`CARD_ID`").Not.LazyLoad().Cascade.SaveUpdate();
+            References<Player>(x => x.Player, "`PLAYER_ID`").Cascade.SaveUpdate();
             Map(x => x.PLAYER_CARD_ACTIVE);
         }
     }
