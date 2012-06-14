@@ -22,6 +22,7 @@ namespace NCB
             Map(x => x.ENCHANT_STRENGTH);
             Map(x => x.ENCHANT_DEFENSE);
             Map(x => x.ENCHANT_HP);
+            Map(x => x.CARD_PRICE);
         }
     }
 }
