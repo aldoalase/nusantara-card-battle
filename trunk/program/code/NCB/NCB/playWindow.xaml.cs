@@ -45,9 +45,10 @@ namespace NCB
 
         public void init()
         {
+            ModelCard card = new ModelCard();
             for(int i = 0; i < 7; i++)
             {
-                player1hand.Add(player1cards.Last.Value.Card);
+                player1hand.Add(card.getCard(player1cards.Last.Value.Card.CARD_ID));
                 player1cards.RemoveLast();
             }
             reload();
@@ -89,7 +90,6 @@ namespace NCB
         public void GetCards()
         {
             ModelPlayer_Card playerCard = new ModelPlayer_Card();
-            
                 for(int i = 0; i < 40; i++)
                 {
                     player1cards.AddLast(playerCard.LoadPlayerCard(player1.PLAYER_ID)[i]);
@@ -103,7 +103,8 @@ namespace NCB
 			deckPlayerAnimated.IsEnabled= true;
 			Storyboard sb = this.FindResource("deckPlayerLoaded") as Storyboard;
         	sb.Begin();
-			
+		    MessageBox.Show(player1hand[0].CARD_PRICE.ToString());
+
 		}
 
 		private void ThrowButton_Click(object sender, System.Windows.RoutedEventArgs e)
