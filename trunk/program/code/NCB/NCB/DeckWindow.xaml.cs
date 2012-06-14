@@ -184,7 +184,7 @@ namespace NCB
         private void SellButton_Click(object sender, RoutedEventArgs e)
         {
             double cardPrice = cardStock[selectedCardStock].Card.CARD_PRICE;
-            this.model.Delete(cardStock[selectedCardStock]);
+            this.model.Process("delete", cardStock[selectedCardStock]);
 
             ModelPlayer mp = new ModelPlayer();
             this.player.PLAYER_MONEY = this.player.PLAYER_MONEY + cardPrice;

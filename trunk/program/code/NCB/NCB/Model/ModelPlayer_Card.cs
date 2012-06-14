@@ -54,20 +54,5 @@ namespace NCB.Model
             }
             return true;
         }
-
-        public bool Delete(Player_Card current)
-        {
-            var f = this.CreateSessionFactory("Player_CardMap");
-            using (var s = f.OpenSession())
-            {
-                using (var transaction = s.BeginTransaction())
-                {
-                    s.Delete(current);
-                    s.Flush();
-                    transaction.Commit();
-                }
-            }
-            return true;
-        }
     }
 }
