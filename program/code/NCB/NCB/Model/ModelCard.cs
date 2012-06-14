@@ -19,5 +19,18 @@ namespace NCB.Model
             }
             return listCard;
         }
+
+        public Card getCard(int id)
+        {
+            List<Card> kartu = new List<Card>();
+            var factory = this.CreateSessionFactory("CardMap");
+            using (var session = factory.OpenSession())
+            {
+                kartu = session.Query<Card>()
+                    .Where(u => u.CARD_ID.Equals(id))
+                    .ToList();
+            }
+            return kartu[0];
+        }
     }
 }
