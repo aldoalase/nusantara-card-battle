@@ -105,5 +105,32 @@ namespace NCB
             this.cards = model.getTipeCard(tipes[CategoryCombo.SelectedIndex].TIPE_ID);
             loadCards();
         }
+
+        private void BuyButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (cards.Count > 0)
+            {
+                String m = "uang tidak cukup";
+                if (player.PLAYER_MONEY >= cards[selectedCard].CARD_PRICE)
+                {
+                    Player_Card pc = new Player_Card();
+                    pc.Player = player;
+                    pc.Card = cards[selectedCard];
+
+                    ModelPlayer_Card mpc = new ModelPlayer_Card();
+                    mpc.Process("save", pc);
+
+                    this.player.PLAYER_MONEY -= cards[selectedCard].CARD_PRICE;
+                    ModelPlayer mp = new ModelPlayer();
+                    mp.Process("update", this.player);
+                    playerMoneyText.Text = player.PLAYER_MONEY.ToString();
+
+                    m = "berhasil";
+                }
+
+                Notification n = new Notification(m);
+                n.Show();
+            }
+        }
 	}
 }
