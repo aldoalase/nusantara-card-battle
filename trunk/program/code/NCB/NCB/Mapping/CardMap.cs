@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using FluentNHibernate.Mapping;
+using NCB.Mapping;
 
-namespace NCB
+namespace NCB.Mapping
 {
     public sealed class CardMap : ClassMap<Card>
     {
@@ -17,7 +18,7 @@ namespace NCB
             Map(x => x.CARD_DEFENSE);
             Map(x => x.CARD_HP);
             Map(x => x.CARD_LEVEL);
-            Map(x => x.CARD_TIPE);
+            References<Tipe>(x => x.Tipe, "`TIPE_ID`").Not.LazyLoad().Cascade.SaveUpdate();
             Map(x => x.CARD_MAGIC_NUMBER);
             Map(x => x.ENCHANT_STRENGTH);
             Map(x => x.ENCHANT_DEFENSE);

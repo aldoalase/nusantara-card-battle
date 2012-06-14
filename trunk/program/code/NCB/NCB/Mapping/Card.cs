@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using NCB.Mapping;
 
 namespace NCB
 {
@@ -14,7 +15,7 @@ namespace NCB
         public virtual int CARD_DEFENSE { get; set; }
         public virtual int CARD_HP { get; set; }
         public virtual int CARD_LEVEL { get; set; }
-        public virtual int CARD_TIPE { get; set; }
+        public virtual Tipe Tipe { get; set; }
         public virtual int CARD_MAGIC_NUMBER { get; set; }
         public virtual int ENCHANT_STRENGTH { get; set; }
         public virtual int ENCHANT_DEFENSE { get; set; }

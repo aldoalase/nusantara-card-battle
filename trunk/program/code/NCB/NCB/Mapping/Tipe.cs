@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace NCB.Mapping
+{
+    public class Tipe
+    {
+        public virtual int TIPE_ID { get; set; }
+        public virtual string TIPE_NAME { get; set; }
+    }
+}
