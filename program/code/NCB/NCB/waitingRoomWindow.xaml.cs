@@ -35,9 +35,9 @@ namespace NCB
 
 		private void doPlay(object sender, System.Windows.RoutedEventArgs e)
 		{
-            this.Hide();
 			Window play = new PlayWindow(this, this.player, this.player);
             play.Show();
+            this.Hide();
 		}
 	}
 }
