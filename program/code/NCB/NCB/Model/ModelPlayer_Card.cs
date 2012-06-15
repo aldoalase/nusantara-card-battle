@@ -30,6 +30,19 @@ namespace NCB.Model
             return listCard;
         }
 
+        public List<Player_Card> LoadActiveCards(int playerId)
+        {
+            List<Player_Card> listCard = new List<Player_Card>();
+            using (var session = this.factory.OpenSession())
+            {
+                listCard = session.Query<Player_Card>()
+                    .Where(u => u.Player.PLAYER_ID == playerId)
+                    .Where(p => p.PLAYER_CARD_ACTIVE == true)
+                    .ToList();
+            }
+            return listCard;
+        }
+
         public bool Process(String process, Player_Card current)
         {
             using (var session = this.factory.OpenSession())
