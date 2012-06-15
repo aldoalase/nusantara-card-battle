@@ -39,17 +39,12 @@ namespace NCB
 
         private void doSave(object sender, System.Windows.RoutedEventArgs e)
         {
+            this.player.PLAYER_PASSWORD = passbox.Password;
             ModelPlayer mp = new ModelPlayer();
-            mp.UpdatePass(player, passbox.Password);
+            mp.Process("update", this.player);
             Window notify = new Notification("password changed");
             notify.Show();
             // TODO: Add event handler implementation here.
-        }
-
-        public void updatepass()
-        {
-            ModelPlayer mp = new ModelPlayer();
-            mp.UpdatePass(player, passbox.Password);
         }
 
         public void showDetail()
