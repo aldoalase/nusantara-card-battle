@@ -47,7 +47,15 @@ namespace NCB
             string simpan = gp.generatorPassword();
             Window notify = new Notification("password anda adalah : " + simpan);
             notify.Show();
-            mp.RegisterPlayer(InputUsername.Text,simpan);
+
+            Player player = new Player
+            {
+                PLAYER_NAME = InputUsername.Text,
+                PLAYER_PASSWORD = simpan
+            };
+
+            mp.Process("save", player);
+            //mp.RegisterPlayer(InputUsername.Text,simpan);
             
 			// TODO: Add event handler implementation here.
 		}
@@ -63,7 +71,7 @@ namespace NCB
 		private void cancel_button(object sender, System.Windows.RoutedEventArgs e)
 		{
             LoginWindow login = new LoginWindow();
-            this.Hide();
+            this.Close();
             login.Show();
 			// TODO: Add event handler implementation here.
 		}

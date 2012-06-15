@@ -43,6 +43,7 @@ namespace NCB.Model
             return listPlayer;
         }
 
+        /*
         public void UpdatePass(Player p, string _password)
         {
             //var factory = this.CreateSessionFactory("Player_CardMap");
@@ -74,6 +75,7 @@ namespace NCB.Model
                 }
             }
         }
+        */
 
         public bool Process(String process, Player current)
         {
