@@ -22,3 +22,14 @@ C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\bin\
 C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\bin\Debug\FluentNHibernate.xml
 C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\bin\Debug\Iesi.Collections.xml
 C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBdatabase\bin\Debug\NHibernate.xml
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBdatabase\bin\Debug\NCBdatabase.dll
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBdatabase\bin\Debug\NCBdatabase.pdb
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBdatabase\bin\Debug\FluentNHibernate.dll
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBdatabase\bin\Debug\Iesi.Collections.dll
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBdatabase\bin\Debug\NHibernate.dll
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBdatabase\bin\Debug\FluentNHibernate.xml
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBdatabase\bin\Debug\Iesi.Collections.xml
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBdatabase\bin\Debug\NHibernate.xml
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBdatabase\obj\Debug\NCBdatabase.csprojResolveAssemblyReference.cache
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBdatabase\obj\Debug\NCBdatabase.dll
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBdatabase\obj\Debug\NCBdatabase.pdb

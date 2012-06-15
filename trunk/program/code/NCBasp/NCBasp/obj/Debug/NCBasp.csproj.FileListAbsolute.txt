@@ -26,3 +26,16 @@ C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBasp\bin\Fluen
 C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBasp\bin\Iesi.Collections.xml
 C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBasp\bin\NHibernate.xml
 C:\Users\Muhammad.TIGERTON-PC\Documents\SVN\program\code\NCBasp\NCBasp\obj\Debug\NCBasp.pdb
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBasp\bin\NCBasp.dll
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBasp\bin\NCBasp.pdb
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBasp\bin\FluentNHibernate.dll
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBasp\bin\Iesi.Collections.dll
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBasp\bin\NCBdatabase.dll
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBasp\bin\NHibernate.dll
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBasp\bin\NCBdatabase.pdb
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBasp\bin\FluentNHibernate.xml
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBasp\bin\Iesi.Collections.xml
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBasp\bin\NHibernate.xml
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBasp\obj\Debug\NCBasp.csprojResolveAssemblyReference.cache
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBasp\obj\Debug\NCBasp.dll
+C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\NCBasp\NCBasp\obj\Debug\NCBasp.pdb

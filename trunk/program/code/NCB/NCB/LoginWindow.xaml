@@ -149,7 +149,7 @@
 	</Window.Triggers>
 
 	<Grid x:Name="LayoutRoot" Margin="13,0,-8,-38">
-		<Image Margin="-8,8,8,48.5" Source="images/login interfacev3.png" Stretch="Fill"/>
+		<Image Margin="-0.999,8,0.999,48.5" Source="images/login interfacev3.png" Stretch="Fill"/>
         <TextBlock Margin="160,226,174,0" Text="username" Foreground="Black" Height="24" VerticalAlignment="Top" >
                 <TextBlock.Visibility>
                     <MultiBinding Converter="{StaticResource watermark}">

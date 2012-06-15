@@ -1,0 +1,115 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="NCB.sacrificeWindow"
+	x:Name="Window"
+	Title="sacrificeWindow"
+	Width="750" Height="350" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}">
+	<Window.Resources>
+		<Style x:Key="commitButton" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image Source="images/commit.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="cancelButton" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image Source="images/cancel.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Storyboard x:Key="commitButtonEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="commitButton">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="commitButtonLeave">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="commitButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="commitButtonClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="commitButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="cancelButtonEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="cancelButton">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="cancelButtonLeave">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="cancelButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="cancelButtonClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="cancelButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</Window.Resources>
+	<Window.Triggers>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="commitButton">
+			<BeginStoryboard Storyboard="{StaticResource commitButtonEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="commitButton">
+			<BeginStoryboard x:Name="commitButtonLeave_BeginStoryboard" Storyboard="{StaticResource commitButtonLeave}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="commitButton">
+			<BeginStoryboard x:Name="commitButtonClick_BeginStoryboard" Storyboard="{StaticResource commitButtonClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="cancelButton">
+			<BeginStoryboard x:Name="cancelButtonEnter_BeginStoryboard" Storyboard="{StaticResource cancelButtonEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="cancelButton">
+			<BeginStoryboard x:Name="cancelButtonLeave_BeginStoryboard" Storyboard="{StaticResource cancelButtonLeave}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="cancelButton">
+			<BeginStoryboard x:Name="cancelButtonClick_BeginStoryboard" Storyboard="{StaticResource cancelButtonClick}"/>
+		</EventTrigger>
+	</Window.Triggers>
+
+	<Grid x:Name="LayoutRoot">
+		<Image Source="images/sacrifice field.png" Stretch="Fill"/>
+		<CheckBox HorizontalAlignment="Left" Height="16.5" Margin="55.836,0,0,146" VerticalAlignment="Bottom" Width="22.5"/>
+		<CheckBox Content="" HorizontalAlignment="Left" Height="16.5" Margin="158.669,0,0,149" VerticalAlignment="Bottom" Width="22.5"/>
+		<CheckBox Content="" Height="16.5" Margin="256.836,0,0,148" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="22.5"/>
+		<CheckBox Content="" Height="16.5" Margin="360.836,0,366.664,149" VerticalAlignment="Bottom"/>
+		<CheckBox Content="" Height="16.5" Margin="0,0,265.664,149" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="22.5"/>
+		<CheckBox Content="" Height="16.5" Margin="0,0,162.664,149" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="22.5"/>
+		<CheckBox Content="" Height="16.5" Margin="0,0,60.664,149" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="22.5"/>
+		<Button x:Name="commitButton" Content="Button" HorizontalAlignment="Left" Height="50" Margin="224.169,0,0,64" Style="{DynamicResource commitButton}" VerticalAlignment="Bottom" Width="150"/>
+		<Button x:Name="cancelButton" Content="Button" HorizontalAlignment="Right" Height="50" Margin="0,0,211.664,64" Style="{DynamicResource cancelButton}" VerticalAlignment="Bottom" Width="150"/>
+	</Grid>
+</Window>
