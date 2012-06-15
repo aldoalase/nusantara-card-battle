@@ -187,39 +187,12 @@
 				</Setter.Value>
 			</Setter>
 		</Style>
-		<Storyboard x:Key="skipButtonEnter">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="skipButton">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Key="skipButtonLeave">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="skipButton">
-				<EasingDoubleKeyFrame KeyTime="0" Value="0.4"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Key="skipButtonClick">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="skipButton">
-				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Key="cancelButtonEnter">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="cancelButton">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Key="cancelButtonLeave">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="cancelButton">
-				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
-		<Storyboard x:Key="cancelButtonClick">
-			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="cancelButton">
-				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
-				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
-			</DoubleAnimationUsingKeyFrames>
-		</Storyboard>
+		<Storyboard x:Key="skipButtonEnter"/>
+		<Storyboard x:Key="skipButtonLeave"/>
+		<Storyboard x:Key="skipButtonClick"/>
+		<Storyboard x:Key="cancelButtonEnter"/>
+		<Storyboard x:Key="cancelButtonLeave"/>
+		<Storyboard x:Key="cancelButtonClick"/>
 		<Storyboard x:Key="kuburanPlayerLoaded">
 			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="kuburanPlayer">
 				<EasingDoubleKeyFrame KeyTime="0" Value="10.5"/>
@@ -435,6 +408,78 @@
 				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
 			</DoubleAnimationUsingKeyFrames>
 		</Storyboard>
+		<Style x:Key="endPhaseButton" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image Source="images/end phase.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="endTurnButton" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image RenderTransformOrigin="0.503,0.15" Source="images/end turn.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Storyboard x:Key="endPhaseButtonEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="endPhaseButton">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="endPhaseButtonLeave">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="endPhaseButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="endPhaseClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="endPhaseButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="endTurnButtonEnter">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="endTurnButton">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="endTurnButtonLeave">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="endTurnButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.4"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="1"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Key="endTurnButtonClick">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="endTurnButton">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.15"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.4"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
 	</Window.Resources>
 	<Window.Triggers>
 		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="ThrowButton">
@@ -551,6 +596,24 @@
 		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="magic5enemyButton">
 			<BeginStoryboard x:Name="magic5enemyEnter_BeginStoryboard1" Storyboard="{StaticResource magic5enemyEnter}"/>
 		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="endPhaseButton">
+			<BeginStoryboard x:Name="endPhaseButtonEnter_BeginStoryboard1" Storyboard="{StaticResource endPhaseButtonEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="endPhaseButton">
+			<BeginStoryboard x:Name="endTurnButtonLeave_BeginStoryboard1" Storyboard="{StaticResource endPhaseButtonLeave}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="endPhaseButton">
+			<BeginStoryboard x:Name="endPhaseClick_BeginStoryboard1" Storyboard="{StaticResource endPhaseClick}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseEnter" SourceName="endTurnButton">
+			<BeginStoryboard x:Name="endTurnButtonEnter_BeginStoryboard1" Storyboard="{StaticResource endTurnButtonEnter}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="Mouse.MouseLeave" SourceName="endTurnButton">
+			<BeginStoryboard x:Name="endTurnButtonLeave_BeginStoryboard2" Storyboard="{StaticResource endTurnButtonLeave}"/>
+		</EventTrigger>
+		<EventTrigger RoutedEvent="ButtonBase.Click" SourceName="endTurnButton">
+			<BeginStoryboard x:Name="endTurnButtonClick_BeginStoryboard1" Storyboard="{StaticResource endTurnButtonClick}"/>
+		</EventTrigger>
 	</Window.Triggers>
 
 	<Grid x:Name="LayoutRoot">
@@ -559,10 +622,8 @@
 		<TextBlock x:Name="player_2" HorizontalAlignment="Right" Height="31.5" Margin="0,196.5,29.5,0" TextWrapping="Wrap" Text="Player 2" VerticalAlignment="Top" Width="141" FontSize="18.667" Foreground="#FF513F0F" TextAlignment="Center"/>
 		<TextBlock x:Name="skor_player_1" HorizontalAlignment="Left" Height="43.5" Margin="91.5,0,0,339" TextWrapping="Wrap" Text="30" VerticalAlignment="Bottom" Width="64.5" FontSize="24" Foreground="#FF513E0F"/>
 		<TextBlock x:Name="skor_player_2" Height="43.5" Margin="0,0,47.5,339" TextWrapping="Wrap" Text="30" VerticalAlignment="Bottom" FontSize="24" HorizontalAlignment="Right" Width="64.5" Foreground="#FF513F0F"/>
-		<Button x:Name="PlayButton" Content="Button" HorizontalAlignment="Right" Height="50" Margin="0,0,35.5,190.5" Style="{DynamicResource PlayButton}" VerticalAlignment="Bottom" Width="150" Click="PlayButton_Click" Cursor="Hand"/>
-		<Button x:Name="ThrowButton" Content="Button" HorizontalAlignment="Right" Height="50" Margin="0,0,35.5,140.5" Style="{DynamicResource ThrowButton}" VerticalAlignment="Bottom" Width="150" Click="ThrowButton_Click" Cursor="Hand"/>
-		<Button x:Name="skipButton" Content="Button" HorizontalAlignment="Right" Height="50" Margin="0,0,35.5,90.5" Style="{DynamicResource skipButton}" VerticalAlignment="Bottom" Width="150" Cursor="Hand"/>
-		<Button x:Name="cancelButton" Content="Button" HorizontalAlignment="Right" Height="50" Margin="0,0,35.5,42.5" Style="{DynamicResource cancelButton}" VerticalAlignment="Bottom" Width="150" Cursor="Hand"/>
+		<Button x:Name="PlayButton" Content="Button" HorizontalAlignment="Right" Height="53" Margin="0,0,29.5,171.498" Style="{DynamicResource PlayButton}" VerticalAlignment="Bottom" Width="150" Click="PlayButton_Click" Cursor="Hand"/>
+		<Button x:Name="ThrowButton" Content="Button" HorizontalAlignment="Right" Height="50" Margin="0,0,25.5,128.5" Style="{DynamicResource ThrowButton}" VerticalAlignment="Bottom" Width="156" Click="ThrowButton_Click" Cursor="Hand"/>
 		<Image x:Name="hand1" HorizontalAlignment="Left" Height="105" Margin="216,0,0,42.5" VerticalAlignment="Bottom" Width="70" Source="images/gajah mada small.png"/>
 		<Image x:Name="hand2" HorizontalAlignment="Left" Height="105" Margin="304.5,0,0,42.5" VerticalAlignment="Bottom" Width="70" Source="gajah mada small.png"/>
 		<Image x:Name="hand3" HorizontalAlignment="Left" Height="105" Margin="393,0,0,42.5" VerticalAlignment="Bottom" Width="70" Source="gajah mada small.png"/>
@@ -1193,5 +1254,7 @@
 		</Button>
 		<Image x:Name="imagePlayer" HorizontalAlignment="Left" Height="126" Margin="49.5,244.5,0,0" VerticalAlignment="Top" Width="117"/>
 		<Image x:Name="imageEnemy" Height="126" Margin="0,244.5,43.5,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="117"/>
+		<Button x:Name="endPhaseButton" Content="Button" HorizontalAlignment="Right" Height="50" Margin="0,0,31.5,82.5" Style="{DynamicResource endPhaseButton}" VerticalAlignment="Bottom" Width="150"/>
+		<Button x:Name="endTurnButton" Content="Button" HorizontalAlignment="Right" Height="50" Margin="0,0,31.5,36.5" Style="{DynamicResource endTurnButton}" VerticalAlignment="Bottom" Width="150"/>
 	</Grid>
 </Window>

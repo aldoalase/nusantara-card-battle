@@ -86,6 +86,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CommitBattle.xaml.cs">
+      <DependentUpon>CommitBattle.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Library\DbConnection.cs" />
     <Compile Include="DeckWindow.xaml.cs">
       <DependentUpon>DeckWindow.xaml</DependentUpon>
@@ -118,6 +121,9 @@
     <Compile Include="RegisterWindow.xaml.cs">
       <DependentUpon>RegisterWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="sacrificeWindow.xaml.cs">
+      <DependentUpon>sacrificeWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ShopWindow.xaml.cs">
       <DependentUpon>ShopWindow.xaml</DependentUpon>
     </Compile>
@@ -125,6 +131,10 @@
       <DependentUpon>WaitingRoomWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="watermark.cs" />
+    <Page Include="CommitBattle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="DeckWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -168,6 +178,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="sacrificeWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="ShopWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -191,15 +205,21 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="1.png" />
+    <Resource Include="2.png" />
     <Resource Include="images\arrow down.png" />
     <Resource Include="images\arrow up.png" />
     <Resource Include="images\back button.png" />
     <Resource Include="images\buy.png" />
     <Resource Include="images\cancel.png" />
+    <Resource Include="images\commit battle.png" />
+    <Resource Include="images\commit.png" />
     <Resource Include="images\create.png" />
     <Resource Include="images\deck window.png" />
     <Resource Include="images\deck.png" />
     <Resource Include="images\default_card.png" />
+    <Resource Include="images\end phase.png" />
+    <Resource Include="images\end turn.png" />
     <Resource Include="images\exit.png" />
     <Resource Include="images\field fix.png" />
     <Resource Include="images\gajah mada small.png" />
@@ -217,6 +237,7 @@
     <Resource Include="images\profile.png" />
     <Resource Include="images\record.png" />
     <Resource Include="images\register.png" />
+    <Resource Include="images\sacrifice field.png" />
     <Resource Include="images\save.png" />
     <Resource Include="images\select.png" />
     <Resource Include="images\sell button.png" />
