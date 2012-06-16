@@ -111,5 +111,12 @@
 		<CheckBox Content="" Height="16.5" Margin="0,0,60.664,149" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="22.5"/>
 		<Button x:Name="commitButton" Content="Button" HorizontalAlignment="Left" Height="50" Margin="224.169,0,0,64" Style="{DynamicResource commitButton}" VerticalAlignment="Bottom" Width="150"/>
 		<Button x:Name="cancelButton" Content="Button" HorizontalAlignment="Right" Height="50" Margin="0,0,211.664,64" Style="{DynamicResource cancelButton}" VerticalAlignment="Bottom" Width="150"/>
+		<Image x:Name="card1" HorizontalAlignment="Left" Margin="17,44,0,166.5" Width="95"/>
+		<Image x:Name="card2" HorizontalAlignment="Left" Margin="118,45,0,165.5" Width="95"/>
+		<Image x:Name="card3" HorizontalAlignment="Left" Margin="221,44,0,166.5" Width="95"/>
+		<Image x:Name="card4" Margin="323,44,332,166.5"/>
+		<Image x:Name="card5" Margin="0,44,229,166.5" HorizontalAlignment="Right" Width="95"/>
+		<Image x:Name="card6" Margin="0,44,125,166.5" HorizontalAlignment="Right" Width="95"/>
+		<Image x:Name="card7" Margin="0,44,21,166.5" HorizontalAlignment="Right" Width="95"/>
 	</Grid>
 </Window>
