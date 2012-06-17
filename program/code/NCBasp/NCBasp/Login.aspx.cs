@@ -34,6 +34,8 @@ namespace NCBasp
         {
             //List<Player> players = a.Login(UserNameLoginBox.Text);
             List<Player> players = a.Login(UserNameLoginBox.Text, PasswordLoginBox.Text);
+            Session["player"] = players;
+            
             if (players.Count == 1)
             {
                 Response.Redirect("Profile.aspx");
