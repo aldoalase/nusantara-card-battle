@@ -49,7 +49,7 @@ namespace NCBdatabase.model
             Player newPlayer = getPlayer.Get(newUsername, newPassword);
             Random random = new Random();
 
-            for (int i=0; i<4; i++)
+            for (int i=0; i<40; i++)
             {
                 int randomNumber = random.Next(1, 8);
                 GetCard getCard = new GetCard();
