@@ -292,3 +292,12 @@ div.accountInfo
     text-align: right;
     padding-right: 10px;
 }
+
+#cover
+{
+	background-image:url(../artwork/covies.png);
+	height: 600px;
+	width: 900px;
+	background-position:center;
+	
+}

@@ -5,9 +5,9 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>
-        NUSANTARA CARD BATTLE
+        
     </h2>
-
+    <div id="cover">
     </div>
 
 </asp:Content>
