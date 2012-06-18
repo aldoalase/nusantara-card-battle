@@ -73,6 +73,6 @@
 		<TextBox x:Name="deskripsiKartu" HorizontalAlignment="Left" Height="29" Margin="114.667,183,0,0" TextWrapping="Wrap" Text="deskripsi" VerticalAlignment="Top" Width="156" TextChanged="deskripsiKartu_TextChanged" />
 		<Label Content="Card Name" Height="33" Margin="18.667,144,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="114"/>
 		<Label Content="Deskripsi" Height="33" Margin="18.667,183,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="114"/>
-		<Button x:Name="cancelButton" Content="Button" HorizontalAlignment="Left" Height="50" Margin="86.667,0,0,71" Style="{DynamicResource cancelButton}" VerticalAlignment="Bottom" Width="158" Cursor="Hand"/>
+		<Button x:Name="cancelButton" Content="Button" HorizontalAlignment="Left" Height="50" Margin="86.667,0,0,71" Style="{DynamicResource cancelButton}" VerticalAlignment="Bottom" Width="158" Cursor="Hand" Click="cancelButton_Click"/>
     </Grid>
 </Window>

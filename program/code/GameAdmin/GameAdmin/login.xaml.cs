@@ -41,12 +41,12 @@ namespace GameAdmin
             List<Player> players = mp.loginAdmin(loginBox.Text, passwordBox.Password);
             if (players.Count == 1 && addRadio.IsChecked == true)
             {
-                Window menu = new editCard();
+                Window menu = new addCard(this);
                 menu.Show();
                 this.Hide();
             } else if (players.Count == 1 && editRadio.IsChecked == true)
             {
-                Window menu = new addCard();
+                Window menu = new editCard(this);
                 menu.Show();
                 this.Hide();
             } else
