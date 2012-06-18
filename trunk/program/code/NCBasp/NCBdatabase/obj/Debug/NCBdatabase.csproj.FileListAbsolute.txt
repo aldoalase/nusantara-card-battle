@@ -45,3 +45,15 @@ C:\Users\yoyok\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\b
 C:\Users\yoyok\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\yoyok\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\obj\Debug\NCBdatabase.dll
 C:\Users\yoyok\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\obj\Debug\NCBdatabase.pdb
+C:\Users\erico\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\bin\Debug\NCBdatabase.dll
+C:\Users\erico\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\bin\Debug\NCBdatabase.pdb
+C:\Users\erico\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\bin\Debug\FluentNHibernate.dll
+C:\Users\erico\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\bin\Debug\Iesi.Collections.dll
+C:\Users\erico\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\bin\Debug\mysql.data.dll
+C:\Users\erico\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\bin\Debug\NHibernate.dll
+C:\Users\erico\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\bin\Debug\FluentNHibernate.xml
+C:\Users\erico\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\bin\Debug\Iesi.Collections.xml
+C:\Users\erico\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\bin\Debug\NHibernate.xml
+C:\Users\erico\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\erico\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\obj\Debug\NCBdatabase.dll
+C:\Users\erico\Documents\nusantara-card-battle\program\code\NCBasp\NCBdatabase\obj\Debug\NCBdatabase.pdb

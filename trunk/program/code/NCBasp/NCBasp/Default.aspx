@@ -5,7 +5,7 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>
-        Welcome to Trading Card Game Nusantar
+        NUSANTARA CARD BATTLE
     </h2>
     <p>
         Anda dapat melakukan registrasi dan dan masuk ke profil anda.
