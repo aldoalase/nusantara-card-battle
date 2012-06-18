@@ -3,7 +3,7 @@
 
 body   
 {
-    background: #f6eee2;
+    background-image:url(../artwork/content-bg.jpg);
     font-size: .80em;
     font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
     margin: 0px;
