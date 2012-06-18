@@ -25,8 +25,9 @@ namespace NCB.Library
             //MessageBox.Show(path);
             //String path = @"pack://application:,,,/" + assembly.GetName().Name + ";component/" + pathInApplication;
             if(!File.Exists(pathInApplication)){
-                pathInApplication = "images/default_card.png";
+                pathInApplication = "kartu/default_card.png";
             }
+            string s = @"pack://application:,,,/" + assembly.GetName().Name + ";component/" + pathInApplication;
             return new BitmapImage(new Uri(@"pack://application:,,,/" + assembly.GetName().Name + ";component/" + pathInApplication, UriKind.Absolute));
         }
 

@@ -280,6 +280,14 @@
       <Name>RandomPassword</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="kartu\6.png" />
+    <Resource Include="kartu\7.png" />
+    <Resource Include="kartu\8.png" />
+    <Resource Include="kartu\default_card.png" />
+    <Resource Include="kartu\ken_arok.png" />
+    <Resource Include="kartu\ken_dedes.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath32)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
 	     Other similar extension points exist, see Microsoft.Common.targets.
