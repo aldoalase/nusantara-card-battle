@@ -29,6 +29,7 @@
             CssClass="failureNotification" ErrorMessage="Password is required." ToolTip="Password is required." 
             ValidationGroup="LoginUserValidationGroup">*</asp:RequiredFieldValidator>
     *</p>
+    <asp:Label ID="StatusRegister" runat="server" />
     <p>
         <asp:Button ID="RegisterButton" runat="server" Text="REGISTER" OnClick="registerClick" />
     </p>

@@ -25,14 +25,17 @@ namespace NCBasp
         {
             if (PasswordRegisterBox.Text == PasswordRegisterBox2.Text)
             {
-                if(!_cekUser.Cek(UserNameRegisterBox.Text))
+                if (!_cekUser.Cek(UserNameRegisterBox.Text))
                     a.RegisPlayer(UserNameRegisterBox.Text, PasswordRegisterBox.Text);
                 else
-                    Response.Redirect("Default.aspx");
+                    StatusRegister.Text = "user name yang anda masukkan sudah terdaftar";
             }
             else
             {
-                Response.Redirect("Default.aspx");
+                StatusRegister.Text = "password tidak sama, ulangi lagi";
+                UserNameRegisterBox.Text = null;
+                PasswordRegisterBox.Text = null;
+                PasswordRegisterBox2.Text = null;
             }
         }
     }
