@@ -29,8 +29,8 @@ namespace NCBdatabase.model
 
         public void RegisPlayer(string newUsername, string newPassword)
         {
-            var factory = this.CreateSessionFactory("Player_CardMap");
-            using (var session = factory.OpenSession())
+            this.factory = this.CreateSessionFactory("Player_CardMap");
+            using (var session = this.factory.OpenSession())
             {
                 using (var tx = session.BeginTransaction())
                 {
@@ -43,6 +43,15 @@ namespace NCBdatabase.model
                     session.Save(player);
                     tx.Commit();
                 }
+            }
+
+            GetPlayer getPlayer = new GetPlayer();
+            Player newPlayer = getPlayer.Get(newUsername, newPassword);
+
+            for (int i=0; i<4; i++)
+            {
+                RandomCard randomCard = new RandomCard();
+                randomCard.GiveCard(newPlayer);
             }
         }
     }
