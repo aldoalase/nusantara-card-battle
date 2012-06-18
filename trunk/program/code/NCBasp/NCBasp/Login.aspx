@@ -14,13 +14,13 @@
             ValidationGroup="LoginUserValidationGroup"></asp:RequiredFieldValidator>
     </p>
     <p>
-        <asp:Label ID="PasswordLabelLogin" runat="server" AssociatedControlID="PasswordLoginBox">Password &nbsp : &nbsp </asp:Label>
+        <asp:Label ID="PasswordLabelLogin" runat="server" AssociatedControlID="PasswordLoginBox">Password &nbsp&nbsp&nbsp&nbsp : &nbsp </asp:Label>
         <asp:TextBox ID="PasswordLoginBox" runat="server" CssClass="passwordEntry" TextMode="Password">*</asp:TextBox>*
         <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="PasswordLoginBox" 
             CssClass="failureNotification" ErrorMessage="Password is required." ToolTip="Password is required." 
             ValidationGroup="LoginUserValidationGroup"></asp:RequiredFieldValidator>
     </p>
     <p>
-        <asp:Button ID="LoginButton" runat="server" Text="Log In" OnClick="loginClick" />
+        <asp:Button ID="LoginButton" runat="server" Text="LOGIN" OnClick="loginClick" />
     </p>
 </asp:Content>

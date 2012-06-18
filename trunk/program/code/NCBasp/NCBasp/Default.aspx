@@ -7,7 +7,7 @@
     <h2>
         NUSANTARA CARD BATTLE
     </h2>
-    <p>
-        Anda dapat melakukan registrasi dan dan masuk ke profil anda.
-    </p>
+
+    </div>
+
 </asp:Content>
