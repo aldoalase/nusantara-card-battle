@@ -11,7 +11,7 @@ namespace NCBasp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Session["player"] = null;
         }
     }
 }
