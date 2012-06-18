@@ -13,5 +13,6 @@ namespace GameAdmin
         public virtual int PLAYER_WIN { get; set; }
         public virtual int PLAYER_LOSE { get; set; }
         public virtual double PLAYER_MONEY { get; set; }
+        public virtual int PLAYER_ROLE { get; set; }
     }
 }

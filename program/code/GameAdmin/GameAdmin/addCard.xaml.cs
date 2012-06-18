@@ -105,6 +105,12 @@ namespace GameAdmin
             mp.Process("save", card);
             MessageBox.Show("berhasil menambahkan kartu");
         }
+
+        private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+        	// TODO: Add event handler implementation here.
+			
+        }
 	}
 
 

@@ -18,6 +18,7 @@ namespace GameAdmin
             Map(x => x.PLAYER_WIN);
             Map(x => x.PLAYER_LOSE);
             Map(x => x.PLAYER_MONEY);
+            Map(x => x.PLAYER_ROLE);
         }
     }
 }

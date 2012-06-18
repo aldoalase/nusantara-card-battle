@@ -44,29 +44,50 @@
 				</Setter.Value>
 			</Setter>
 		</Style>
+		<Style x:Key="cancelButton" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image Source="images/cancel.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
 	</Window.Resources>
 
 	<Grid x:Name="LayoutRoot">
+		<Image Source="images/card management.png" Stretch="Fill"/>
 		<TextBox x:Name="namaKartu" HorizontalAlignment="Left" Height="23" Margin="48,82,0,0" TextWrapping="Wrap" Text="NamaKartu" VerticalAlignment="Top" Width="144"/>
 		<TextBox x:Name="deskripsiKartu" HorizontalAlignment="Left" Height="29" Margin="48,118,0,0" TextWrapping="Wrap" Text="deskripsi" VerticalAlignment="Top" Width="144"/>
 		<ComboBox x:Name="tipeKombo" HorizontalAlignment="Left" Margin="48,157,0,0" Width="144" Height="30" VerticalAlignment="Top"/>
-		<TextBox x:Name="cardStrength" HorizontalAlignment="Right" Height="23" Margin="0,63,102,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="156"/>
-		<TextBox x:Name="cardDefense" HorizontalAlignment="Right" Height="23" Margin="0,99,102,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="156"/>
-		<TextBox x:Name="cardHp" HorizontalAlignment="Right" Height="23" Margin="0,138,102,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="156"/>
-		<TextBox x:Name="cardLevel" HorizontalAlignment="Right" Height="23" Margin="0,175,102,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="156"/>
-		<TextBox x:Name="enchantStrength" HorizontalAlignment="Right" Margin="0,210,102,208" TextWrapping="Wrap" Text="0" Width="156"/>
-		<TextBox x:Name="enchantDefense" HorizontalAlignment="Right" Height="23" Margin="0,0,102,173" TextWrapping="Wrap" Text="0" VerticalAlignment="Bottom" Width="156"/>
-		<TextBox x:Name="enchantHp" HorizontalAlignment="Right" Height="23" Margin="0,0,102,137" TextWrapping="Wrap" Text="0" VerticalAlignment="Bottom" Width="156"/>
-		<TextBox x:Name="cardPrice" HorizontalAlignment="Right" Height="23" Margin="0,0,102,100" TextWrapping="Wrap" Text="0" VerticalAlignment="Bottom" Width="156"/>
+		<TextBox x:Name="cardStrength" HorizontalAlignment="Right" Height="23" Margin="0,82,93,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="156"/>
+		<TextBox x:Name="cardDefense" HorizontalAlignment="Right" Height="23" Margin="0,118,93,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="156"/>
+		<TextBox x:Name="cardHp" HorizontalAlignment="Right" Height="23" Margin="0,157,93,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="156"/>
+		<TextBox x:Name="cardLevel" HorizontalAlignment="Right" Height="23" Margin="0,194,93,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="156"/>
+		<TextBox x:Name="enchantStrength" HorizontalAlignment="Right" Margin="0,0,93,189" TextWrapping="Wrap" Text="0" Width="156" Height="23" VerticalAlignment="Bottom"/>
+		<TextBox x:Name="enchantDefense" HorizontalAlignment="Right" Height="23" Margin="0,0,93,154" TextWrapping="Wrap" Text="0" VerticalAlignment="Bottom" Width="156"/>
+		<TextBox x:Name="enchantHp" HorizontalAlignment="Right" Height="23" Margin="0,0,93,118" TextWrapping="Wrap" Text="0" VerticalAlignment="Bottom" Width="156"/>
+		<TextBox x:Name="cardPrice" HorizontalAlignment="Right" Height="23" Margin="0,0,93,81" TextWrapping="Wrap" Text="0" VerticalAlignment="Bottom" Width="156"/>
 		<Button x:Name="OkButton" Content="Button" HorizontalAlignment="Left" Margin="48,210,0,181" Style="{DynamicResource OkButton}" Width="150" Click="OkButton_Click"/>
-		<Button x:Name="CommitButton" Content="Button" Height="50" Margin="189,0,285,32" Style="{DynamicResource CommitButton}" VerticalAlignment="Bottom" Cursor="Hand" Click="CommitButton_Click"/>
-		<Label Content="Card Strength" Height="33" Margin="248,63,262,0" VerticalAlignment="Top"/>
-		<Label Content="Card Defense" Height="33" Margin="252,96,258,0" VerticalAlignment="Top"/>
-		<Label Content="Card Hp" Height="33" Margin="252,136,258,0" VerticalAlignment="Top"/>
-		<Label Content="Card Level" Height="33" Margin="252,175,258,0" VerticalAlignment="Top"/>
-		<Label Content="Enchant Strength" Margin="252,210,258,198"/>
-		<Label Content="Enchant Defense" Margin="252,0,258,165" Height="33" VerticalAlignment="Bottom"/>
-		<Label Content="Enchant Hp" Margin="252,0,258,132" Height="33" VerticalAlignment="Bottom"/>
-		<Label Content="Card Price" Margin="252,0,258,95" Height="33" VerticalAlignment="Bottom"/>
+		<Button x:Name="CommitButton" Content="Button" Height="50" Margin="48,0,0,129" Style="{DynamicResource CommitButton}" VerticalAlignment="Bottom" Cursor="Hand" Click="CommitButton_Click" HorizontalAlignment="Left" Width="144"/>
+		<Label Content="Card Strength" Height="33" Margin="257,82,253,0" VerticalAlignment="Top"/>
+		<Label Content="Card Defense" Height="33" Margin="261,115,249,0" VerticalAlignment="Top"/>
+		<Label Content="Card Hp" Height="33" Margin="261,155,249,0" VerticalAlignment="Top"/>
+		<Label Content="Card Level" Margin="261,194,249,214"/>
+		<Label Content="Enchant Strength" Margin="261,0,249,179" Height="33" VerticalAlignment="Bottom"/>
+		<Label Content="Enchant Defense" Margin="261,0,249,146" Height="33" VerticalAlignment="Bottom"/>
+		<Label Content="Enchant Hp" Margin="261,0,249,113" Height="33" VerticalAlignment="Bottom"/>
+		<Label Content="Card Price" Margin="261,0,249,76" Height="33" VerticalAlignment="Bottom"/>
+		<Button Content="Button" HorizontalAlignment="Left" Height="50" Margin="48,0,0,77" Style="{DynamicResource cancelButton}" VerticalAlignment="Bottom" Width="150" Click="Button_Click"/>
 	</Grid>
 </Window>

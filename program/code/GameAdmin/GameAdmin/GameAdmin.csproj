@@ -104,15 +104,8 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="ManagementWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ManagementWindow.xaml.cs">
-      <DependentUpon>ManagementWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Mapping\Battle.cs" />
     <Compile Include="Mapping\BattleMap.cs" />
     <Compile Include="Mapping\Card.cs" />
@@ -139,7 +132,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="images\cancel.png" />
+    <Resource Include="images\card management.png" />
     <Resource Include="images\commit.png" />
+    <Resource Include="images\exit.png" />
+    <Resource Include="images\login.png" />
     <Resource Include="images\ok.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath32)\Microsoft.CSharp.targets" />
