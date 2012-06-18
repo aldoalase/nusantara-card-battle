@@ -19,10 +19,12 @@ namespace NCBasp
             if (players == null)
                 Response.Redirect("Default.aspx");
 
-            UserName.Text = players[0].PLAYER_NAME;
+            int idPlayer = players[0].PLAYER_ID;
+
+            //UserName.Text = players[0].PLAYER_NAME;
 
             GetBattle getBattle = new GetBattle();
-            List<Battle> battles = getBattle.GetBattles(players[0]);
+            List<Battle> battles = getBattle.GetBattles(idPlayer);
 
             GridView1.DataSource = battles;
             GridView1.DataBind();

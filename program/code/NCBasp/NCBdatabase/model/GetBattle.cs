@@ -13,19 +13,19 @@ namespace NCBdatabase.model
 
         public GetBattle()
         {
-            
+            this.factory = this.CreateSessionFactory("BattleMap");
         }
 
-        public List<Battle> GetBattles(Player player)
+        public List<Battle> GetBattles(int _idPlayer)
         {
-            this.factory = this.CreateSessionFactory("Player_CardMap");
+            this.factory = this.CreateSessionFactory("BattleMap");
             List<Battle> listBattle = new List<Battle>();
             using (var session = this.factory.OpenSession())
             {
                 using (var tx = session.BeginTransaction())
                 {
                     listBattle = session.Query<Battle>()
-                        .Where(u => u.BATTLE_PLAYER_1.Equals(player.PLAYER_ID))
+                        .Where(u => u.BATTLE_ID.Equals(_idPlayer))
                         .ToList();
                     tx.Commit();
                 }

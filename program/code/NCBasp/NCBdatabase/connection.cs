@@ -48,6 +48,11 @@ namespace NCBdatabase
                         .Database(config())
                         .Mappings(m => m.FluentMappings.AddFromAssemblyOf<BattleMap>())
                         .BuildConfiguration().BuildSessionFactory();
+                case "TipeMap":
+                    return Fluently.Configure()
+                        .Database(config())
+                        .Mappings(m => m.FluentMappings.AddFromAssemblyOf<TipeMap>())
+                        .BuildConfiguration().BuildSessionFactory();
                 default:
                     return null;
 
