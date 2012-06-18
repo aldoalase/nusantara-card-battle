@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using FluentNHibernate.Mapping;
 
-namespace NCB
+namespace NCBdatabase
 {
     public sealed class Player_CardMap : ClassMap<Player_Card>
     {

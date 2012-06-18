@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace NCB.Mapping
+namespace NCBdatabase
 {
     public class Tipe
     {

@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using NCB.Mapping;
 
-namespace NCB
+namespace NCBdatabase
 {
     public class Card
     {

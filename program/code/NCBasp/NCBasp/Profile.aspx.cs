@@ -16,7 +16,11 @@ namespace NCBasp
         {
             List<Player> players = new List<Player>();
             players = (List<Player>)Session["player"];
-            UserName.Text = players[0].PLAYER_NAME.ToString();
+
+            if(players == null)
+                Response.Redirect("Default.aspx");
+
+            UserName.Text = players[0].PLAYER_NAME;
             PlayerWin.Text = players[0].PLAYER_WIN.ToString();
             PlayerLose.Text = players[0].PLAYER_LOSE.ToString();
             PlayerMoney.Text = players[0].PLAYER_MONEY.ToString();
