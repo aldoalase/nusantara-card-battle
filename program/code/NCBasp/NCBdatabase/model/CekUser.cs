@@ -32,5 +32,16 @@ namespace NCBdatabase.model
             }
             return listPlayer[0];
         }
+
+        public bool Cek(string _playerName)
+        {
+            Player player = Get(_playerName);
+            if (player != null)
+                return true;
+            else
+            {
+                return false;
+            }
+        }
     }
 }

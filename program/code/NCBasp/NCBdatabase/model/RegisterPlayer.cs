@@ -29,32 +29,41 @@ namespace NCBdatabase.model
 
         public void RegisPlayer(string newUsername, string newPassword)
         {
-            this.factory = this.CreateSessionFactory("Player_CardMap");
-            using (var session = this.factory.OpenSession())
-            {
-                using (var tx = session.BeginTransaction())
-                {
-                    var player = new Player
-                    {
-                        PLAYER_NAME = newUsername,
-                        PLAYER_PASSWORD = newPassword
-                    };
+            CekUser cekUser = new CekUser();
 
-                    session.Save(player);
-                    tx.Commit();
+            if(cekUser.Cek(newUsername))
+            {
+                this.factory = this.CreateSessionFactory("Player_CardMap");
+                using (var session = this.factory.OpenSession())
+                {
+                    using (var tx = session.BeginTransaction())
+                    {
+                        var player = new Player
+                        {
+                            PLAYER_NAME = newUsername,
+                            PLAYER_PASSWORD = newPassword
+                        };
+
+                        session.Save(player);
+                        tx.Commit();
+                    }
+                }
+
+                GetPlayer getPlayer = new GetPlayer();
+                Player newPlayer = getPlayer.Get(newUsername, newPassword);
+                Random random = new Random();
+
+                for (int i = 0; i < 40; i++)
+                {
+                    int randomNumber = random.Next(1, 8);
+                    GetCard getCard = new GetCard();
+                    RandomCard randomCard = new RandomCard();
+                    randomCard.GiveCard(newPlayer, getCard.Get(randomNumber));
                 }
             }
-
-            GetPlayer getPlayer = new GetPlayer();
-            Player newPlayer = getPlayer.Get(newUsername, newPassword);
-            Random random = new Random();
-
-            for (int i=0; i<40; i++)
+            else
             {
-                int randomNumber = random.Next(1, 8);
-                GetCard getCard = new GetCard();
-                RandomCard randomCard = new RandomCard();
-                randomCard.GiveCard(newPlayer, getCard.Get(randomNumber));
+                //KALO GAGAL
             }
         }
     }
