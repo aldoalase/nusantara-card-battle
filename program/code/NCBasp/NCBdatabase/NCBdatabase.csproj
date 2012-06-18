@@ -68,6 +68,7 @@
     <Compile Include="mapped\Tipe.cs" />
     <Compile Include="mapped\TipeMap.cs" />
     <Compile Include="model\CekUser.cs" />
+    <Compile Include="model\GetBattle.cs" />
     <Compile Include="model\GetCard.cs" />
     <Compile Include="model\GetPlayer.cs" />
     <Compile Include="model\PlayerLogin.cs" />
