@@ -24,8 +24,6 @@ namespace NCBasp
             PlayerWin.Text = players[0].PLAYER_WIN.ToString();
             PlayerLose.Text = players[0].PLAYER_LOSE.ToString();
             PlayerMoney.Text = players[0].PLAYER_MONEY.ToString();
-
-            Session["player"] = null;
         }
     }
 }
