@@ -34,13 +34,17 @@ namespace NCBasp
         {
             List<Player> players = a.Login(UserNameLoginBox.Text, PasswordLoginBox.Text);
             Session["player"] = players;
-            
+
             if (players.Count == 1)
             {
                 Response.Redirect("Profile.aspx");
             }
             else
-                Response.Redirect("Default.aspx"); 
+            {
+                StatusLogin.Text = "masukkan username dan password yang benar";
+                UserNameLoginBox.Text = null;
+                PasswordLoginBox.Text = null;
+            }
         }
     }
 }

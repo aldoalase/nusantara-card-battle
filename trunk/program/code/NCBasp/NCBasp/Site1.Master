@@ -21,7 +21,7 @@
             <div class="clear hideSkiplink">
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
-                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="HOME"/>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="LOG OUT"/>
                         <asp:MenuItem NavigateUrl="~/LastBattle.aspx" Text="LAST BATTLE"/>
                     </Items>
                 </asp:Menu>
