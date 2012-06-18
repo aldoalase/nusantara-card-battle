@@ -27,44 +27,33 @@ namespace NCBdatabase.model
             this.factory = this.CreateSessionFactory("Player_CardMap");
         }
 
-        public bool RegisPlayer(string newUsername, string newPassword)
+        public void RegisPlayer(string newUsername, string newPassword)
         {
-            CekUser cekUser = new CekUser();
-
-            if(cekUser.Cek(newUsername))
+            this.factory = this.CreateSessionFactory("Player_CardMap");
+            using (var session = this.factory.OpenSession())
             {
-                this.factory = this.CreateSessionFactory("Player_CardMap");
-                using (var session = this.factory.OpenSession())
+                using (var tx = session.BeginTransaction())
                 {
-                    using (var tx = session.BeginTransaction())
+                    var player = new Player
                     {
-                        var player = new Player
-                        {
-                            PLAYER_NAME = newUsername,
-                            PLAYER_PASSWORD = newPassword
-                        };
+                        PLAYER_NAME = newUsername,
+                        PLAYER_PASSWORD = newPassword
+                    };
 
-                        session.Save(player);
-                        tx.Commit();
-                    }
+                    session.Save(player);
+                    tx.Commit();
                 }
-
-                GetPlayer getPlayer = new GetPlayer();
-                Player newPlayer = getPlayer.Get(newUsername, newPassword);
-                Random random = new Random();
-
-                for (int i = 0; i < 40; i++)
-                {
-                    int randomNumber = random.Next(1, 8);
-                    GetCard getCard = new GetCard();
-                    RandomCard randomCard = new RandomCard();
-                    randomCard.GiveCard(newPlayer, getCard.Get(randomNumber));
-                }
-                return true;
             }
-            else
+            GetPlayer getPlayer = new GetPlayer();
+            Player newPlayer = getPlayer.Get(newUsername, newPassword);
+            Random random = new Random();
+
+            for (int i = 0; i < 40; i++)
             {
-                return false;
+                int randomNumber = random.Next(1, 8);
+                GetCard getCard = new GetCard();
+                RandomCard randomCard = new RandomCard();
+                randomCard.GiveCard(newPlayer, getCard.Get(randomNumber));
             }
         }
     }
