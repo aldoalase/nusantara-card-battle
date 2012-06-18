@@ -20,10 +20,15 @@ namespace GameAdmin
 	public partial class addCard : Window
 	{
         private List<Tipe> tipes = new List<Tipe>();
-		public addCard()
+        public login parent;
+		public addCard(login _parent)
 		{
 			this.InitializeComponent();
 			loadTipe();
+            this.InitializeComponent();
+            this.parent = _parent;
+			MouseDown += delegate { DragMove(); };
+			
 			// Insert code required on object creation below this point.
             cardStrength.IsEnabled = false;
             cardDefense.IsEnabled = false;
@@ -36,7 +41,8 @@ namespace GameAdmin
             
 		
         }
-
+		
+		
         private void loadTipe()
         {
             ModelTipe mt = new ModelTipe();
@@ -58,7 +64,6 @@ namespace GameAdmin
                 cardStrength.IsEnabled = true;
 				cardDefense.IsEnabled = true;
 				cardLevel.IsEnabled = true;
-				cardHp.IsEnabled = true;
 				cardPrice.IsEnabled = true;
 
             }
@@ -106,11 +111,16 @@ namespace GameAdmin
             MessageBox.Show("berhasil menambahkan kartu");
         }
 
-        private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
+        private void exitButton_Click(object sender, System.Windows.RoutedEventArgs e)
         {
-        	// TODO: Add event handler implementation here.
-			
+        	// TODO: Add event handler implementation here.'
+			parent.Show();
+			this.Close();
         }
+
+       
+
+        
 	}
 
 

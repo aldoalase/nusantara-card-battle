@@ -63,6 +63,25 @@
 				</Setter.Value>
 			</Setter>
 		</Style>
+		<Style x:Key="exitButton" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image Source="images/exit.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
 	</Window.Resources>
 
 	<Grid x:Name="LayoutRoot">
@@ -88,6 +107,6 @@
 		<Label Content="Enchant Defense" Margin="261,0,249,146" Height="33" VerticalAlignment="Bottom"/>
 		<Label Content="Enchant Hp" Margin="261,0,249,113" Height="33" VerticalAlignment="Bottom"/>
 		<Label Content="Card Price" Margin="261,0,249,76" Height="33" VerticalAlignment="Bottom"/>
-		<Button Content="Button" HorizontalAlignment="Left" Height="50" Margin="48,0,0,77" Style="{DynamicResource cancelButton}" VerticalAlignment="Bottom" Width="150" Click="Button_Click"/>
+		<Button x:Name="exitButton" Content="Button" HorizontalAlignment="Left" Height="50" Margin="48,0,0,81" Style="{DynamicResource exitButton}" VerticalAlignment="Bottom" Width="150" Click="exitButton_Click"/>
 	</Grid>
 </Window>

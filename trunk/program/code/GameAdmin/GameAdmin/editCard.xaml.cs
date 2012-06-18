@@ -26,11 +26,13 @@ namespace GameAdmin
         public int selectedCard = 0;*/
         private List<Tipe> tipes = new List<Tipe>();
         private List<Card> daftar = new List<Card>();
+		public login parent;
         int id;
-        public editCard()
+        public editCard(login _parent)
 		{
 			this.InitializeComponent();
             loadTipe();
+			this.parent = _parent;
             //this.init();
 			// Insert code required on object creation below this point.
 		}
@@ -121,6 +123,13 @@ namespace GameAdmin
             };
             mp.Process("update", card);
             MessageBox.Show("berhasil menambahkan kartu");
+        }
+
+        private void cancelButton_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+        	// TODO: Add event handler implementation here.
+			parent.Show();
+			this.Close();
         }
 
        
