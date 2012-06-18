@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using FluentNHibernate.Mapping;
-using NCB.Mapping;
 
-namespace NCB
+namespace NCBdatabase
 {
     public sealed class BattleMap : ClassMap<Battle>
     {

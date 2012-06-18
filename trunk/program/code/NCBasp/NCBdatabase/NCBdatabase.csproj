@@ -65,6 +65,8 @@
     <Compile Include="mapped\PlayerMap.cs" />
     <Compile Include="mapped\Player_Card.cs" />
     <Compile Include="mapped\Player_CardMap.cs" />
+    <Compile Include="mapped\Tipe.cs" />
+    <Compile Include="mapped\TipeMap.cs" />
     <Compile Include="model\CekUser.cs" />
     <Compile Include="model\GetCard.cs" />
     <Compile Include="model\GetPlayer.cs" />
