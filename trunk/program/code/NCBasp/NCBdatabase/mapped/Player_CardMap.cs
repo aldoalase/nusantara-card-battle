@@ -11,8 +11,8 @@ namespace NCBdatabase
         public Player_CardMap()
         {
             Table("`player_card`");
-            References<Card>(x => x.Card, "`CARD_ID`").Cascade.All();
-            References<Player>(x => x.Player, "`PLAYER_ID`").Cascade.All();
+            References<Card>(x => x.Card, "`CARD_ID`").Cascade.SaveUpdate();
+            References<Player>(x => x.Player, "`PLAYER_ID`").Cascade.SaveUpdate();
             Id(x => x.PLAYER_CARD_ID);
             Map(x => x.PLAYER_CARD_ACTIVE);
         }

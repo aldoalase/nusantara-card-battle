@@ -47,11 +47,14 @@ namespace NCBdatabase.model
 
             GetPlayer getPlayer = new GetPlayer();
             Player newPlayer = getPlayer.Get(newUsername, newPassword);
+            Random random = new Random();
 
             for (int i=0; i<4; i++)
             {
+                int randomNumber = random.Next(1, 8);
+                GetCard getCard = new GetCard();
                 RandomCard randomCard = new RandomCard();
-                randomCard.GiveCard(newPlayer);
+                randomCard.GiveCard(newPlayer, getCard.Get(randomNumber));
             }
         }
     }
