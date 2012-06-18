@@ -7,12 +7,13 @@ using NHibernate.Linq;
 
 namespace NCBdatabase.model
 {
-    class CekUser : connection
+    public class CekUser : connection
     {
         private ISessionFactory factory;
 
         public CekUser()
         {
+
         }
 
         //public List<Player> Login(string _playerName)
