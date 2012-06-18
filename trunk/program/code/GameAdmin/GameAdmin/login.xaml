@@ -5,9 +5,55 @@
 	x:Name="Window"
 	Title="login"
 	Width="640" Height="480">
+	<Window.Resources>
+		<Style x:Key="LoginButton" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image Source="images/login.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="exitButton" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image Source="images/exit.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Window.Resources>
 
 	<Grid x:Name="LayoutRoot">
-		<TextBox Height="34" Margin="183,134,265,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
-		<PasswordBox Height="31" Margin="183,183,265,0" VerticalAlignment="Top"/>
+		<Image Source="images/card management.png" Stretch="Fill"/>
+		<TextBox x:Name="loginBox" Height="28" Margin="222,126,226,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+		<PasswordBox x:Name="passwordBox" Height="28" Margin="222,169,226,0" VerticalAlignment="Top" Password="password"/>
+		<Button x:Name="loginButton" Content="Button" Margin="244,0,260,121" Style="{DynamicResource LoginButton}" Click="loginButton_Click" Height="43" VerticalAlignment="Bottom"/>
+		<Button x:Name="exitButton" Content="Button" Height="43" Margin="244,0,260,78" Style="{DynamicResource exitButton}" VerticalAlignment="Bottom" Click="exitButton_Click"/>
+		<RadioButton Content="Add Card" Margin="223,0,260,180" Height="20" VerticalAlignment="Bottom" Name="addRadio" />
+		<RadioButton Content="Edit Card" HorizontalAlignment="Right" Height="20" Margin="0,0,186,180" VerticalAlignment="Bottom" Width="119" Name="editRadio" />
+		<Label Content="MENU" Margin="273,213,290,192" FontSize="16" Foreground="#FF513E0F"/>
 	</Grid>
 </Window>

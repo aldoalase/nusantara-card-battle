@@ -37,12 +37,10 @@ C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\GameAdmin\GameAdm
 C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\GameAdmin\GameAdmin\obj\Debug\editCard.baml
 C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\GameAdmin\GameAdmin\obj\Debug\login.baml
 C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\GameAdmin\GameAdmin\obj\Debug\MainWindow.baml
-C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\GameAdmin\GameAdmin\obj\Debug\ManagementWindow.baml
 C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\GameAdmin\GameAdmin\obj\Debug\addCard.g.cs
 C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\GameAdmin\GameAdmin\obj\Debug\editCard.g.cs
 C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\GameAdmin\GameAdmin\obj\Debug\login.g.cs
 C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\GameAdmin\GameAdmin\obj\Debug\MainWindow.g.cs
-C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\GameAdmin\GameAdmin\obj\Debug\ManagementWindow.g.cs
 C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\GameAdmin\GameAdmin\obj\Debug\App.g.cs
 C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\GameAdmin\GameAdmin\obj\Debug\GameAdmin_MarkupCompile.cache
 C:\Users\Ultimate\Documents\NUSANTARA-CARD-BATTLE\program\code\GameAdmin\GameAdmin\obj\Debug\GameAdmin.g.resources
