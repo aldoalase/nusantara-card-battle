@@ -23,7 +23,8 @@ namespace NCBasp
         {
             if (PasswordRegisterBox.Text == PasswordRegisterBox2.Text)
             {
-                a.RegisPlayer(UserNameRegisterBox.Text, PasswordRegisterBox.Text);
+                if (!a.RegisPlayer(UserNameRegisterBox.Text, PasswordRegisterBox.Text))
+                    Response.Redirect("Default.apsx");
             }
         }
     }

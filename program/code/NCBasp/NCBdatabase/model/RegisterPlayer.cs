@@ -27,7 +27,7 @@ namespace NCBdatabase.model
             this.factory = this.CreateSessionFactory("Player_CardMap");
         }
 
-        public void RegisPlayer(string newUsername, string newPassword)
+        public bool RegisPlayer(string newUsername, string newPassword)
         {
             CekUser cekUser = new CekUser();
 
@@ -60,10 +60,11 @@ namespace NCBdatabase.model
                     RandomCard randomCard = new RandomCard();
                     randomCard.GiveCard(newPlayer, getCard.Get(randomNumber));
                 }
+                return true;
             }
             else
             {
-                //KALO GAGAL
+                return false;
             }
         }
     }
