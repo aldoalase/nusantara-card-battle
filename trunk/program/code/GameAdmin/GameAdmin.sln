@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameAdmin", "GameAdmin\GameAdmin.csproj", "{a8f19ec3-962e-42ec-baa8-c8c75b5f351c}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8F19EC3-962E-42EC-BAA8-C8C75B5F351C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F19EC3-962E-42EC-BAA8-C8C75B5F351C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F19EC3-962E-42EC-BAA8-C8C75B5F351C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F19EC3-962E-42EC-BAA8-C8C75B5F351C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
