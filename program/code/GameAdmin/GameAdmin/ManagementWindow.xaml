@@ -1,0 +1,13 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="GameAdmin.ManagementWindow"
+	x:Name="Window"
+	Title="ManagementWindow"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot">
+		<Button Content="tambah" Margin="249,193,286,218"/>
+		<Button Content="update" Margin="249,0,286,166" Height="30" VerticalAlignment="Bottom"/>
+	</Grid>
+</Window>

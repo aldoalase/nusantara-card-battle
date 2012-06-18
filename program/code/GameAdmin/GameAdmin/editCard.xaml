@@ -1,0 +1,57 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="GameAdmin.editCard"
+	x:Name="Window"
+	Title="editCard"
+	Width="640" Height="480">
+	<Window.Resources>
+		<Style x:Key="CommitButton" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Image Source="images/commit.png" Stretch="Fill"/>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Content=""/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Window.Resources>
+
+	<Grid x:Name="LayoutRoot">
+		<ComboBox x:Name="tipeKartu" HorizontalAlignment="Left" Height="31" Margin="104,106,0,0" VerticalAlignment="Top" Width="133" SelectionChanged="tipeKartu_SelectionChanged" />
+		<ComboBox x:Name="daftarKartu" HorizontalAlignment="Left" Height="30" Margin="104,156,0,0" VerticalAlignment="Top" Width="133"/>
+		<Button Content="select" HorizontalAlignment="Left" Height="31" Margin="31,106,0,0" VerticalAlignment="Top" Width="69" Name="selectButton" Click="selectButton_Click_1" />
+		<Button Content="pick" HorizontalAlignment="Left" Height="31" Margin="31,0,0,255" VerticalAlignment="Bottom" Width="69" Name="pickButton" Click="pickButton_Click" />
+		<TextBox x:Name="cardStrength" HorizontalAlignment="Right" Height="23" Margin="0,107,67,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="156"/>
+		<TextBox x:Name="cardDefense" HorizontalAlignment="Right" Height="23" Margin="0,143,67,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="156"/>
+		<TextBox x:Name="cardHp" HorizontalAlignment="Right" Height="23" Margin="0,182,67,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="156"/>
+		<TextBox x:Name="cardLevel" HorizontalAlignment="Right" Margin="0,219,67,199" TextWrapping="Wrap" Text="0" Width="156"/>
+		<TextBox x:Name="enchantStrength" HorizontalAlignment="Right" Margin="0,0,67,164" TextWrapping="Wrap" Text="0" Width="156" Height="23" VerticalAlignment="Bottom"/>
+		<TextBox x:Name="enchantDefense" HorizontalAlignment="Right" Height="23" Margin="0,0,67,129" TextWrapping="Wrap" Text="0" VerticalAlignment="Bottom" Width="156"/>
+		<TextBox x:Name="enchantHp" HorizontalAlignment="Right" Height="23" Margin="0,0,67,93" TextWrapping="Wrap" Text="0" VerticalAlignment="Bottom" Width="156"/>
+		<TextBox x:Name="cardPrice" HorizontalAlignment="Right" Height="23" Margin="0,0,67,56" TextWrapping="Wrap" Text="0" VerticalAlignment="Bottom" Width="156"/>
+		<Label Content="Card Strength" Height="33" Margin="283,107,227,0" VerticalAlignment="Top"/>
+		<Label Content="Card Defense" Height="33" Margin="287,140,223,0" VerticalAlignment="Top"/>
+		<Label Content="Card Hp" Height="33" Margin="287,180,223,0" VerticalAlignment="Top"/>
+		<Label Content="Card Level" Margin="287,219,223,189"/>
+		<Label Content="Enchant Strength" Margin="287,0,223,154" Height="33" VerticalAlignment="Bottom"/>
+		<Label Content="Enchant Defense" Margin="287,0,223,121" Height="33" VerticalAlignment="Bottom"/>
+		<Label Content="Enchant Hp" Margin="287,0,223,88" Height="33" VerticalAlignment="Bottom"/>
+		<Label Content="Card Price" Margin="287,0,223,51" Height="33" VerticalAlignment="Bottom"/>
+		<Button x:Name="CommitButton" Content="Button" Height="50" Margin="77,0,0,77" Style="{DynamicResource CommitButton}" VerticalAlignment="Bottom" Cursor="Hand" HorizontalAlignment="Left" Width="150" Click="CommitButton_Click_1" />
+		<TextBox x:Name="namaKartu" HorizontalAlignment="Right" Height="23" Margin="0,29,67,0" TextWrapping="Wrap" Text="NamaKartu" VerticalAlignment="Top" Width="156"/>
+		<TextBox x:Name="deskripsiKartu" HorizontalAlignment="Right" Height="29" Margin="0,65,67,0" TextWrapping="Wrap" Text="deskripsi" VerticalAlignment="Top" Width="156" TextChanged="deskripsiKartu_TextChanged" />
+		<Label Content="Card Name" Height="33" Margin="283,26,227,0" VerticalAlignment="Top"/>
+		<Label Content="Deskripsi" Height="33" Margin="283,65,227,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
