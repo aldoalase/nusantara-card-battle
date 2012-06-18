@@ -16,7 +16,10 @@ namespace NCBasp
         {
             List<Player> players = new List<Player>();
             players = (List<Player>)Session["player"];
-            IDUser.Text = players[0].PLAYER_ID.ToString();
+            UserName.Text = players[0].PLAYER_NAME.ToString();
+            PlayerWin.Text = players[0].PLAYER_WIN.ToString();
+            PlayerLose.Text = players[0].PLAYER_LOSE.ToString();
+            PlayerMoney.Text = players[0].PLAYER_MONEY.ToString();
         }
     }
 }

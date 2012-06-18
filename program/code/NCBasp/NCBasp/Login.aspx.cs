@@ -32,7 +32,6 @@ namespace NCBasp
 
         protected void loginClick(Object sender, EventArgs e)
         {
-            //List<Player> players = a.Login(UserNameLoginBox.Text);
             List<Player> players = a.Login(UserNameLoginBox.Text, PasswordLoginBox.Text);
             Session["player"] = players;
             
