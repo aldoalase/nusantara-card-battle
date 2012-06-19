@@ -632,7 +632,7 @@
 		<Image x:Name="hand6" Height="105" Margin="0,0,294,42.5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="70" Source="gajah mada small.png"/>
 		<Image x:Name="hand7" Height="105" Margin="0,0,205.5,42.5" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="70" Source="gajah mada small.png"/>
 		<Image x:Name="ImageLarge" HorizontalAlignment="Left" Height="218" Margin="39,0,0,36.5" VerticalAlignment="Bottom" Width="150" Source="gajah mada small.png"/>
-		<Button x:Name="hand1Button" Content="" HorizontalAlignment="Left" Height="105" Margin="216,0,0,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" Width="70" RenderTransformOrigin="0.5,0.5" Cursor="Hand">
+		<Button x:Name="hand1Button" Content="" HorizontalAlignment="Left" Height="105" Margin="216,0,0,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" Width="70" RenderTransformOrigin="0.5,0.5" Cursor="Hand" Click="hand1Button_Click">
 			<Button.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
@@ -642,7 +642,7 @@
 				</TransformGroup>
 			</Button.RenderTransform>
 		</Button>
-		<Button x:Name="hand2button" Content="" HorizontalAlignment="Left" Height="105" Margin="304.5,0,0,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" Width="70" RenderTransformOrigin="0.5,0.5" Cursor="Hand">
+		<Button x:Name="hand2button" Content="" HorizontalAlignment="Left" Height="105" Margin="304.5,0,0,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" Width="70" RenderTransformOrigin="0.5,0.5" Cursor="Hand" Click="hand2button_Click">
 			<Button.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
@@ -652,7 +652,7 @@
 				</TransformGroup>
 			</Button.RenderTransform>
 		</Button>
-		<Button x:Name="hand3Button" Content="" HorizontalAlignment="Left" Height="105" Margin="394.5,0,0,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" Width="70" RenderTransformOrigin="0.5,0.5" Cursor="Hand">
+		<Button x:Name="hand3Button" Content="" HorizontalAlignment="Left" Height="105" Margin="394.5,0,0,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" Width="70" RenderTransformOrigin="0.5,0.5" Cursor="Hand" Click="hand3Button_Click">
 			<Button.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
@@ -662,7 +662,7 @@
 				</TransformGroup>
 			</Button.RenderTransform>
 		</Button>
-		<Button x:Name="hand4Button" Content="" Height="105" Margin="483,0,471,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" Cursor="Hand">
+		<Button x:Name="hand4Button" Content="" Height="105" Margin="483,0,471,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" Cursor="Hand" Click="hand4Button_Click">
 			<Button.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
@@ -672,7 +672,7 @@
 				</TransformGroup>
 			</Button.RenderTransform>
 		</Button>
-		<Button x:Name="hand5Button" Content="" Height="105" Margin="0,0,381,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70" Cursor="Hand">
+		<Button x:Name="hand5Button" Content="" Height="105" Margin="0,0,381,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70" Cursor="Hand" Click="hand5Button_Click">
 			<Button.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
@@ -682,7 +682,7 @@
 				</TransformGroup>
 			</Button.RenderTransform>
 		</Button>
-		<Button x:Name="hand6Button" Content="" Height="105" Margin="0,0,295.5,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70" Cursor="Hand">
+		<Button x:Name="hand6Button" Content="" Height="105" Margin="0,0,292.5,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70" Cursor="Hand" Click="hand6Button_Click">
 			<Button.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
@@ -692,7 +692,7 @@
 				</TransformGroup>
 			</Button.RenderTransform>
 		</Button>
-		<Button x:Name="hand7Button" Content="" Height="105" Margin="0,0,205.5,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70" Cursor="Hand">
+		<Button x:Name="hand7Button" Content="" Height="105" Margin="0,0,205.5,42.5" Style="{DynamicResource hand1button}" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right" Width="70" Cursor="Hand" Click="hand7Button_Click">
 			<Button.RenderTransform>
 				<TransformGroup>
 					<ScaleTransform/>
