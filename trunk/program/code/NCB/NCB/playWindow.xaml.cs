@@ -30,6 +30,12 @@ namespace NCB
         private LinkedList<Card> test = new LinkedList<Card>();
         private List<Card> player1hand = new List<Card>();
         private List<Card> player2hand = new List<Card>();
+        private List<Card> player1char = new List<Card>();
+        private List<Card> player2char = new List<Card>();
+
+	    private int selectedIndex;
+
+        private ImageLibrary img = new ImageLibrary();
 		public PlayWindow(WaitingRoomWindow _parent, Player _player1, Player _player2)
 		{
 			this.InitializeComponent();
@@ -43,10 +49,20 @@ namespace NCB
             init();
 		}
 
+        public void GetCards()
+        {
+            ModelPlayer_Card playerCard = new ModelPlayer_Card();
+            for (int i = 0; i < 40; i++)
+            {
+                player1cards.AddLast(playerCard.LoadActiveCards(player1.PLAYER_ID)[i]);
+                player2cards.AddLast(playerCard.LoadActiveCards(player2.PLAYER_ID)[i]);
+            }
+        }
+
         public void init()
         {
             ModelCard card = new ModelCard();
-            for(int i = 0; i < 7; i++)
+            for(int i = 0; i < 5; i++)
             {
                 player1hand.Add(card.getCard(player1cards.Last.Value.Card.CARD_ID));
                 player1cards.RemoveLast();
@@ -56,7 +72,7 @@ namespace NCB
 
         public void reload()
         {
-            ImageLibrary img = new ImageLibrary();
+            //deckPlayer.Source = img.Load("kartu/default_card.png");
             if (player1hand.Count >= 1)
             {
                 hand1.Source = img.Load("kartu/" + player1hand[0].CARD_ID.ToString() + ".png");
@@ -85,16 +101,29 @@ namespace NCB
             {
                 hand7.Source = img.Load("kartu/" + player1hand[6].CARD_ID.ToString() + ".png");
             }
-        }
 
-        public void GetCards()
-        {
-            ModelPlayer_Card playerCard = new ModelPlayer_Card();
-                for(int i = 0; i < 40; i++)
-                {
-                    player1cards.AddLast(playerCard.LoadPlayerCard(player1.PLAYER_ID)[i]);
-                    player2cards.AddLast(playerCard.LoadPlayerCard(player2.PLAYER_ID)[i]);
-                }
+
+            //load gambar field
+            if (player1char.Count >= 1)
+            {
+                hand1.Source = img.Load("kartu/" + player1hand[0].CARD_ID.ToString() + ".png");
+            }
+            if (player1char.Count >= 2)
+            {
+                hand2.Source = img.Load("kartu/" + player1hand[1].CARD_ID.ToString() + ".png");
+            }
+            if (player1char.Count >= 3)
+            {
+                hand3.Source = img.Load("kartu/" + player1hand[2].CARD_ID.ToString() + ".png");
+            }
+            if (player1char.Count >= 4)
+            {
+                hand4.Source = img.Load("kartu/" + player1hand[3].CARD_ID.ToString() + ".png");
+            }
+            if (player1char.Count >= 5)
+            {
+                hand5.Source = img.Load("kartu/" + player1hand[4].CARD_ID.ToString() + ".png");
+            }
         }
 
 		private void PlayButton_Click(object sender, System.Windows.RoutedEventArgs e)
@@ -103,7 +132,6 @@ namespace NCB
 			deckPlayerAnimated.IsEnabled= true;
 			Storyboard sb = this.FindResource("deckPlayerLoaded") as Storyboard;
         	sb.Begin();
-		    MessageBox.Show(player1hand[0].CARD_PRICE.ToString());
 
 		}
 
@@ -112,6 +140,105 @@ namespace NCB
 			// TODO: Add event handler implementation here.
 			Storyboard sb = this.FindResource("kuburanPlayerLoaded") as Storyboard;
         	sb.Begin();
+		}
+
+	    private void hand1Button_Click(object sender, System.Windows.RoutedEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+            if(player1hand.Count >= 1)
+            {
+                ImageLarge.Source = img.Load("kartu/" + player1hand[0].CARD_ID.ToString() + ".png");
+            }
+            else
+            {
+                ImageLarge.Source = img.Load("kartu/default_card.png");
+            }
+	        selectedIndex = 0;
+		}
+
+		private void hand2button_Click(object sender, System.Windows.RoutedEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+            if (player1hand.Count >= 2)
+            {
+                ImageLarge.Source = img.Load("kartu/" + player1hand[1].CARD_ID.ToString() + ".png");
+            }
+            else
+            {
+                ImageLarge.Source = img.Load("kartu/default_card.png");
+            }
+            selectedIndex = 1;
+
+		}
+
+		private void hand3Button_Click(object sender, System.Windows.RoutedEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+            if (player1hand.Count >= 3)
+            {
+                ImageLarge.Source = img.Load("kartu/" + player1hand[2].CARD_ID.ToString() + ".png");
+            }
+            else
+            {
+                ImageLarge.Source = img.Load("kartu/default_card.png");
+            }
+            selectedIndex = 2;
+		}
+
+		private void hand4Button_Click(object sender, System.Windows.RoutedEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+            if (player1hand.Count >= 4)
+            {
+                ImageLarge.Source = img.Load("kartu/" + player1hand[3].CARD_ID.ToString() + ".png");
+            }
+            else
+            {
+                ImageLarge.Source = img.Load("kartu/default_card.png");
+            }
+            selectedIndex = 3;
+		}
+
+		private void hand5Button_Click(object sender, System.Windows.RoutedEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+            if (player1hand.Count >= 5)
+            {
+                ImageLarge.Source = img.Load("kartu/" + player1hand[4].CARD_ID.ToString() + ".png");
+            }
+            else
+            {
+                ImageLarge.Source = img.Load("kartu/default_card.png");
+            }
+            selectedIndex = 4;
+		}
+
+		private void hand6Button_Click(object sender, System.Windows.RoutedEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+            if (player1hand.Count >= 6)
+            {
+                ImageLarge.Source = img.Load("kartu/" + player1hand[5].CARD_ID.ToString() + ".png");
+            }
+            else
+            {
+                ImageLarge.Source = img.Load("kartu/default_card.png");
+            }
+            selectedIndex = 5;
+		}
+
+		private void hand7Button_Click(object sender, System.Windows.RoutedEventArgs e)
+		{
+			// TODO: Add event handler implementation here.
+            if (player1hand.Count >= 7)
+            {
+                ImageLarge.Source = img.Load("kartu/" + player1hand[6].CARD_ID.ToString() + ".png");
+            }
+            else
+            {
+                ImageLarge.Source = img.Load("kartu/default_card.png");
+            }
+            selectedIndex = 6;
 		}
 	}
 }
