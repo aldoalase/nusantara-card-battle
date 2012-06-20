@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 <p>
     <asp:Label ID="UbahPassLabel" runat="server" >Current Password &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp : &nbsp </asp:Label>
-    <asp:TextBox ID="UbahPassBox" runat="server" CssClass="textEntry"></asp:TextBox>
+    <asp:TextBox ID="UbahPassBox" runat="server" CssClass="passwordEntry" TextMode="Password"></asp:TextBox>
 </p>
 <p>
     <asp:Label ID="UbahPassLabel1" runat="server" >New Password &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  : &nbsp </asp:Label>
