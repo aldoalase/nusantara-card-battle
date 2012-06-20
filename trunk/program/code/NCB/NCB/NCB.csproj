@@ -252,6 +252,9 @@
     <Resource Include="kartu\6.png" />
     <Resource Include="kartu\7.png" />
     <Resource Include="kartu\8.png" />
+    <Resource Include="kartu\default_card.png" />
+    <Resource Include="kartu\ken_arok.png" />
+    <Resource Include="kartu\ken_dedes.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
@@ -280,14 +283,6 @@
       <Project>{27496FAF-9A3F-4E74-A964-0FC8842D8468}</Project>
       <Name>RandomPassword</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="kartu\6.png" />
-    <Resource Include="kartu\7.png" />
-    <Resource Include="kartu\8.png" />
-    <Resource Include="kartu\default_card.png" />
-    <Resource Include="kartu\ken_arok.png" />
-    <Resource Include="kartu\ken_dedes.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath32)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
