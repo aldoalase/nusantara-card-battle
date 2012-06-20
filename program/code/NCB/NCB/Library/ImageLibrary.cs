@@ -26,7 +26,7 @@ namespace NCB.Library
                 pathInApplication = "kartu/default_card.png";
             }
             string s = @"pack://application:,,,/" + assembly.GetName().Name + ";component/" + pathInApplication;
-            return new BitmapImage(new Uri(@"pack://application:,,,/" + assembly.GetName().Name + ";component/" + pathInApplication, UriKind.Absolute));
+            return new BitmapImage(new Uri(pathInApplication, UriKind.Relative));
         }
     }
 }
