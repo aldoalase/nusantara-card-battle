@@ -193,7 +193,7 @@ namespace NCB
             this.loadCard(this.player.PLAYER_ID);
 
             Notification n = new Notification("Your money : " + this.player.PLAYER_MONEY.ToString());
-            n.Show();
+            n.ShowDialog();
         }
 	}
 }
