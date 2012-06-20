@@ -31,7 +31,10 @@ namespace NCBdatabase.model
                     tx.Commit();
                 }
             }
-            return listPlayer[0];
+            if (listPlayer.Count != 0)
+                return listPlayer[0];
+            else
+                return null;
         }
 
         public bool Cek(string _playerName)

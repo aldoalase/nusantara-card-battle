@@ -26,10 +26,20 @@ namespace NCBasp
 
             if (battles.Count !=0)
             {
+                LabelVS.Text = "VS";
+                LabelLastBattle.Text = "Last Battle :";
+                LabelWinner.Text = "Winner";
+                LabelTime.Text = "Battle Time";
+                LabelTitikDua.Text = ":";
+                LabelTitikDuaJuga.Text = ":";
                 Player1.Text = battles[battles.Count - 1].BATTLE_PLAYER_1.PLAYER_NAME;
                 Player2.Text = battles[battles.Count - 1].BATTLE_PLAYER_2.PLAYER_NAME;
                 Winner.Text = battles[battles.Count - 1].BATTLE_WINNER.PLAYER_NAME;
                 Time.Text = battles[battles.Count - 1].BATTLE_TIME.ToString();
+            }
+            else
+            {
+                LabelNULL.Text = "Belum Pernah Bertanding";
             }
         }
     }
