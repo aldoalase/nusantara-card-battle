@@ -74,6 +74,7 @@
     <Compile Include="model\PlayerLogin.cs" />
     <Compile Include="model\RandomCard.cs" />
     <Compile Include="model\RegisterPlayer.cs" />
+    <Compile Include="model\Password.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
