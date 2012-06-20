@@ -16,7 +16,7 @@ namespace NCBdatabase.model
             this.factory = this.CreateSessionFactory("BattleMap");
         }
 
-        public List<Battle> GetBattles(int _idPlayer)
+        public List<Battle> GetBattles(Player player)
         {
             this.factory = this.CreateSessionFactory("BattleMap");
             List<Battle> listBattle = new List<Battle>();
@@ -25,7 +25,7 @@ namespace NCBdatabase.model
                 using (var tx = session.BeginTransaction())
                 {
                     listBattle = session.Query<Battle>()
-                        .Where(u => u.BATTLE_ID.Equals(_idPlayer))
+                        .Where(u => u.BATTLE_PLAYER_2.PLAYER_ID.Equals(player.PLAYER_ID))
                         .ToList();
                     tx.Commit();
                 }
