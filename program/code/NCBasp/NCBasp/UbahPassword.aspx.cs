@@ -49,10 +49,17 @@ namespace NCBasp
             else if (UbahPassBox2.Text == UbahPassBox3.Text)
             {
                 cp.UpdatePass(idPlayer, UbahPassBox2.Text);
+                Status.Text = "password berhasil diubah";
+                UbahPassBox.Text = null;
+                UbahPassBox2.Text = null;
+                UbahPassBox3.Text = null;
             }
             else
             {
                 Status.Text = "password tidak sama, ulangi lagi";
+                UbahPassBox.Text = null;
+                UbahPassBox2.Text = null;
+                UbahPassBox3.Text = null;
             }
         }
     }
