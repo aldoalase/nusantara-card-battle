@@ -24,7 +24,7 @@ namespace NCBasp
             GetBattle getBattle = new GetBattle();
             List<Battle> battles = getBattle.GetBattles(players[0]);
 
-            if (battles == null)
+            if (battles.Count !=0)
             {
                 Player1.Text = battles[battles.Count - 1].BATTLE_PLAYER_1.PLAYER_NAME;
                 Player2.Text = battles[battles.Count - 1].BATTLE_PLAYER_2.PLAYER_NAME;
