@@ -1,0 +1,312 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/f:Form1.Designer.cs" caret="0" fromTop="0" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Object/f:User.cs" caret="44" fromTop="2" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Object/f:Game.cs" caret="44" fromTop="2" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Object/f:Data.cs" caret="325" fromTop="19" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/f:Form1.cs" caret="564" fromTop="23" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Connection.cs" caret="1868" fromTop="22" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Server.cs" caret="490" fromTop="19" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/f:Form1.cs" caret="564" fromTop="19" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/f:Form1.cs" caret="1172" fromTop="19" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/f:Form1.cs" caret="1140" fromTop="22" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Server.cs" caret="2833" fromTop="15" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Server.cs" caret="3039" fromTop="16" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Server.cs" caret="1387" fromTop="22" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Server.cs" caret="1387" fromTop="16" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Server.cs" caret="1198" fromTop="16" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Server.cs" caret="1009" fromTop="13" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Server.cs" caret="1578" fromTop="20" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Server.cs" caret="1507" fromTop="16" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Server.cs" caret="1592" fromTop="16" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Server.cs" caret="409" fromTop="16" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Server.cs" caret="1387" fromTop="28" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Server.cs" caret="2168" fromTop="15" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Connection.cs" caret="478" fromTop="8" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Connection.cs" caret="1037" fromTop="31" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/f:Form1.cs" caret="435" fromTop="11" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Server.cs" caret="2285" fromTop="17" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Object/f:Data.cs" caret="290" fromTop="15" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Connection.cs" caret="1595" fromTop="29" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Connection.cs" caret="1346" fromTop="20" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Connection.cs" caret="1350" fromTop="21" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Object/f:Data.cs" caret="204" fromTop="12" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Object/f:Data.cs" caret="13" fromTop="0" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Object/f:User.cs" caret="44" fromTop="2" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Object/f:Game.cs" caret="44" fromTop="2" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Connection.cs" caret="138" fromTop="4" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Connection.cs" caret="766" fromTop="16" />
+      <File id="F03EC2A3-E081-4026-BBA4-99B2B79A79D1/d:Handler/f:Server.cs" caret="192" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="private" priority="1407" />
+      <Item value="delegate" priority="62" />
+      <Item value="void" priority="830" />
+      <Item value="String`0" priority="831" />
+      <Item value="public" priority="1183" />
+      <Item value="Server`0" priority="410" />
+      <Item value="address" priority="32" />
+      <Item value="ipAddress" priority="54" />
+      <Item value="IPAddress`0" priority="127" />
+      <Item value="_ipAddress" priority="81" />
+      <Item value="this" priority="127" />
+      <Item value="new" priority="895" />
+      <Item value="Server" priority="57" />
+      <Item value="EventArgs`0" priority="31" />
+      <Item value="StatusChangedEventArgs`0" priority="126" />
+      <Item value="message" priority="149" />
+      <Item value="object" priority="91" />
+      <Item value="eventArgs" priority="145" />
+      <Item value="static" priority="191" />
+      <Item value="event" priority="31" />
+      <Item value="StatusChangedEventHandler`0" priority="32" />
+      <Item value="server" priority="95" />
+      <Item value="Invoke`0" priority="31" />
+      <Item value="UpdateStatusCallback" priority="26" />
+      <Item value="rTBOutputBox" priority="63" />
+      <Item value="UpdateStatus`0" priority="32" />
+      <Item value="_tcpListener" priority="428" />
+      <Item value="TcpListener" priority="85" />
+      <Item value="bool" priority="154" />
+      <Item value="active" priority="31" />
+      <Item value="false" priority="287" />
+      <Item value="_active" priority="243" />
+      <Item value="true" priority="191" />
+      <Item value="ThreadStaticAttribute`0" priority="63" />
+      <Item value="_thread" priority="118" />
+      <Item value="Thread" priority="86" />
+      <Item value="while" priority="127" />
+      <Item value="TcpClient`0" priority="448" />
+      <Item value="_tcpClient" priority="457" />
+      <Item value="Connection`0" priority="214" />
+      <Item value="tcpClient" priority="477" />
+      <Item value="NetworkStream`0" priority="159" />
+      <Item value="stream" priority="361" />
+      <Item value="reader" priority="59" />
+      <Item value="StreamReader`0" priority="26" />
+      <Item value="StreamWriter`0" priority="31" />
+      <Item value="writer" priority="27" />
+      <Item value="StreamWriter" priority="28" />
+      <Item value="try" priority="159" />
+      <Item value="client" priority="431" />
+      <Item value="_hashtable" priority="151" />
+      <Item value="_htConnection" priority="190" />
+      <Item value="Hashtable" priority="116" />
+      <Item value="if" priority="479" />
+      <Item value="Hashtable`0" priority="159" />
+      <Item value="_htUser" priority="186" />
+      <Item value="_htStatus" priority="90" />
+      <Item value="userName" priority="159" />
+      <Item value="_username" priority="26" />
+      <Item value="Serializable" priority="159" />
+      <Item value="Message`0" priority="90" />
+      <Item value="_content" priority="31" />
+      <Item value="content" priority="63" />
+      <Item value="_source" priority="31" />
+      <Item value="source" priority="58" />
+      <Item value="_destination" priority="31" />
+      <Item value="destination" priority="31" />
+      <Item value="operator" priority="55" />
+      <Item value="Data`0" priority="465" />
+      <Item value="null" priority="414" />
+      <Item value="User`0" priority="95" />
+      <Item value="_userName" priority="63" />
+      <Item value="_status" priority="63" />
+      <Item value="status" priority="63" />
+      <Item value="Pesan" priority="31" />
+      <Item value="Klien" priority="31" />
+      <Item value="UserDb`0" priority="63" />
+      <Item value="Db" priority="59" />
+      <Item value="Data" priority="273" />
+      <Item value="_data" priority="283" />
+      <Item value="_formatter" priority="247" />
+      <Item value="BinaryFormatter" priority="115" />
+      <Item value="else" priority="127" />
+      <Item value="formatter" priority="87" />
+      <Item value="Message" priority="28" />
+      <Item value="using" priority="30" />
+      <Item value="Baru_Server" priority="30" />
+      <Item value="data" priority="754" />
+      <Item value="_statusChangedEventArgs" priority="27" />
+      <Item value="pesan" priority="31" />
+      <Item value="tcpClients" priority="245" />
+      <Item value="TcpClient" priority="28" />
+      <Item value="for" priority="95" />
+      <Item value="int" priority="287" />
+      <Item value="i" priority="223" />
+      <Item value="Length" priority="26" />
+      <Item value="continue" priority="31" />
+      <Item value="RemoveUser`0" priority="63" />
+      <Item value="Send`0" priority="58" />
+      <Item value="var" priority="31" />
+      <Item value="return" priority="63" />
+      <Item value="IDisposable`0" priority="31" />
+      <Item value="Connection" priority="86" />
+      <Item value="WriteOutput`0" priority="31" />
+      <Item value="TcpListener`0" priority="31" />
+      <Item value="_clientCount" priority="318" />
+      <Item value="Thread`0" priority="31" />
+      <Item value="Listening`0" priority="32" />
+      <Item value="threadListener" priority="31" />
+      <Item value="_isListening" priority="127" />
+      <Item value="_hashtableClient" priority="191" />
+      <Item value="Form1`0" priority="63" />
+      <Item value="_form1" priority="27" />
+      <Item value="_form" priority="223" />
+      <Item value="form" priority="31" />
+      <Item value="StopListening`0" priority="63" />
+      <Item value="AddClient`0" priority="31" />
+      <Item value="_server" priority="370" />
+      <Item value="string" priority="316" />
+      <Item value="UserName" priority="63" />
+      <Item value="username" priority="63" />
+      <Item value="Password" priority="31" />
+      <Item value="password" priority="31" />
+      <Item value="Game`0" priority="63" />
+      <Item value="Point" priority="95" />
+      <Item value="point" priority="31" />
+      <Item value="Game" priority="56" />
+      <Item value="GameData" priority="26" />
+      <Item value="UserData" priority="31" />
+      <Item value="networkStream" priority="27" />
+      <Item value="BinaryFormatter`0" priority="63" />
+      <Item value="_stream" priority="187" />
+      <Item value="Read`0" priority="95" />
+      <Item value="connection" priority="314" />
+      <Item value="_hashtableTcpClient" priority="31" />
+      <Item value="_userNames" priority="191" />
+      <Item value="Puzzle" priority="31" />
+      <Item value="puzzle" priority="31" />
+      <Item value="CountPoints`0" priority="31" />
+      <Item value="Work`0" priority="32" />
+      <Item value="thr" priority="31" />
+      <Item value="buttonStop" priority="95" />
+      <Item value="buttonStart" priority="58" />
+      <Item value="_threadListener" priority="31" />
+      <Item value="play" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Baru_Server.Server">
+      <Item value="_ipAddress" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.IPAddress">
+      <Item value="Parse`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Baru_Server.StatusChangedEventArgs">
+      <Item value="_message" priority="26" />
+      <Item value="Message" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.RichTextBox">
+      <Item value="AppendText`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Sockets.TcpListener">
+      <Item value="Start`0" priority="53" />
+      <Item value="AcceptTcpClient`0" priority="80" />
+      <Item value="Pending`0" priority="26" />
+      <Item value="Stop`0" priority="26" />
+      <Item value="Server" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Sockets.TcpClient">
+      <Item value="GetStream`0" priority="134" />
+      <Item value="Close`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="ReadLine`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Hashtable">
+      <Item value="Remove`0" priority="80" />
+      <Item value="Add`0" priority="134" />
+      <Item value="Count" priority="130" />
+      <Item value="Values" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Baru_Server.Server">
+      <Item value="AddUser`0" priority="26" />
+      <Item value="RemoveUser`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Sockets.NetworkStream">
+      <Item value="DataAvailable" priority="53" />
+      <Item value="Close`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter">
+      <Item value="Deserialize`0" priority="49" />
+      <Item value="Serialize`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Baru_Server.Data.Data">
+      <Item value="Pesan" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Baru_Server.Data.Message">
+      <Item value="Destination" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ICollection">
+      <Item value="CopyTo`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Baru_Server.Handler.Server">
+      <Item value="Broadcast`0" priority="26" />
+      <Item value="SendToClient`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Baru_Server.Object.Data">
+      <Item value="Pesan" priority="53" />
+      <Item value="UserData" priority="107" />
+      <Item value="GameData" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Baru_Server.Object.Message">
+      <Item value="Destination" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Start`0" priority="80" />
+      <Item value="Abort`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Baru_Server.Handler.Server">
+      <Item value="Start`0" priority="26" />
+      <Item value="StartListening`0" priority="26" />
+      <Item value="Proccess`0" priority="107" />
+      <Item value="Shutdown`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Baru_Server.Form1">
+      <Item value="WriteOutput`0" priority="161" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Baru_Server.Handler.Connection">
+      <Item value="Read`0" priority="26" />
+      <Item value="Send`0" priority="26" />
+      <Item value="Point" priority="81" />
+      <Item value="StartConnection`0" priority="26" />
+      <Item value="CloseConnection`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Baru_Server.Object.User">
+      <Item value="UserName" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Baru_Server.Object.Game">
+      <Item value="Point" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Button">
+      <Item value="Enabled" priority="130" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Sockets.Socket">
+      <Item value="ReceiveTimeout" priority="26" />
+      <Item value="SendTimeout" priority="26" />
+      <Item value="Blocking" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
