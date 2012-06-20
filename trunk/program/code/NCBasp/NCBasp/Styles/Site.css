@@ -176,11 +176,13 @@ div.menu ul li a, div.menu ul li a:visited
     padding: 4px 20px;
     text-decoration: none;
     white-space: nowrap;
+    border-radius:3px;
+	-moz-border-radius:3px;
 }
 
 div.menu ul li a:hover
 {
-    background-color: #bfcbd6;
+    background-color: #d6cabf;
     color: fffb8c;
     text-decoration: none;
 }
