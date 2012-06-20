@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <h2>
-        LOG IN :
+        LOGIN :
     </h2>
     <p>* wajib di isi</p>
     <p>
