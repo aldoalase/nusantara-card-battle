@@ -32,18 +32,31 @@ namespace NCBasp
 
         protected void loginClick(Object sender, EventArgs e)
         {
-            List<Player> players = a.Login(UserNameLoginBox.Text, PasswordLoginBox.Text);
-            Session["player"] = players;
+            
 
-            if (players.Count == 1)
+            if (UserNameLoginBox.Text == null || PasswordLoginBox.Text == null)
             {
-                Response.Redirect("Profile.aspx");
+                StatusLogin.Text = "username dan password tidak boleh kosong";
+            }
+            if (UserNameLoginBox.Text == null && PasswordLoginBox.Text == null)
+            {
+                StatusLogin.Text = "username dan password tidak boleh kosong";
             }
             else
             {
-                StatusLogin.Text = "masukkan username dan password yang benar";
-                UserNameLoginBox.Text = null;
-                PasswordLoginBox.Text = null;
+                List<Player> players = a.Login(UserNameLoginBox.Text, PasswordLoginBox.Text);
+                Session["player"] = players;
+
+                if (players.Count == 1)
+                {
+                    Response.Redirect("Profile.aspx");
+                }
+                else
+                {
+                    StatusLogin.Text = "masukkan username dan password yang benar";
+                    UserNameLoginBox.Text = null;
+                    PasswordLoginBox.Text = null;
+                }
             }
         }
     }
