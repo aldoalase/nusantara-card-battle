@@ -18,16 +18,16 @@ namespace NCBasp
 
             if (players == null)
                 Response.Redirect("Default.aspx");
-
-            int idPlayer = players[0].PLAYER_ID;
-
-            //UserName.Text = players[0].PLAYER_NAME;
+            
+            UserName.Text = players[0].PLAYER_NAME;
 
             GetBattle getBattle = new GetBattle();
-            List<Battle> battles = getBattle.GetBattles(idPlayer);
+            List<Battle> battles = getBattle.GetBattles(players[0]);
 
-            GridView1.DataSource = battles;
-            GridView1.DataBind();
+            Player1.Text = battles[battles.Count-1].BATTLE_PLAYER_1.PLAYER_NAME;
+            Player2.Text = battles[battles.Count-1].BATTLE_PLAYER_2.PLAYER_NAME;
+            Winner.Text = battles[battles.Count-1].BATTLE_WINNER.PLAYER_NAME;
+            Time.Text = battles[battles.Count-1].BATTLE_TIME.ToString();
         }
     }
 }
