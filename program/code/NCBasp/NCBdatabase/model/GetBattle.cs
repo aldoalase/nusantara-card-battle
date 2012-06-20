@@ -25,7 +25,7 @@ namespace NCBdatabase.model
                 using (var tx = session.BeginTransaction())
                 {
                     listBattle = session.Query<Battle>()
-                        .Where(u => u.BATTLE_PLAYER_2.PLAYER_ID.Equals(player.PLAYER_ID))
+                        .Where(u => u.BATTLE_PLAYER_2.PLAYER_ID.Equals(player.PLAYER_ID) || u.BATTLE_PLAYER_1.PLAYER_ID.Equals(player.PLAYER_ID))
                         .ToList();
                     tx.Commit();
                 }
