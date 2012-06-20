@@ -32,7 +32,6 @@ namespace NCBasp
 
         protected void loginClick(Object sender, EventArgs e)
         {
-            
 
             if (UserNameLoginBox.Text == "" || PasswordLoginBox.Text == "")
             {

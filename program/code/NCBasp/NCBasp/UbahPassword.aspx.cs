@@ -25,21 +25,35 @@ namespace NCBasp
         private Password cp;
         int idPlayer;
 
-        public void Page_Load(object sender, EventArgs e)
+        protected void Page_Load(object sender, EventArgs e)
         {
             cp = new Password();
 
             List<Player> players = new List<Player>();
             players = (List<Player>)Session["player"];
-            idPlayer = players[0].PLAYER_ID;
-
+            
             if (players == null)
                 Response.Redirect("Default.aspx");
+            
+            idPlayer = players[0].PLAYER_ID;
+
+            
         }
 
         protected void loginClick(object sender, EventArgs e)
         {
-            cp.UpdatePass(idPlayer, UbahPassBox2.Text);
+            if (UbahPassBox.Text == "" || UbahPassBox2.Text == "" || UbahPassBox3.Text == "")
+            {
+                Status.Text = "username dan password tidak boleh kosong";
+            }
+            else if (UbahPassBox2.Text == UbahPassBox3.Text)
+            {
+                cp.UpdatePass(idPlayer, UbahPassBox2.Text);
+            }
+            else
+            {
+                Status.Text = "password tidak sama, ulangi lagi";
+            }
         }
     }
 }

@@ -14,7 +14,9 @@
     <asp:Label ID="UbahPassLabel2" runat="server" >Confirm New Password &nbsp&nbsp&nbsp&nbsp : &nbsp </asp:Label>
     <asp:TextBox ID="UbahPassBox3" runat="server" CssClass="passwordEntry" TextMode="Password"></asp:TextBox>
 </p>
-
+<p>
+    <asp:Label ID="Status" runat="server" />
+</p>
 <p>
     <asp:Button ID="UbahPassButton" runat="server" Text="LOGIN" OnClick="loginClick" />
 </p>
