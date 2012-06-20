@@ -21,18 +21,12 @@ namespace NCB.Library
             {
                 pathInApplication = pathInApplication.Substring(1);
             }
-            //string path = Directory.GetCurrentDirectory();
-            //MessageBox.Show(path);
-            //String path = @"pack://application:,,,/" + assembly.GetName().Name + ";component/" + pathInApplication;
+
             if(!File.Exists(pathInApplication)){
                 pathInApplication = "kartu/default_card.png";
             }
             string s = @"pack://application:,,,/" + assembly.GetName().Name + ";component/" + pathInApplication;
             return new BitmapImage(new Uri(@"pack://application:,,,/" + assembly.GetName().Name + ";component/" + pathInApplication, UriKind.Absolute));
-        }
-
-        public void Save()
-        {
         }
     }
 }
