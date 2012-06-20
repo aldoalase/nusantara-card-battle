@@ -23,13 +23,19 @@ namespace NCBasp
 
         protected void registerClick(Object sender, EventArgs e)
         {
-            if (PasswordRegisterBox.Text == PasswordRegisterBox2.Text)
+            if (UserNameRegisterBox.Text == null && PasswordRegisterBox.Text == null && PasswordRegisterBox2.Text == null)
+            {
+                StatusRegister.Text = "username dan password tidak boleh kosong";
+            }
+
+            else if (PasswordRegisterBox.Text == PasswordRegisterBox2.Text)
             {
                 if (!_cekUser.Cek(UserNameRegisterBox.Text))
                     a.RegisPlayer(UserNameRegisterBox.Text, PasswordRegisterBox.Text);
                 else
                     StatusRegister.Text = "user name yang anda masukkan sudah terdaftar";
             }
+
             else
             {
                 StatusRegister.Text = "password tidak sama, ulangi lagi";
