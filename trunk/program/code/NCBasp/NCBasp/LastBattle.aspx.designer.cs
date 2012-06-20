@@ -40,6 +40,15 @@ namespace NCBasp {
         protected global::System.Web.UI.WebControls.Label LabelLastBattle;
         
         /// <summary>
+        /// LabelNULL control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelNULL;
+        
+        /// <summary>
         /// Player1 control.
         /// </summary>
         /// <remarks>
@@ -47,6 +56,15 @@ namespace NCBasp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Player1;
+        
+        /// <summary>
+        /// LabelVS control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelVS;
         
         /// <summary>
         /// Player2 control.
@@ -67,6 +85,15 @@ namespace NCBasp {
         protected global::System.Web.UI.WebControls.Label LabelWinner;
         
         /// <summary>
+        /// LabelTitikDua control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelTitikDua;
+        
+        /// <summary>
         /// Winner control.
         /// </summary>
         /// <remarks>
@@ -83,6 +110,15 @@ namespace NCBasp {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LabelTime;
+        
+        /// <summary>
+        /// LabelTitikDuaJuga control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelTitikDuaJuga;
         
         /// <summary>
         /// Time control.
