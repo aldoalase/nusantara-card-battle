@@ -23,7 +23,7 @@ namespace NCBasp
 
         protected void registerClick(Object sender, EventArgs e)
         {
-            if (UserNameRegisterBox.Text == null && PasswordRegisterBox.Text == null && PasswordRegisterBox2.Text == null)
+            if (UserNameRegisterBox.Text == "" || PasswordRegisterBox.Text == "" || PasswordRegisterBox2.Text == "")
             {
                 StatusRegister.Text = "username dan password tidak boleh kosong";
             }

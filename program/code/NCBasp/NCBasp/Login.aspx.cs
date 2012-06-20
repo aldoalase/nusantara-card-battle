@@ -34,11 +34,11 @@ namespace NCBasp
         {
             
 
-            if (UserNameLoginBox.Text == null || PasswordLoginBox.Text == null)
+            if (UserNameLoginBox.Text == "" || PasswordLoginBox.Text == "")
             {
                 StatusLogin.Text = "username dan password tidak boleh kosong";
             }
-            if (UserNameLoginBox.Text == null && PasswordLoginBox.Text == null)
+            else if (UserNameLoginBox.Text == "" && PasswordLoginBox.Text == "")
             {
                 StatusLogin.Text = "username dan password tidak boleh kosong";
             }
