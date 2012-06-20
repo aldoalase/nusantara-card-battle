@@ -60,7 +60,7 @@ namespace NCB
                 this.Hide();
             } else {
                 Window notify = new Notification("invalid username password");
-                notify.Show();
+                notify.ShowDialog();
             }
         }
 

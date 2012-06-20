@@ -129,7 +129,7 @@ namespace NCB
                 }
 
                 Notification n = new Notification(m);
-                n.Show();
+                n.ShowDialog();
             }
         }
 	}
