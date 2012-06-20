@@ -1,0 +1,11 @@
+c:\users\muhammad\documents\visual studio 2010\Projects\serverBaru\serverBaru\bin\Debug\serverBaru.exe
+c:\users\muhammad\documents\visual studio 2010\Projects\serverBaru\serverBaru\bin\Debug\serverBaru.pdb
+c:\users\muhammad\documents\visual studio 2010\Projects\serverBaru\serverBaru\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\muhammad\documents\visual studio 2010\Projects\serverBaru\serverBaru\obj\x86\Debug\serverBaru.Properties.Resources.resources
+c:\users\muhammad\documents\visual studio 2010\Projects\serverBaru\serverBaru\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\muhammad\documents\visual studio 2010\Projects\serverBaru\serverBaru\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\muhammad\documents\visual studio 2010\Projects\serverBaru\serverBaru\obj\x86\Debug\serverBaru.exe
+c:\users\muhammad\documents\visual studio 2010\Projects\serverBaru\serverBaru\obj\x86\Debug\serverBaru.pdb
+c:\users\muhammad\documents\visual studio 2010\Projects\serverBaru\serverBaru\obj\x86\Debug\serverBaru.Form1.resources
+\\10.151.36.37\Software\serverBaru\serverBaru\obj\x86\Debug\serverBaru.exe
+\\10.151.36.37\Software\serverBaru\serverBaru\obj\x86\Debug\serverBaru.pdb

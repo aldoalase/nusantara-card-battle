@@ -1,0 +1,118 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/f:Form1.Designer.cs" caret="0" fromTop="0" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/d:Object/f:User.cs" caret="0" fromTop="0" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/d:Object/f:Game.cs" caret="0" fromTop="0" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/d:Object/f:Data.cs" caret="121" fromTop="7" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/f:Form1.cs" caret="1093" fromTop="20" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/f:Form1.cs" caret="644" fromTop="5" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/f:Form1.cs" caret="2034" fromTop="18" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/f:Form1.cs" caret="2295" fromTop="26" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/f:Form1.cs" caret="871" fromTop="7" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/f:Form1.cs" caret="1438" fromTop="18" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/f:Form1.cs" caret="2354" fromTop="9" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/f:Form1.cs" caret="1741" fromTop="26" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/f:Form1.cs" caret="1728" fromTop="17" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/f:Form1.cs" caret="2354" fromTop="25" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/d:Object/f:Data.cs" caret="175" fromTop="9" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/d:Object/f:Data.cs" caret="302" fromTop="15" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/f:Form1.cs" caret="342" fromTop="0" />
+      <File id="B4DB5E54-F277-401F-9EA9-88D9D9DA49DC/f:Form1.cs" caret="1093" fromTop="20" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="private" priority="319" />
+      <Item value="_tcpClient" priority="155" />
+      <Item value="new" priority="159" />
+      <Item value="TcpClient" priority="28" />
+      <Item value="textBoxServer" priority="58" />
+      <Item value="ipAddresses" priority="31" />
+      <Item value="static" priority="31" />
+      <Item value="String`0" priority="31" />
+      <Item value="string" priority="63" />
+      <Item value="_userName" priority="63" />
+      <Item value="textBoxUserName" priority="31" />
+      <Item value="NetworkStream`0" priority="31" />
+      <Item value="_networkStream" priority="187" />
+      <Item value="_formatter" priority="123" />
+      <Item value="BinaryFormatter" priority="28" />
+      <Item value="void" priority="95" />
+      <Item value="DataColumn`0" priority="31" />
+      <Item value="data" priority="159" />
+      <Item value="Data`0" priority="192" />
+      <Item value="return" priority="31" />
+      <Item value="_thread" priority="123" />
+      <Item value="Thread" priority="28" />
+      <Item value="Work`0" priority="32" />
+      <Item value="bool" priority="63" />
+      <Item value="_working" priority="94" />
+      <Item value="true" priority="31" />
+      <Item value="while" priority="31" />
+      <Item value="if" priority="31" />
+      <Item value="Read`0" priority="31" />
+      <Item value="richTextBoxOutput" priority="31" />
+      <Item value="message" priority="31" />
+      <Item value="WriteOutput`0" priority="31" />
+      <Item value="Data" priority="28" />
+      <Item value="User" priority="28" />
+      <Item value="Send`0" priority="31" />
+      <Item value="false" priority="63" />
+      <Item value="public" priority="31" />
+      <Item value="Play" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Sockets.TcpClient">
+      <Item value="Connect`0" priority="49" />
+      <Item value="GetStream`0" priority="26" />
+      <Item value="Close`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.IPAddress">
+      <Item value="Parse`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter">
+      <Item value="Serialize`0" priority="26" />
+      <Item value="Deserialize`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Start`0" priority="26" />
+      <Item value="Abort`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.Sockets.NetworkStream">
+      <Item value="DataAvailable" priority="26" />
+      <Item value="Close`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.RichTextBox">
+      <Item value="AppendText`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Baru_Server.Object.Data">
+      <Item value="UserData" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Baru_Server.Object.User">
+      <Item value="UserName" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

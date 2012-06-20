@@ -1,0 +1,29 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="AD76052B-9D9F-4F7B-8ACB-50C839427A02/f:Program.cs" caret="0" fromTop="0" />
+      <File id="AD76052B-9D9F-4F7B-8ACB-50C839427A02/f:ConnectionManager.cs" caret="10312" fromTop="34" />
+      <File id="AD76052B-9D9F-4F7B-8ACB-50C839427A02/f:koneksi.cs" caret="2550" fromTop="36" />
+      <File id="AD76052B-9D9F-4F7B-8ACB-50C839427A02/f:Form1.cs" caret="918" fromTop="18" />
+    </RecentFiles>
+    <RecentEdits />
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
