@@ -24,10 +24,13 @@ namespace NCBasp
             GetBattle getBattle = new GetBattle();
             List<Battle> battles = getBattle.GetBattles(players[0]);
 
-            Player1.Text = battles[battles.Count-1].BATTLE_PLAYER_1.PLAYER_NAME;
-            Player2.Text = battles[battles.Count-1].BATTLE_PLAYER_2.PLAYER_NAME;
-            Winner.Text = battles[battles.Count-1].BATTLE_WINNER.PLAYER_NAME;
-            Time.Text = battles[battles.Count-1].BATTLE_TIME.ToString();
+            if (battles == null)
+            {
+                Player1.Text = battles[battles.Count - 1].BATTLE_PLAYER_1.PLAYER_NAME;
+                Player2.Text = battles[battles.Count - 1].BATTLE_PLAYER_2.PLAYER_NAME;
+                Winner.Text = battles[battles.Count - 1].BATTLE_WINNER.PLAYER_NAME;
+                Time.Text = battles[battles.Count - 1].BATTLE_TIME.ToString();
+            }
         }
     }
 }
