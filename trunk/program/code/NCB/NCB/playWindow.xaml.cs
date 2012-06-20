@@ -151,6 +151,17 @@ namespace NCB
             }
         }
 
+        public void Lose(List<Card> mati, int index )
+        {
+            mati[index] = null;
+            for (int i = index; i < 4; i++)
+            {
+                mati[i] = mati[i + 1];
+                mati[i + 1] = null;
+            }
+            reload();
+        }
+
         public int Attack(Card attacker, Card defender)
         {
             if(turn)
@@ -225,14 +236,14 @@ namespace NCB
                 phaseLabel.Text = "Giliran Lawan";
             }
 
-            //deckPlayer.Source = img.Load("kartu/9.png");
+            deckPlayer.Source = img.Load("kartu/default_card.png");
             if (player1hand[0] != null)
             {
                 hand1.Source = img.Load("kartu/" + player1hand[0].CARD_ID.ToString() + ".png");
             }
             else
             {
-                hand1.Source = img.Load("kartu/4.png"); ;
+                hand1.Source = img.Load("kartu/blank.png"); ;
             }
 
             if (player1hand[1] != null)
@@ -241,7 +252,7 @@ namespace NCB
             }
             else
             {
-                hand2.Source = img.Load("kartu/4.png"); ;
+                hand2.Source = img.Load("kartu/blank.png"); ;
             }
 
             if (player1hand[2] != null)
@@ -250,7 +261,7 @@ namespace NCB
             }
             else
             {
-                hand3.Source = img.Load("kartu/4.png"); ;
+                hand3.Source = img.Load("kartu/blank.png"); ;
             }
 
             if (player1hand[3] != null)
@@ -259,7 +270,7 @@ namespace NCB
             }
             else
             {
-                hand4.Source = img.Load("kartu/4.png"); ;
+                hand4.Source = img.Load("kartu/blank.png"); ;
             }
 
             if (player1hand[4] != null)
@@ -268,7 +279,7 @@ namespace NCB
             }
             else
             {
-                hand5.Source = img.Load("kartu/4.png"); ;
+                hand5.Source = img.Load("kartu/blank.png"); ;
             }
 
             if (player1hand[5] != null)
@@ -277,7 +288,7 @@ namespace NCB
             }
             else
             {
-                hand6.Source = img.Load("kartu/4.png"); ;
+                hand6.Source = img.Load("kartu/blank.png"); ;
             }
 
             if (player1hand[6] != null)
@@ -286,7 +297,7 @@ namespace NCB
             }
             else
             {
-                hand7.Source = img.Load("kartu/4.png"); ;
+                hand7.Source = img.Load("kartu/blank.png"); ;
             }
 
 
@@ -296,21 +307,41 @@ namespace NCB
             {
                 char1player.Source = img.Load("kartu/" + player1char[0].CARD_ID.ToString() + ".png");
             }
+            else
+            {
+                char1player.Source = img.Load("kartu/blank.png");
+            }
             if (player1char[1] != null)
             {
                 char2player.Source = img.Load("kartu/" + player1char[1].CARD_ID.ToString() + ".png");
+            }
+            else
+            {
+                char2player.Source = img.Load("kartu/blank.png");
             }
             if (player1char[2] != null)
             {
                 char3player.Source = img.Load("kartu/" + player1char[2].CARD_ID.ToString() + ".png");
             }
+            else
+            {
+                char3player.Source = img.Load("kartu/blank.png");
+            }
             if (player1char[3] != null)
             {
                 char4player.Source = img.Load("kartu/" + player1char[3].CARD_ID.ToString() + ".png");
             }
+            else
+            {
+                char4player.Source = img.Load("kartu/blank.png");
+            }
             if (player1char[4] != null)
             {
                 char5player.Source = img.Load("kartu/" + player1char[4].CARD_ID.ToString() + ".png");
+            }
+            else
+            {
+                char5player.Source = img.Load("kartu/blank.png");
             }
 
             //load gambar field enemy
@@ -318,21 +349,41 @@ namespace NCB
             {
                 char1enemy.Source = img.Load("kartu/" + player2char[0].CARD_ID.ToString() + ".png");
             }
+            else
+            {
+                char1enemy.Source = img.Load("kartu/blank.png");
+            }
             if (player2char[1] != null)
             {
                 char2enemy.Source = img.Load("kartu/" + player2char[1].CARD_ID.ToString() + ".png");
+            }
+            else
+            {
+                char2enemy.Source = img.Load("kartu/blank.png");
             }
             if (player2char[2] != null)
             {
                 char3enemy.Source = img.Load("kartu/" + player2char[2].CARD_ID.ToString() + ".png");
             }
+            else
+            {
+                char3enemy.Source = img.Load("kartu/blank.png");
+            }
             if (player2char[3] != null)
             {
                 char4enemy.Source = img.Load("kartu/" + player2char[3].CARD_ID.ToString() + ".png");
             }
+            else
+            {
+                char4enemy.Source = img.Load("kartu/blank.png");
+            }
             if (player2char[4] != null)
             {
                 char5enemy.Source = img.Load("kartu/" + player2char[4].CARD_ID.ToString() + ".png");
+            }
+            else
+            {
+                char5enemy.Source = img.Load("kartu/blank.png");
             }
         }
 
@@ -362,7 +413,7 @@ namespace NCB
             }
             else
             {
-                ImageLarge.Source = img.Load("kartu/4.png");
+                ImageLarge.Source = img.Load("kartu/blank.png");
             }
 	        handIndex = 0;
 		}
@@ -376,7 +427,7 @@ namespace NCB
             }
             else
             {
-                ImageLarge.Source = img.Load("kartu/4.png");
+                ImageLarge.Source = img.Load("kartu/blank.png");
             }
             handIndex = 1;
 
@@ -391,7 +442,7 @@ namespace NCB
             }
             else
             {
-                ImageLarge.Source = img.Load("kartu/4.png");
+                ImageLarge.Source = img.Load("kartu/blank.png");
             }
             handIndex = 2;
 		}
@@ -405,7 +456,7 @@ namespace NCB
             }
             else
             {
-                ImageLarge.Source = img.Load("kartu/4.png");
+                ImageLarge.Source = img.Load("kartu/blank.png");
             }
             handIndex = 3;
 		}
@@ -419,7 +470,7 @@ namespace NCB
             }
             else
             {
-                ImageLarge.Source = img.Load("kartu/4.png");
+                ImageLarge.Source = img.Load("kartu/blank.png");
             }
             handIndex = 4;
 		}
@@ -433,7 +484,7 @@ namespace NCB
             }
             else
             {
-                ImageLarge.Source = img.Load("kartu/4.png");
+                ImageLarge.Source = img.Load("kartu/blank.png");
             }
             handIndex = 5;
 		}
@@ -447,7 +498,7 @@ namespace NCB
             }
             else
             {
-                ImageLarge.Source = img.Load("kartu/4.png");
+                ImageLarge.Source = img.Load("kartu/blank.png");
             }
             handIndex = 6;
 		}
@@ -471,7 +522,6 @@ namespace NCB
             if (phase == 1)
             {
                 charAttack = 0;
-                MessageBox.Show("test");
             }
 		}
 
@@ -527,10 +577,12 @@ namespace NCB
                         if (hasil == 1)
                         {
                             MessageBox.Show("Win");
+                            Lose(player2char, enemyIndex);
                         }
                         else if (hasil == 2)
                         {
                             MessageBox.Show("lose");
+                            Lose(player1char, charAttack);
                         }
                         else if (hasil == 0)
                         {
@@ -565,10 +617,12 @@ namespace NCB
                         if (hasil == 1)
                         {
                             MessageBox.Show("Win");
+                            Lose(player2char, enemyIndex);
                         }
                         else if (hasil == 2)
                         {
                             MessageBox.Show("lose");
+                            Lose(player1char, charAttack);
                         }
                         else if (hasil == 0)
                         {
@@ -603,10 +657,12 @@ namespace NCB
                         if (hasil == 1)
                         {
                             MessageBox.Show("Win");
+                            Lose(player2char, enemyIndex);
                         }
                         else if (hasil == 2)
                         {
                             MessageBox.Show("lose");
+                            Lose(player1char, charAttack);
                         }
                         else if (hasil == 0)
                         {
@@ -641,10 +697,12 @@ namespace NCB
                         if (hasil == 1)
                         {
                             MessageBox.Show("Win");
+                            Lose(player2char, enemyIndex);
                         }
                         else if (hasil == 2)
                         {
                             MessageBox.Show("lose");
+                            Lose(player1char, charAttack);
                         }
                         else if (hasil == 0)
                         {
@@ -679,10 +737,12 @@ namespace NCB
                         if (hasil == 1)
                         {
                             MessageBox.Show("Win");
+                            Lose(player2char, enemyIndex);
                         }
                         else if (hasil == 2)
                         {
                             MessageBox.Show("lose");
+                            Lose(player1char, charAttack);
                         }
                         else if (hasil == 0)
                         {
